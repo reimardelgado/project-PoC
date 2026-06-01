@@ -16,6 +16,34 @@ services:
     networks:
       - data-mesh-local
 
+  hive-metastore-postgresql:
+    image: postgres:14-alpine
+    container_name: hive-metastore-postgresql
+    environment:
+      POSTGRES_DB: metastore_db
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    networks:
+      - data-mesh-local
+
+  hive-metastore:
+    image: rtdl/hive-metastore:3.1.2
+    container_name: hive-metastore
+    environment:
+      DB_DRIVER: postgres
+      DB_URL: jdbc:postgresql://hive-metastore-postgresql:5432/metastore_db
+      DB_USER: hive
+      DB_PASSWORD: password
+    ports:
+      - "9083:9083"
+    depends_on:
+      - hive-metastore-postgresql
+      - minio
+    networks:
+      - data-mesh-local
+      
   localstack:
     image: localstack/localstack:3.8.0
     container_name: localstack
