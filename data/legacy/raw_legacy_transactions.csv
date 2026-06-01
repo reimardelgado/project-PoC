@@ -1,0 +1,1501 @@
+transaction_id,order_date,customer_id,customer_email,credit_card,territory,product_category,sales_channel,payment_method,quantity,unit_price,gross_amount,legacy_status,source_system
+LEG-000001,2022-10-09,93810,customer93810@example.com,4013389083863794,ES,home,partner,paypal,12,46.76,$561.10,ok,pos
+LEG-000002,not_available,15695,customer15695@mail.net,4034131647525534,UK,books,mobile,wire,9,N/A,GBP 3650.01,unknown,crm
+LEG-000003,2022/08/05 18:00:00,51347,customer51347@legacy.local,5724238849696532,ES,electronics,mobile,wire,2,1004.41,2008.82 EUR,manual_review,pos
+LEG-000004,2023/11/30 17:00:00,11504,customer11504@example.com,4704828148932528,IT,books,store,cash,,1701.51,USD 3403.02,ok,crm
+LEG-000005,07/11/2023,79822,customer79822@mail.net,5383465787133150,PT,electronics,web,card,3,1276.78,USD 3830.34,unknown,batch_import
+LEG-000006,2023-04-30,84847,customer84847@retail.org,5701065133387262,PT,electronics,partner,card,4,720.79,EUR 2883.18,pending,batch_import
+LEG-000007,2023/01/24 00:00:00,62565,customer62565@retail.org,5234309805009788,IT,home,web,card,3,1504.23,4512.70 EUR,pending,crm
+LEG-000008,2022/09/25 06:00:00,86503,customer86503@legacy.local,4475107991183842,ES,sports,store,wire,6,471.38,2828.31 USD,ok,pos
+LEG-000009,21/07/2023,27601,customer27601@mail.net,5874016400524278,,electronics,mobile,card,2,663.00,EUR 1326.01,unknown,pos
+LEG-000010,2023/11/30 07:00:00,15229,customer15229@retail.org,4322602563421607,DE,home,mobile,card,4,1123.78,$4495.13,unknown,batch_import
+LEG-000011,2022/09/25 05:00:00,53404,customer53404@example.com,5556981693406088,UK,home,store,cash,2,2348.24,4696.49 USD,ok,pos
+LEG-000012,22-07-2023 04:00,52753,customer52753@legacy.local,5680443699577738,UK,electronics,store,paypal,-1,403.00,EUR 2014.99,pending,erp
+LEG-000013,12/04/2023,72277,customer72277@retail.org,4201632870831727,IT,fashion,partner,cash,2,1529.15,USD 3058.31,unknown,batch_import
+LEG-000014,2022-10-06,20155,customer20155@legacy.local,5231665876036690,IT,electronics,store,paypal,4,892.29,3569.16 USD,pending,batch_import
+LEG-000015,27-11-2023 12:00,13804,customer13804@legacy.local,4699016272046537,DE,fashion,store,card,11,177.03,€1947.34,pending,crm
+LEG-000016,21/01/2022,14067,customer14067@retail.org,4745299124190496,UK,books,mobile,card,4,1187.08,GBP 4748.31,ok,pos
+LEG-000017,2022-01-13,19038,customer19038@retail.org,5262849877694531,DE,fashion,partner,paypal,,422.05,€2532.27,unknown,pos
+LEG-000018,15-07-2022 02:00,46211,customer46211@retail.org,4777014363495788,UK,sports,partner,paypal,9,309.02,GBP 2781.18,pending,erp
+LEG-000019,04/09/2023,87278,customer87278@mail.net,4408240084271094,DE,electronics,store,cash,9,542.57,4883.15 USD,ok,erp
+LEG-000020,02/05/2022,49824,customer49824@retail.org,5496499091334123,ES,fashion,partner,cash,4,107.62,£430.48,ok,erp
+LEG-000021,12/03/2023,91927,customer91927@mail.net,4024994717464887,,fashion,store,paypal,,737.75,2951.00 GBP,ok,pos
+LEG-000022,29-03-2023 08:00,32962,customer32962@retail.org,5565512567468071,FR,fashion,web,cash,11,214.10,$2355.15,manual_review,crm
+LEG-000023,,47752,customer47752@legacy.local,5808613171274846,DE,books,mobile,cash,12,182.78,GBP 2193.39,unknown,batch_import
+LEG-000024,02-11-2022 18:00,45018,customer45018@legacy.local,5558867533963605,UK,fashion,partner,wire,5,,£4103.64,ok,batch_import
+LEG-000025,not_available,12011,customer12011@mail.net,5158657809134316,UK,electronics,partner,wire,7,516.23,EUR 3613.61,unknown,pos
+LEG-000026,04-07-2022 05:00,79621,customer79621@legacy.local,4374740748217594,DE,fashion,store,wire,11,187.56,2063.20 EUR,unknown,pos
+LEG-000027,2023-08-03,96275,customer96275@retail.org,5395339421047095,ES,sports,partner,wire,1,1982.05,$1982.05,pending,pos
+LEG-000028,28/04/2022,48684,customer48684@legacy.local,5851604817549651,,books,store,wire,6,622.34,$3734.06,manual_review,crm
+LEG-000029,10/04/2022,49893,customer49893@retail.org,,UK,groceries,store,card,2,2489.83,€4979.66,ok,erp
+LEG-000030,07/09/2022,12799,customer12799@example.com,4933529042284210,FR,home,store,card,6,42.94,GBP 257.64,ok,batch_import
+LEG-000031,,87812,customer87812@mail.net,4076617711592124,IT,sports,partner,paypal,9,61.08,EUR 549.72,pending,batch_import
+LEG-000032,2023-02-30,54424,customer54424@mail.net,5271111615280988,ES,groceries,partner,card,7,591.14,4137.96 USD,pending,erp
+LEG-000033,12/01/2023,24184,customer24184@retail.org,4940244550229612,ES,books,mobile,cash,9,194.87,$1753.82,ok,crm
+LEG-000034,30-03-2023 21:00,16522,customer16522@retail.org,4561497840369003,PT,sports,store,paypal,5,674.29,$3371.47,pending,pos
+LEG-000035,21-03-2022 10:00,15544,customer15544@retail.org,5052975161369681,FR,home,store,wire,8,272.99,£2183.92,unknown,erp
+LEG-000036,03-11-2023 02:00,35856,customer35856@retail.org,,DE,electronics,store,paypal,3,290.54,871.63 EUR,manual_review,batch_import
+LEG-000037,30-10-2023 06:00,15376,customer15376@legacy.local,5151820377889255,DE,sports,web,paypal,10,225.14,£2251.42,pending,pos
+LEG-000038,2023-12-17,55851,customer55851@mail.net,5281685054235733,PT,electronics,web,paypal,11,141.33,GBP 1554.61,pending,erp
+LEG-000039,31-03-2023 19:00,57749,customer57749@legacy.local,5735977468862392,ES,sports,web,card,4,845.86,3383.43 USD,pending,batch_import
+LEG-000040,2023/03/01 01:00:00,69130,customer69130@legacy.local,,,home,mobile,cash,1,4423.73,USD 4423.73,manual_review,batch_import
+LEG-000041,10/10/2023,75513,customer75513@mail.net,5396218518888806,ES,sports,store,card,1,2985.71,2985.71 EUR,ok,pos
+LEG-000042,03-12-2023 14:00,54374,customer54374@legacy.local,4704303054868740,PT,electronics,store,paypal,3,1356.16,$4068.48,unknown,erp
+LEG-000043,11/03/2023,78062,customer78062@mail.net,4544796275705964,ES,groceries,partner,paypal,2,668.63,EUR 1337.27,manual_review,crm
+LEG-000044,04-08-2023 01:00,94562,customer94562@mail.net,,FR,home,store,cash,7,262.12,1834.81 EUR,manual_review,crm
+LEG-000045,2022/03/08 17:00:00,51889,customer51889@legacy.local,4583132370589578,ES,fashion,partner,cash,12,278.41,€3340.86,ok,batch_import
+LEG-000046,18/10/2023,26821,customer26821@retail.org,4182422535841438,UK,books,web,wire,9,N/A,4390.41 EUR,unknown,crm
+LEG-000047,29-09-2022 20:00,15958,customer15958@example.com,5473647102767735,FR,sports,store,cash,10,474.30,GBP 4742.99,manual_review,crm
+LEG-000048,23/09/2023,22689,customer22689@mail.net,5327877470168733,ES,fashion,partner,paypal,7,36.82,$257.77,unknown,batch_import
+LEG-000049,,84747,customer84747@retail.org,5991216558523986,,groceries,store,cash,6,468.55,2811.28 GBP,unknown,erp
+LEG-000050,2023/06/06 17:00:00,49221,customer49221@retail.org,5516940974993097,UK,fashion,mobile,wire,9,330.07,€2970.65,unknown,batch_import
+LEG-000051,28/04/2023,63788,customer63788@legacy.local,5865278585497334,PT,sports,store,wire,10,251.16,2511.59 USD,unknown,pos
+LEG-000052,2022/12/20 04:00:00,59767,customer59767@example.com,5473384842199330,IT,home,web,card,7,639.90,EUR 4479.32,ok,erp
+LEG-000053,2022-10-22,72350,customer72350@example.com,,FR,groceries,partner,wire,4,597.47,€2389.86,pending,batch_import
+LEG-000054,05/08/2023,11846,customer11846@retail.org,5161227530463745,UK,sports,store,wire,5,736.88,3684.41 USD,unknown,crm
+LEG-000055,2022/05/17 15:00:00,58174,customer58174@retail.org,5833918785191088,IT,sports,partner,card,4,768.76,3075.05 USD,manual_review,crm
+LEG-000056,2023-04-19,69873,customer69873@retail.org,4391065180170462,UK,groceries,partner,paypal,9,313.53,2821.74 USD,pending,pos
+LEG-000057,2022/08/17 00:00:00,61518,customer61518@retail.org,5863375243106903,ES,fashion,web,wire,12,220.55,EUR 2646.57,pending,pos
+LEG-000058,20/11/2023,85511,customer85511@legacy.local,5089268705685662,PT,fashion,mobile,wire,10,159.79,1597.92 USD,manual_review,batch_import
+LEG-000059,2023/10/25 02:00:00,41831,customer41831@example.com,4046990139837354,ES,home,web,cash,6,213.12,GBP 1278.70,unknown,pos
+LEG-000060,10-06-2023 15:00,57088,customer57088@mail.net,5560932048996423,DE,home,partner,paypal,6,257.59,£1545.57,manual_review,erp
+LEG-000061,2022-07-08,28344,customer28344@example.com,4006231203875099,UK,electronics,partner,card,,450.37,GBP 3602.97,manual_review,erp
+LEG-000062,2023/06/24 08:00:00,29516,,5793341016668700,ES,fashion,store,card,10,120.86,1208.64 EUR,manual_review,pos
+LEG-000063,2023/11/05 01:00:00,46749,customer46749@example.com,,DE,electronics,store,cash,10,449.71,£4497.06,manual_review,erp
+LEG-000064,,66603,customer66603@mail.net,,ES,fashion,partner,card,,93.28,€932.76,manual_review,crm
+LEG-000065,06-09-2022 18:00,21101,customer21101@legacy.local,5472126464715437,PT,home,store,card,9,402.84,£3625.60,manual_review,pos
+LEG-000066,04/11/2022,95332,customer95332@retail.org,5547935646519398,,groceries,partner,wire,3,1623.75,£4871.26,manual_review,erp
+LEG-000067,22-01-2023 02:00,96332,customer96332@retail.org,5805891135290965,DE,electronics,store,wire,7,110.71,GBP 774.95,manual_review,pos
+LEG-000068,2022/12/20 00:00:00,87147,customer87147@retail.org,,ES,electronics,web,paypal,3,1151.24,3453.73 EUR,pending,erp
+LEG-000069,19-02-2023 20:00,65885,,4796603341918255,ES,fashion,store,cash,4,1198.13,$4792.52,pending,pos
+LEG-000070,not_available,98094,customer98094@legacy.local,5929662782827422,DE,sports,web,cash,2,337.04,£674.07,manual_review,batch_import
+LEG-000071,2022/02/01 07:00:00,74054,customer74054@legacy.local,4797881914858078,DE,groceries,mobile,paypal,10,,USD 840.43,manual_review,crm
+LEG-000072,17/09/2023,87060,customer87060@legacy.local,4958498254494812,DE,sports,mobile,wire,12,287.27,3447.22 EUR,manual_review,batch_import
+LEG-000073,2022-03-19,92288,customer92288@retail.org,5577590175186363,FR,sports,mobile,cash,8,259.26,,manual_review,crm
+LEG-000074,2022/07/27 22:00:00,67840,customer67840@legacy.local,5154152064361103,PT,books,partner,card,,326.47,€2285.31,pending,batch_import
+LEG-000075,03/11/2022,23425,,4927532697311219,FR,sports,mobile,wire,6,86.75,520.49 GBP,unknown,crm
+LEG-000076,2023/06/06 06:00:00,49537,customer49537@example.com,4761379180552696,UK,fashion,web,card,10,,,ok,batch_import
+LEG-000077,,75673,customer75673@legacy.local,5183285691463031,ES,books,web,paypal,7,548.10,3836.71 EUR,pending,crm
+LEG-000078,2022/09/23 05:00:00,78551,customer78551@example.com,4564814917785079,PT,electronics,web,wire,12,,€2588.53,unknown,batch_import
+LEG-000079,03/11/2023,14635,customer14635@retail.org,5419518023806174,FR,books,partner,card,12,230.55,USD 2766.56,manual_review,pos
+LEG-000080,2023-02-30,35614,customer35614@example.com,,PT,books,partner,paypal,9,407.07,GBP 3663.65,manual_review,crm
+LEG-000081,26-10-2022 08:00,96827,customer96827@mail.net,5313291212775618,PT,fashion,store,card,4,1205.32,4821.27 USD,ok,erp
+LEG-000082,not_available,21955,customer21955@mail.net,4067883171210032,DE,groceries,web,paypal,6,592.87,3557.23 EUR,manual_review,erp
+LEG-000083,21-02-2022 05:00,53456,customer53456@retail.org,5625324472099934,IT,electronics,store,cash,8,77.13,617.03 GBP,ok,batch_import
+LEG-000084,2023/08/03 16:00:00,81371,,4040785932133480,PT,fashion,store,wire,6,651.38,3908.27 GBP,ok,pos
+LEG-000085,2023-07-10,83807,,4087059325250029,PT,books,store,card,8,592.76,$4742.10,unknown,pos
+LEG-000086,2023/10/27 10:00:00,67261,customer67261@legacy.local,4644220969029593,ES,home,store,card,-1,495.03,EUR 3960.25,unknown,batch_import
+LEG-000087,02-01-2022 01:00,18885,customer18885@legacy.local,5658617932710405,ES,home,partner,wire,2,877.83,1755.65 EUR,manual_review,crm
+LEG-000088,24/02/2022,89602,customer89602@retail.org,5443106987205061,UK,fashion,mobile,card,,1483.11,$4449.32,ok,pos
+LEG-000089,12-07-2023 12:00,96643,customer96643@mail.net,4477434902115869,ES,books,partner,cash,11,120.79,1328.70 USD,ok,erp
+LEG-000090,2023-02-30,32659,customer32659@example.com,5329451168685487,ES,books,partner,card,3,1581.85,GBP 4745.56,ok,crm
+LEG-000091,28-01-2023 20:00,55071,customer55071@example.com,5299606530745054,DE,groceries,web,wire,5,878.02,$4390.08,unknown,batch_import
+LEG-000092,2023-05-12,67896,,5289023303070534,DE,groceries,web,card,7,151.56,$1060.90,unknown,pos
+LEG-000093,20/02/2022,21847,customer21847@legacy.local,4468007229034944,DE,fashion,store,wire,7,204.13,GBP 1428.92,ok,pos
+LEG-000094,2023/05/09 02:00:00,47051,customer47051@mail.net,5432830965207446,,groceries,mobile,paypal,2,747.95,£1495.89,unknown,pos
+LEG-000095,28/04/2023,83170,customer83170@mail.net,4534655494717099,ES,home,web,cash,2,454.88,EUR 909.77,unknown,batch_import
+LEG-000096,04/07/2022,69974,customer69974@mail.net,4743292712966667,ES,groceries,store,card,12,60.03,720.40 GBP,ok,erp
+LEG-000097,2023-05-31,50906,customer50906@example.com,5789856257532603,PT,electronics,mobile,card,7,92.72,649.01 EUR,unknown,crm
+LEG-000098,2023-02-30,24170,customer24170@retail.org,5723046184992618,ES,electronics,partner,wire,1,3269.57,£3269.57,manual_review,pos
+LEG-000099,2022-13-05,37222,customer37222@example.com,5218114374470120,FR,sports,partner,card,8,430.32,,pending,erp
+LEG-000100,06/04/2022,91501,customer91501@example.com,5467621202169797,DE,books,web,wire,-1,112.10,USD 1345.21,unknown,pos
+LEG-000101,2023/08/02 07:00:00,78788,customer78788@example.com,4756289002877217,FR,electronics,mobile,cash,10,383.88,3838.81 USD,manual_review,crm
+LEG-000102,2023-02-30,25559,customer25559@example.com,4199488375503758,IT,groceries,store,cash,12,408.62,,unknown,pos
+LEG-000103,20-05-2023 04:00,23935,customer23935@example.com,4316373516091779,PT,electronics,web,cash,3,77.89,GBP 233.66,pending,erp
+LEG-000104,29/01/2023,89450,customer89450@mail.net,5472269848583339,UK,groceries,mobile,wire,9,490.45,$4414.07,manual_review,batch_import
+LEG-000105,2023-02-30,79979,,4342442043805719,UK,home,partner,wire,7,204.74,1433.21 GBP,ok,batch_import
+LEG-000106,25/02/2022,99803,customer99803@retail.org,5989334721228160,IT,home,store,card,9,174.08,,unknown,crm
+LEG-000107,not_available,96755,customer96755@legacy.local,4826886153355543,IT,books,web,card,10,150.93,1509.27 GBP,pending,crm
+LEG-000108,2022/10/17 00:00:00,24860,customer24860@retail.org,5358112880133613,UK,groceries,partner,card,9,214.72,USD 1932.45,ok,crm
+LEG-000109,22-09-2022 13:00,83149,customer83149@retail.org,5180919015814491,DE,groceries,web,cash,4,89.22,356.86 GBP,unknown,erp
+LEG-000110,2023-07-21,94926,customer94926@example.com,5881435368222394,PT,books,web,cash,1,1868.79,GBP 1868.79,pending,batch_import
+LEG-000111,19/10/22,97988,customer97988@mail.net,5949299556205336,FR,groceries,store,cash,2,1639.55,USD 3279.09,pending,crm
+LEG-000112,2022-09-27,28350,customer28350@example.com,4996930848872563,IT,sports,mobile,cash,4,1114.26,4457.03 USD,pending,erp
+LEG-000113,07-11-2023 04:00,30869,,,IT,sports,store,wire,10,89.98,GBP 899.83,unknown,batch_import
+LEG-000114,2023-05-14,63194,customer63194@legacy.local,4184322259136517,DE,home,partner,card,6,294.62,1767.73 GBP,ok,erp
+LEG-000115,2023/09/06 18:00:00,33597,customer33597@example.com,5723692929842579,PT,home,web,card,7,369.37,GBP 2585.62,ok,erp
+LEG-000116,31/05/23,15116,customer15116@example.com,5865086376599162,PT,electronics,store,cash,9,,4389.37 GBP,ok,crm
+LEG-000117,2022/06/08 13:00:00,51405,customer51405@mail.net,5959463688725887,FR,groceries,partner,wire,2,1023.59,2047.18 GBP,pending,crm
+LEG-000118,15/12/2023,54359,customer54359@retail.org,4127961143519066,IT,books,web,wire,-1,400.53,4005.26 EUR,unknown,erp
+LEG-000119,23/06/22,77608,customer77608@example.com,4465669380118489,FR,home,partner,cash,10,349.38,3493.76 USD,ok,pos
+LEG-000120,12-08-2023 08:00,77277,customer77277@retail.org,5779071416335658,UK,home,store,card,9,531.53,USD 4783.76,manual_review,pos
+LEG-000121,01/12/2023,45268,customer45268@legacy.local,5333395211179080,FR,fashion,store,cash,12,76.50,GBP 918.01,pending,crm
+LEG-000122,08-02-2023 21:00,80879,customer80879@example.com,5500369155942843,IT,home,partner,cash,6,27.94,$167.65,unknown,batch_import
+LEG-000123,04-10-2022 07:00,85483,customer85483@legacy.local,4702672885744890,UK,home,store,cash,2,1715.82,£3431.63,unknown,pos
+LEG-000124,23/07/2022,56018,customer56018@mail.net,5716947225699611,PT,groceries,store,paypal,10,433.75,$4337.51,manual_review,batch_import
+LEG-000125,2022-09-15,26389,customer26389@legacy.local,4117800681149216,PT,fashion,mobile,wire,11,330.93,€3640.22,manual_review,batch_import
+LEG-000126,16-12-2023 17:00,45705,customer45705@retail.org,5578317456424008,PT,fashion,web,cash,3,914.99,€2744.98,pending,crm
+LEG-000127,17-06-2022 22:00,83472,customer83472@retail.org,4638944846312241,IT,groceries,partner,wire,4,547.09,,ok,pos
+LEG-000128,16-01-2022 15:00,11075,customer11075@mail.net,5570512046187234,ES,groceries,mobile,cash,3,389.30,GBP 1167.89,manual_review,crm
+LEG-000129,2022-11-27,71974,customer71974@example.com,,ES,groceries,partner,wire,5,389.73,1948.67 EUR,unknown,crm
+LEG-000130,2023/05/15 07:00:00,80300,customer80300@retail.org,4652407784873928,UK,books,mobile,card,3,1319.46,$3958.37,ok,batch_import
+LEG-000131,02-09-2022 10:00,91229,customer91229@legacy.local,5829456511810220,DE,electronics,partner,cash,-1,428.49,,pending,crm
+LEG-000132,,95950,customer95950@retail.org,4948014138113863,UK,groceries,mobile,cash,2,1229.79,£2459.57,manual_review,crm
+LEG-000133,11-06-2022 17:00,62632,customer62632@mail.net,5566593983684577,ES,sports,web,wire,11,229.63,USD 2525.94,unknown,crm
+LEG-000134,24/07/2023,46170,,5224593344196931,DE,groceries,web,paypal,9,510.66,USD 4595.96,unknown,pos
+LEG-000135,31-10-2023 19:00,25799,customer25799@example.com,4589258320679981,FR,home,mobile,paypal,4,1087.39,€4349.58,ok,batch_import
+LEG-000136,27/07/2023,27088,customer27088@legacy.local,5659116655355904,FR,fashion,mobile,cash,8,476.42,EUR 3811.35,ok,crm
+LEG-000137,2022-01-15,91396,customer91396@mail.net,4538338848792069,,home,web,paypal,5,926.80,,ok,crm
+LEG-000138,20-01-2022 09:00,96520,customer96520@legacy.local,4579812387800384,DE,electronics,store,paypal,2,902.14,GBP 1804.29,unknown,batch_import
+LEG-000139,19-08-2022 04:00,13862,customer13862@legacy.local,5893639264957823,IT,home,mobile,paypal,5,944.19,EUR 4720.96,pending,pos
+LEG-000140,31-01-2022 10:00,25517,customer25517@retail.org,5231220994999393,ES,groceries,partner,wire,3,308.25,GBP 924.76,manual_review,batch_import
+LEG-000141,04/10/2022,39658,,5975736609656999,UK,electronics,web,cash,1,165.99,€165.99,ok,batch_import
+LEG-000142,2023/02/12 09:00:00,16461,customer16461@retail.org,5908277181298266,ES,books,mobile,cash,8,119.16,GBP 953.30,ok,crm
+LEG-000143,29/01/2023,57571,customer57571@retail.org,4259222206447421,,sports,web,cash,12,35.93,€431.11,pending,erp
+LEG-000144,2023/09/07 00:00:00,63759,,4050209945101622,IT,groceries,mobile,cash,10,221.22,€2212.17,unknown,pos
+LEG-000145,not_available,66010,customer66010@mail.net,4390198179469548,IT,home,partner,cash,2,2108.66,£4217.33,pending,crm
+LEG-000146,2023/09/23 13:00:00,25456,customer25456@mail.net,4034414488501556,IT,home,mobile,paypal,4,922.16,USD 3688.65,pending,batch_import
+LEG-000147,,80381,customer80381@mail.net,5880395512405682,DE,electronics,store,paypal,8,560.02,EUR 4480.16,unknown,batch_import
+LEG-000148,2023-01-19,78825,customer78825@retail.org,5823578452182307,IT,sports,web,card,2,757.54,1515.08 EUR,unknown,crm
+LEG-000149,21-10-2022 08:00,37504,customer37504@example.com,4410988138585424,PT,books,store,cash,4,,,manual_review,crm
+LEG-000150,2023/12/08 22:00:00,88134,customer88134@mail.net,4817921717477332,IT,sports,partner,wire,11,405.17,USD 4456.92,ok,batch_import
+LEG-000151,2023-13-11,32387,customer32387@retail.org,4581487696393827,FR,groceries,partner,cash,6,235.81,1414.88 GBP,ok,batch_import
+LEG-000152,2022-06-30,52647,customer52647@example.com,5570132902278469,PT,sports,store,paypal,8,347.21,£2777.66,ok,crm
+LEG-000153,2023-01-14,26718,customer26718@mail.net,5036965666683272,DE,sports,partner,wire,1,4263.26,EUR 4263.26,ok,erp
+LEG-000154,28-03-2022 04:00,67243,customer67243@retail.org,5927868765326909,UK,books,store,cash,3,1625.00,4875.00 EUR,manual_review,pos
+LEG-000155,2023-06-24,20494,customer20494@example.com,4894905807787956,FR,electronics,store,paypal,12,59.56,714.73 EUR,unknown,crm
+LEG-000156,2022/09/16 04:00:00,76269,,4929275243728051,IT,home,partner,cash,5,77.79,USD 388.93,pending,pos
+LEG-000157,13/02/2023,25203,customer25203@retail.org,5742860476580185,DE,groceries,store,paypal,8,33.42,$267.35,manual_review,erp
+LEG-000158,2023-12-08,35549,customer35549@example.com,4618175344300910,UK,home,web,card,11,236.56,2602.16 USD,pending,crm
+LEG-000159,2023/10/17 14:00:00,71204,customer71204@retail.org,5421406650442717,PT,home,partner,card,2,1652.05,EUR 3304.09,manual_review,pos
+LEG-000160,2022-01-20,84887,customer84887@example.com,5256908776618306,DE,books,store,paypal,8,454.89,3639.09 GBP,ok,pos
+LEG-000161,2023-10-26,20545,customer20545@retail.org,,IT,fashion,partner,card,5,841.34,,ok,erp
+LEG-000162,2022-06-02,70079,customer70079@example.com,,ES,books,mobile,card,9,522.31,£4700.75,ok,erp
+LEG-000163,not_available,37948,customer37948@legacy.local,,PT,groceries,store,cash,10,382.23,USD 3822.32,pending,pos
+LEG-000164,2023-09-03,32878,customer32878@mail.net,4833181958837340,PT,fashion,partner,wire,1,3054.64,€3054.64,pending,batch_import
+LEG-000165,2022-02-23,69394,customer69394@retail.org,4379956353153136,DE,electronics,partner,cash,12,18.45,€221.37,pending,batch_import
+LEG-000166,,35448,customer35448@example.com,4776253492929831,IT,home,partner,cash,5,632.39,GBP 3161.95,unknown,batch_import
+LEG-000167,2022-01-06,87564,customer87564@retail.org,4686717731806325,UK,electronics,partner,paypal,10,473.15,GBP 4731.53,manual_review,batch_import
+LEG-000168,2023-10-04,63131,customer63131@example.com,5804649893195085,ES,fashion,web,paypal,6,154.80,928.80 GBP,pending,erp
+LEG-000169,18/08/2023,24884,customer24884@mail.net,5864015577881788,DE,groceries,web,wire,12,270.58,EUR 3246.95,unknown,crm
+LEG-000170,2023-02-30,29392,customer29392@legacy.local,5704310385695579,IT,fashion,partner,paypal,4,621.04,$2484.16,pending,batch_import
+LEG-000171,12/04/2023,16202,customer16202@mail.net,4223105927452380,FR,fashion,mobile,paypal,-1,,$745.95,unknown,erp
+LEG-000172,30/10/2022,76507,customer76507@retail.org,4702814069375150,PT,home,store,wire,,138.31,USD 1659.75,manual_review,erp
+LEG-000173,05-01-2023 12:00,77050,customer77050@mail.net,4455478137674266,IT,home,mobile,paypal,-1,428.84,4717.29 USD,manual_review,crm
+LEG-000174,19/04/2023,45825,customer45825@legacy.local,5487049478730024,UK,fashion,web,paypal,9,230.61,GBP 2075.50,ok,pos
+LEG-000175,2023/05/08 18:00:00,88497,customer88497@retail.org,4589042902572520,DE,sports,web,paypal,10,372.91,3729.10 EUR,pending,crm
+LEG-000176,2022/11/05 08:00:00,52284,customer52284@example.com,5202845765213283,IT,books,web,cash,11,396.62,€4362.85,unknown,pos
+LEG-000177,2023/06/20 10:00:00,67925,customer67925@example.com,,,groceries,web,cash,10,444.92,EUR 4449.18,ok,crm
+LEG-000178,2022/01/30 02:00:00,36217,customer36217@mail.net,4891190833428013,UK,groceries,mobile,cash,6,154.66,$927.99,pending,erp
+LEG-000179,2023/06/17 04:00:00,51193,customer51193@mail.net,4157164794738646,ES,fashion,store,wire,,311.23,£622.46,ok,crm
+LEG-000180,22/06/2022,87405,customer87405@mail.net,5136749946579678,DE,sports,partner,cash,12,407.33,EUR 4887.97,ok,batch_import
+LEG-000181,2022-06-06,60152,customer60152@example.com,5734778485880061,FR,fashion,partner,card,6,504.15,USD 3024.90,manual_review,batch_import
+LEG-000182,23-11-2023 15:00,73891,customer73891@retail.org,4806479695450090,FR,groceries,web,paypal,10,382.12,USD 3821.24,pending,erp
+LEG-000183,2022-11-09,21133,,5986407905696591,ES,home,store,cash,2,2276.20,$4552.39,unknown,batch_import
+LEG-000184,2022/08/08 09:00:00,19872,customer19872@retail.org,4919541987635148,DE,sports,mobile,cash,9,466.97,4202.70 USD,pending,crm
+LEG-000185,2023/11/08 23:00:00,34450,customer34450@retail.org,4835723246651364,UK,groceries,mobile,cash,4,721.58,€2886.33,manual_review,batch_import
+LEG-000186,not_available,94793,customer94793@mail.net,,UK,electronics,store,cash,4,1132.19,€4528.75,unknown,batch_import
+LEG-000187,29-06-2022 06:00,65426,customer65426@retail.org,,,groceries,web,wire,2,546.98,£1093.95,ok,erp
+LEG-000188,05/11/2022,61508,customer61508@mail.net,,DE,books,store,cash,-1,927.58,4637.90 GBP,manual_review,erp
+LEG-000189,24/04/2022,50048,customer50048@retail.org,5772429543165266,IT,electronics,mobile,card,2,786.02,GBP 1572.04,manual_review,batch_import
+LEG-000190,01-05-2022 00:00,58224,customer58224@retail.org,5133344762639343,DE,electronics,store,paypal,-1,85.48,854.76 EUR,manual_review,crm
+LEG-000191,05-12-2023 06:00,52368,,4053759900489646,PT,books,web,wire,7,696.02,USD 4872.12,ok,pos
+LEG-000192,2022/05/11 15:00:00,44131,customer44131@mail.net,,,sports,mobile,cash,1,588.63,,unknown,batch_import
+LEG-000193,28/07/2022,29405,customer29405@mail.net,4908926137150416,ES,home,web,card,2,311.32,$622.65,ok,pos
+LEG-000194,2023-08-06,69388,customer69388@mail.net,4189616423610326,FR,groceries,mobile,card,12,135.66,£1627.95,pending,pos
+LEG-000195,02-02-2023 15:00,77194,customer77194@example.com,5926610857327881,DE,fashion,store,wire,8,125.42,1003.36 USD,manual_review,pos
+LEG-000196,,15910,customer15910@mail.net,4801722601645977,FR,home,mobile,wire,-1,285.50,USD 2569.51,manual_review,crm
+LEG-000197,10-12-2023 12:00,32509,customer32509@mail.net,5641220310303723,UK,books,mobile,card,8,410.09,USD 3280.73,pending,erp
+LEG-000198,23-08-2023 07:00,73576,customer73576@example.com,4667998407678997,ES,fashion,store,card,8,N/A,2360.09 USD,unknown,batch_import
+LEG-000199,19/12/2022,47750,customer47750@mail.net,5246657293417223,DE,fashion,partner,paypal,8,454.05,€3632.41,unknown,erp
+LEG-000200,12/12/22,75991,customer75991@example.com,5455084289107711,IT,electronics,web,card,2,82.34,EUR 164.69,unknown,batch_import
+LEG-000201,09/12/22,23014,customer23014@retail.org,4375482145653286,PT,fashion,partner,cash,6,129.28,GBP 775.71,manual_review,erp
+LEG-000202,13/12/2022,77809,,4290846684550489,UK,groceries,mobile,cash,-1,2359.25,GBP 4718.50,unknown,crm
+LEG-000203,,26515,customer26515@mail.net,4008943468105485,UK,fashion,store,card,9,289.42,2604.75 GBP,pending,pos
+LEG-000204,2023-01-22,85073,customer85073@mail.net,4571266110627371,IT,books,partner,paypal,12,280.32,$3363.81,manual_review,erp
+LEG-000205,10/06/23,69993,customer69993@retail.org,4851961159408215,FR,fashion,web,wire,12,54.27,€651.28,unknown,erp
+LEG-000206,2022/03/11 01:00:00,10273,customer10273@retail.org,5792287772519966,DE,electronics,partner,paypal,6,102.67,,unknown,crm
+LEG-000207,07-08-2023 16:00,91094,customer91094@example.com,4043397189569070,PT,books,store,cash,1,2711.46,€2711.46,pending,erp
+LEG-000208,2022/06/23 01:00:00,50212,,4461526546103399,IT,fashion,web,paypal,11,N/A,USD 4761.06,manual_review,erp
+LEG-000209,14/04/2022,82623,customer82623@mail.net,5183258238687007,IT,home,web,card,11,437.96,4817.56 GBP,manual_review,pos
+LEG-000210,2023-13-01,76889,customer76889@retail.org,4846398554743553,IT,groceries,mobile,card,3,,€1410.15,manual_review,batch_import
+LEG-000211,2022-02-01,95078,customer95078@mail.net,5956201753703045,IT,groceries,mobile,wire,9,362.01,3258.08 EUR,pending,crm
+LEG-000212,06/08/2023,61915,,4124938430894870,UK,groceries,web,paypal,5,111.84,559.18 USD,manual_review,batch_import
+LEG-000213,30-06-2023 14:00,39431,customer39431@legacy.local,4361332541107609,FR,home,web,cash,7,34.23,239.59 EUR,pending,crm
+LEG-000214,2022-05-08,22539,customer22539@retail.org,,DE,books,web,cash,10,312.86,£3128.62,ok,batch_import
+LEG-000215,11/03/2022,24156,customer24156@legacy.local,5567972320024968,FR,books,mobile,wire,10,51.79,USD 517.93,pending,crm
+LEG-000216,19/12/2022,83328,customer83328@example.com,5795995946521707,ES,groceries,mobile,cash,7,613.46,£4294.22,manual_review,erp
+LEG-000217,02/01/2023,10881,customer10881@mail.net,5003342342583230,FR,electronics,mobile,cash,2,908.63,$1817.27,manual_review,erp
+LEG-000218,21/03/23,32460,customer32460@legacy.local,4865596309938425,UK,home,partner,wire,10,470.61,GBP 4706.10,manual_review,pos
+LEG-000219,13-12-2023 15:00,52182,customer52182@retail.org,5903337363466925,ES,electronics,store,cash,9,395.99,3563.87 EUR,unknown,batch_import
+LEG-000220,2023-02-30,58170,customer58170@legacy.local,4514888143111508,PT,sports,store,paypal,6,670.58,4023.50 EUR,unknown,crm
+LEG-000221,2023-02-20,55433,customer55433@retail.org,4633373898775153,UK,fashion,partner,card,7,559.53,3916.73 EUR,ok,batch_import
+LEG-000222,2023/12/04 12:00:00,54541,customer54541@mail.net,4225999966361863,FR,fashion,store,card,7,161.62,,manual_review,crm
+LEG-000223,26-10-2022 21:00,60579,customer60579@example.com,4256621286716323,UK,home,store,wire,4,355.67,USD 1422.67,manual_review,crm
+LEG-000224,2023-05-18,42353,customer42353@example.com,5546926329676291,ES,home,store,paypal,10,263.17,GBP 2631.65,manual_review,batch_import
+LEG-000225,01/06/2023,58330,customer58330@mail.net,4701765636004125,DE,electronics,web,wire,2,193.65,USD 387.29,pending,crm
+LEG-000226,2022-06-22,26272,customer26272@mail.net,,DE,home,store,wire,7,,€2675.60,pending,crm
+LEG-000227,2022/02/15 13:00:00,97046,customer97046@mail.net,,PT,electronics,store,paypal,3,281.19,843.58 USD,manual_review,crm
+LEG-000228,07-09-2023 10:00,84606,customer84606@legacy.local,5715099768389030,ES,groceries,partner,wire,2,N/A,USD 861.44,pending,batch_import
+LEG-000229,2022-12-03,88390,customer88390@retail.org,5035533803396852,ES,fashion,web,wire,8,617.85,EUR 4942.81,pending,erp
+LEG-000230,22/07/2022,71220,customer71220@mail.net,5347156627768962,,fashion,partner,card,12,130.06,1560.76 GBP,pending,pos
+LEG-000231,08-05-2023 02:00,47122,customer47122@legacy.local,4008576665674916,ES,books,mobile,wire,10,187.89,1878.86 GBP,manual_review,pos
+LEG-000232,2023/05/05 01:00:00,65579,customer65579@example.com,4497243992011669,ES,home,partner,wire,4,919.91,3679.64 USD,manual_review,pos
+LEG-000233,19/12/2022,21648,customer21648@retail.org,4270116864622522,PT,electronics,partner,wire,10,55.08,EUR 550.82,unknown,batch_import
+LEG-000234,2022-13-23,24312,,4937710040901380,IT,sports,partner,cash,3,1447.49,$4342.47,unknown,erp
+LEG-000235,2023-02-30,59602,,4843579786305050,UK,fashion,mobile,cash,6,509.33,€3055.99,ok,batch_import
+LEG-000236,2023-13-01,28764,customer28764@mail.net,5271783332116025,FR,sports,partner,card,10,434.99,GBP 4349.94,unknown,erp
+LEG-000237,22-01-2023 22:00,88732,customer88732@retail.org,4414111593195256,ES,books,mobile,cash,6,54.67,USD 328.01,pending,crm
+LEG-000238,13/08/2022,70372,customer70372@mail.net,4954814973746052,PT,home,web,wire,5,316.61,1583.05 USD,pending,crm
+LEG-000239,not_available,98853,customer98853@mail.net,4861259047292774,PT,groceries,mobile,card,6,394.96,EUR 2369.74,manual_review,batch_import
+LEG-000240,,17383,customer17383@mail.net,4630136749261764,DE,electronics,web,card,8,60.59,484.76 GBP,manual_review,pos
+LEG-000241,23/10/2023,87709,customer87709@example.com,4606888718981312,UK,books,partner,paypal,8,113.70,EUR 909.58,unknown,crm
+LEG-000242,2022-06-25,49135,customer49135@legacy.local,,PT,home,mobile,wire,9,202.33,GBP 1820.98,unknown,pos
+LEG-000243,24/11/2023,62436,,5359892625660931,IT,books,partner,card,-1,456.61,USD 2283.06,pending,pos
+LEG-000244,2022/05/07 05:00:00,39127,customer39127@retail.org,5948491025625889,DE,home,store,card,2,948.13,£1896.27,unknown,crm
+LEG-000245,26-11-2023 19:00,58516,customer58516@legacy.local,5784468341465111,ES,electronics,web,paypal,4,884.74,€3538.97,pending,batch_import
+LEG-000246,08/05/22,98706,customer98706@example.com,5389097283215285,DE,home,store,card,12,370.08,GBP 4440.96,unknown,pos
+LEG-000247,2023-02-08,10292,customer10292@retail.org,,DE,books,mobile,cash,10,369.14,€3691.44,pending,batch_import
+LEG-000248,03-10-2022 03:00,66143,customer66143@legacy.local,5053134026650237,FR,fashion,partner,wire,9,495.72,4461.51 USD,manual_review,erp
+LEG-000249,28/05/2023,12772,customer12772@example.com,5690674471639282,ES,groceries,mobile,cash,6,105.83,634.99 EUR,pending,erp
+LEG-000250,16/05/22,93162,customer93162@legacy.local,4106684335670860,FR,sports,partner,wire,2,,,unknown,erp
+LEG-000251,2022/09/16 15:00:00,89498,customer89498@example.com,4825559895343961,PT,books,web,card,3,169.43,GBP 508.30,manual_review,crm
+LEG-000252,2022-07-26,54944,customer54944@legacy.local,5855716176880294,PT,books,web,wire,8,188.86,1510.87 GBP,ok,erp
+LEG-000253,2023-09-14,83727,customer83727@legacy.local,4878844344812308,ES,sports,mobile,paypal,7,556.85,EUR 3897.96,ok,crm
+LEG-000254,17-07-2023 08:00,58380,customer58380@mail.net,4053424089164983,PT,home,partner,wire,12,135.52,$1626.19,ok,batch_import
+LEG-000255,2022/07/04 20:00:00,33083,customer33083@legacy.local,5931216376182091,ES,electronics,web,wire,8,118.55,948.36 EUR,ok,crm
+LEG-000256,27-07-2022 04:00,54353,customer54353@legacy.local,5230848100184186,,fashion,partner,wire,2,2132.17,4264.34 GBP,ok,batch_import
+LEG-000257,2023-01-01,23334,customer23334@mail.net,4092268592624945,FR,groceries,store,paypal,5,956.51,EUR 4782.55,pending,pos
+LEG-000258,2023/08/15 13:00:00,72709,customer72709@legacy.local,4265576769523668,IT,books,mobile,cash,2,N/A,4074.18 GBP,pending,crm
+LEG-000259,not_available,12248,customer12248@mail.net,4472863330212606,UK,books,web,cash,8,226.90,EUR 1815.18,ok,erp
+LEG-000260,2023/04/27 23:00:00,64590,customer64590@retail.org,5704120092820667,FR,books,store,wire,3,250.95,EUR 752.84,pending,batch_import
+LEG-000261,12-09-2023 02:00,34077,customer34077@retail.org,5620563411159503,IT,home,web,paypal,9,457.05,EUR 4113.41,ok,batch_import
+LEG-000262,2022/10/17 12:00:00,50449,customer50449@retail.org,4156818209679042,DE,groceries,web,wire,6,7.89,47.35 GBP,pending,pos
+LEG-000263,10-02-2022 22:00,48121,customer48121@legacy.local,4297102481717524,FR,sports,web,card,7,257.83,$1804.78,manual_review,erp
+LEG-000264,15/02/2023,73997,customer73997@retail.org,5516874090380214,IT,electronics,mobile,cash,5,40.55,202.77 USD,manual_review,crm
+LEG-000265,not_available,62028,customer62028@retail.org,5147082723590960,FR,fashion,mobile,card,4,,£3842.24,pending,crm
+LEG-000266,2023/04/08 13:00:00,20709,customer20709@legacy.local,4654235677826596,IT,books,mobile,card,12,124.60,1495.19 EUR,unknown,crm
+LEG-000267,2022-04-27,29331,customer29331@retail.org,4791033682963533,IT,sports,store,card,6,416.62,2499.73 EUR,manual_review,batch_import
+LEG-000268,2022/04/27 05:00:00,81102,customer81102@legacy.local,4866464911110961,IT,electronics,partner,card,6,355.35,€2132.12,manual_review,crm
+LEG-000269,27-02-2023 20:00,26310,customer26310@example.com,4844446306000258,IT,home,partner,wire,8,219.54,GBP 1756.32,manual_review,erp
+LEG-000270,2023-06-14,32769,customer32769@legacy.local,5482531106092098,ES,electronics,mobile,cash,6,336.43,EUR 2018.58,unknown,erp
+LEG-000271,22/02/22,59559,customer59559@example.com,,ES,fashion,web,wire,11,350.28,$3853.11,pending,erp
+LEG-000272,2022/02/02 03:00:00,96463,customer96463@retail.org,4284139080882351,ES,home,web,wire,10,283.86,2838.63 EUR,unknown,batch_import
+LEG-000273,2022/09/14 05:00:00,77194,customer77194@retail.org,5237676945919663,FR,electronics,partner,wire,-1,1183.00,$4732.00,unknown,batch_import
+LEG-000274,not_available,52294,customer52294@mail.net,5105053795381649,PT,sports,web,cash,3,716.60,USD 2149.79,manual_review,batch_import
+LEG-000275,08/09/2023,25631,customer25631@example.com,4742608805017164,FR,books,store,cash,3,208.28,£624.84,ok,pos
+LEG-000276,23-05-2022 03:00,39362,customer39362@legacy.local,4580040104145964,PT,electronics,mobile,paypal,1,243.93,243.93 USD,ok,erp
+LEG-000277,not_available,46771,customer46771@example.com,4311703037637153,IT,sports,store,cash,12,134.41,EUR 1612.95,unknown,batch_import
+LEG-000278,12/07/2022,77300,customer77300@mail.net,,IT,fashion,mobile,wire,7,145.58,,unknown,pos
+LEG-000279,17-02-2023 05:00,65389,customer65389@retail.org,4313100943181439,DE,electronics,mobile,paypal,4,243.42,€973.69,unknown,crm
+LEG-000280,2023-12-06,91542,customer91542@legacy.local,,PT,electronics,web,paypal,5,477.28,EUR 2386.41,ok,pos
+LEG-000281,2022/09/21 21:00:00,74312,,,IT,fashion,store,wire,9,408.38,$3675.40,manual_review,erp
+LEG-000282,2022/10/10 09:00:00,53410,customer53410@example.com,5954107272849824,ES,electronics,partner,card,7,279.74,,unknown,crm
+LEG-000283,25/12/2022,10084,customer10084@example.com,4369143075366614,IT,books,partner,paypal,3,84.75,€254.26,pending,pos
+LEG-000284,,92355,customer92355@retail.org,5756766708061294,IT,home,store,card,3,769.49,$2308.47,manual_review,crm
+LEG-000285,2022/04/10 09:00:00,95181,customer95181@example.com,,PT,electronics,web,wire,10,53.97,GBP 539.71,ok,pos
+LEG-000286,2022-09-24,40792,customer40792@retail.org,4223288377441975,DE,electronics,partner,cash,9,N/A,4209.40 USD,manual_review,crm
+LEG-000287,2023/04/01 01:00:00,95252,customer95252@legacy.local,5402588358681225,IT,groceries,mobile,paypal,10,446.66,4466.64 USD,manual_review,batch_import
+LEG-000288,2023/11/06 16:00:00,33642,customer33642@mail.net,5100231177533126,DE,electronics,store,card,9,320.26,2882.31 USD,ok,erp
+LEG-000289,2023/08/11 17:00:00,59496,customer59496@retail.org,5332683190130205,IT,electronics,store,wire,11,60.95,£670.42,pending,erp
+LEG-000290,22-05-2022 02:00,56151,customer56151@example.com,4841173098503446,ES,home,store,card,9,198.40,1785.64 GBP,unknown,batch_import
+LEG-000291,2023-02-30,24532,customer24532@mail.net,4238503719905169,ES,fashion,mobile,paypal,5,583.19,2915.95 USD,unknown,batch_import
+LEG-000292,27-01-2022 06:00,39852,customer39852@example.com,4662668217195535,ES,electronics,web,wire,1,112.11,GBP 112.11,pending,crm
+LEG-000293,25/12/2022,33670,customer33670@mail.net,5711148375374584,PT,sports,store,card,6,236.09,£1416.57,unknown,crm
+LEG-000294,21/07/23,78287,customer78287@example.com,5710704496410496,DE,electronics,mobile,wire,12,96.38,,unknown,crm
+LEG-000295,2022-09-26,13406,customer13406@mail.net,5601864876998426,PT,electronics,store,paypal,6,758.45,4550.72 GBP,manual_review,crm
+LEG-000296,,96406,customer96406@mail.net,4770707057836091,IT,electronics,partner,wire,11,114.21,USD 1256.31,pending,erp
+LEG-000297,09-02-2022 05:00,16498,,4044058093511871,PT,books,store,cash,11,106.11,$1167.20,unknown,pos
+LEG-000298,2023-09-29,59114,customer59114@mail.net,4193588953690261,PT,books,partner,card,5,471.21,2356.07 EUR,manual_review,pos
+LEG-000299,2022/09/06 11:00:00,48412,customer48412@example.com,5651588157937639,PT,home,partner,wire,6,759.30,USD 4555.79,manual_review,batch_import
+LEG-000300,2022-13-04,74775,customer74775@retail.org,5120602128866526,PT,electronics,store,paypal,4,791.25,,unknown,batch_import
+LEG-000301,2023-12-18,67106,customer67106@legacy.local,5765728941347509,IT,fashion,store,paypal,8,181.25,,pending,batch_import
+LEG-000302,not_available,90671,customer90671@retail.org,4449134213882090,IT,home,web,cash,6,,1575.27 EUR,manual_review,batch_import
+LEG-000303,03-05-2022 14:00,48658,customer48658@mail.net,4415131528547815,ES,groceries,store,wire,12,382.53,,ok,erp
+LEG-000304,27/04/2023,38863,customer38863@retail.org,4183061789320649,IT,sports,partner,wire,5,673.67,$3368.37,manual_review,pos
+LEG-000305,06-03-2023 14:00,38695,customer38695@example.com,,FR,sports,partner,cash,5,113.26,$566.28,manual_review,erp
+LEG-000306,2023-08-10,50437,customer50437@mail.net,4061558108358328,UK,home,store,paypal,4,560.24,EUR 2240.94,ok,crm
+LEG-000307,25/01/2022,15542,customer15542@example.com,4662411186008921,DE,books,store,paypal,5,157.79,USD 788.94,ok,pos
+LEG-000308,16-08-2022 13:00,59359,customer59359@mail.net,4607658173906375,ES,sports,mobile,card,2,729.87,USD 1459.74,pending,batch_import
+LEG-000309,2023/05/21 08:00:00,84270,,5043878753577881,DE,fashion,mobile,card,1,3804.11,EUR 3804.11,ok,batch_import
+LEG-000310,2023/07/15 13:00:00,78758,customer78758@example.com,5485959224839589,DE,sports,mobile,wire,12,203.21,EUR 2438.53,pending,batch_import
+LEG-000311,2023/12/12 03:00:00,50873,,5921583503446945,DE,books,mobile,card,4,877.21,€3508.82,ok,erp
+LEG-000312,12-09-2023 08:00,60193,customer60193@legacy.local,4319222705102876,FR,electronics,mobile,cash,10,165.42,1654.15 USD,unknown,crm
+LEG-000313,27-05-2022 13:00,31773,customer31773@mail.net,5520575639836520,FR,electronics,store,paypal,5,945.54,USD 4727.72,unknown,crm
+LEG-000314,2022-09-17,62205,customer62205@retail.org,,UK,sports,web,paypal,12,18.70,£224.37,unknown,erp
+LEG-000315,2023-02-17,58005,customer58005@example.com,4412704938620448,FR,groceries,web,cash,11,234.92,EUR 2584.12,unknown,crm
+LEG-000316,2022/03/25 23:00:00,38511,customer38511@legacy.local,4406424295633432,FR,sports,web,cash,8,398.94,3191.54 GBP,pending,crm
+LEG-000317,2023/12/21 13:00:00,30408,customer30408@legacy.local,5183437401827279,IT,books,web,paypal,4,673.01,€2692.05,unknown,pos
+LEG-000318,14-07-2023 05:00,56924,customer56924@retail.org,5673459576403816,FR,fashion,web,wire,8,191.86,1534.85 GBP,pending,erp
+LEG-000319,25/05/2022,17051,,4324412336132850,FR,books,partner,wire,5,970.35,USD 4851.77,manual_review,erp
+LEG-000320,22-11-2023 23:00,62413,customer62413@example.com,4392355580996132,ES,fashion,web,paypal,5,773.49,€3867.44,manual_review,crm
+LEG-000321,2023-06-14,33529,customer33529@mail.net,4602529867076604,UK,books,partner,paypal,11,74.72,GBP 821.90,pending,batch_import
+LEG-000322,12/12/2022,98436,customer98436@retail.org,5401775095465408,FR,electronics,partner,paypal,1,,EUR 404.65,manual_review,erp
+LEG-000323,2023/05/21 13:00:00,26522,customer26522@retail.org,4897015502916815,UK,fashion,web,wire,11,330.48,GBP 3635.30,manual_review,crm
+LEG-000324,2022/09/07 22:00:00,49741,customer49741@retail.org,5424809624406306,FR,books,store,card,9,,3079.83 USD,unknown,batch_import
+LEG-000325,2023/07/26 00:00:00,53090,customer53090@mail.net,4773826460917851,IT,sports,store,cash,8,,2709.58 GBP,unknown,batch_import
+LEG-000326,29/08/2022,47209,customer47209@retail.org,4163319422686536,FR,sports,web,paypal,8,348.05,€2784.42,manual_review,pos
+LEG-000327,30/06/2023,33281,customer33281@example.com,5663093299819960,PT,groceries,partner,card,1,,2003.27 GBP,manual_review,erp
+LEG-000328,29/06/2022,58373,customer58373@mail.net,4039773973278195,PT,groceries,web,card,4,904.17,$3616.69,manual_review,crm
+LEG-000329,25-10-2023 17:00,80430,customer80430@retail.org,4460568761124912,UK,home,partner,wire,10,60.93,609.30 GBP,manual_review,erp
+LEG-000330,2023-12-18,68284,customer68284@legacy.local,5035954429477422,FR,sports,mobile,card,8,207.08,€1656.65,unknown,batch_import
+LEG-000331,29-05-2023 10:00,55116,customer55116@retail.org,5276015343324913,DE,groceries,web,wire,10,322.10,EUR 3221.04,unknown,crm
+LEG-000332,03/04/2023,80481,customer80481@mail.net,,PT,books,partner,cash,1,4363.71,4363.71 EUR,ok,erp
+LEG-000333,2023/08/27 06:00:00,72394,customer72394@example.com,4739970469472587,UK,books,mobile,paypal,-1,110.11,USD 990.99,pending,batch_import
+LEG-000334,2022/07/03 02:00:00,76787,customer76787@example.com,5582313348458714,PT,home,store,wire,3,785.06,2355.18 EUR,pending,pos
+LEG-000335,03-10-2022 07:00,95654,customer95654@mail.net,5555746966060652,,groceries,mobile,wire,7,425.45,,manual_review,batch_import
+LEG-000336,2023-05-31,36142,customer36142@example.com,5797067349960105,FR,sports,web,cash,10,398.84,3988.39 USD,manual_review,erp
+LEG-000337,2023/03/25 07:00:00,85246,customer85246@mail.net,4155732573755344,ES,groceries,partner,cash,2,501.99,EUR 1003.97,unknown,crm
+LEG-000338,2023/07/06 15:00:00,76088,customer76088@example.com,4818281979316477,UK,sports,web,wire,6,727.67,4366.04 GBP,manual_review,crm
+LEG-000339,09/01/2022,91748,customer91748@mail.net,5873959232342108,ES,books,store,card,1,4141.97,EUR 4141.97,unknown,erp
+LEG-000340,2023-02-30,38473,customer38473@example.com,4607763369112898,PT,fashion,store,paypal,1,3862.86,€3862.86,manual_review,pos
+LEG-000341,2023/02/14 03:00:00,12116,customer12116@example.com,5316704502329028,UK,electronics,web,wire,7,5.89,USD 41.24,manual_review,erp
+LEG-000342,2022-07-05,29841,,4465495005070260,IT,home,mobile,card,,337.37,EUR 3711.12,ok,batch_import
+LEG-000343,15-10-2023 00:00,80349,customer80349@mail.net,5917793238223116,IT,home,store,wire,10,220.49,2204.88 GBP,unknown,erp
+LEG-000344,30/01/23,29034,,4326509775396737,IT,groceries,store,paypal,1,2898.95,$2898.95,manual_review,crm
+LEG-000345,,78035,customer78035@legacy.local,5118425476818268,UK,electronics,mobile,paypal,6,219.67,1318.00 GBP,ok,pos
+LEG-000346,13/04/2022,79582,customer79582@legacy.local,5340646867752401,IT,home,web,card,3,279.31,USD 837.93,manual_review,erp
+LEG-000347,2022/03/14 07:00:00,35345,customer35345@legacy.local,4923724501848197,DE,electronics,partner,wire,6,207.77,£1246.62,ok,batch_import
+LEG-000348,22-06-2022 22:00,92168,customer92168@mail.net,4199537660144485,FR,electronics,web,card,10,233.53,2335.30 GBP,manual_review,pos
+LEG-000349,20-01-2023 19:00,73945,customer73945@example.com,,DE,groceries,partner,card,10,280.56,GBP 2805.55,unknown,batch_import
+LEG-000350,19/12/2022,43228,customer43228@mail.net,4574238856527155,UK,home,store,paypal,11,163.29,1796.15 GBP,manual_review,erp
+LEG-000351,2023/01/06 05:00:00,73627,customer73627@example.com,5884882691311964,FR,fashion,mobile,cash,8,219.53,USD 1756.22,unknown,erp
+LEG-000352,27/01/2022,81825,customer81825@legacy.local,5320430977688936,IT,groceries,partner,paypal,5,155.86,$779.28,pending,pos
+LEG-000353,2022-09-10,27628,customer27628@retail.org,,,fashion,web,paypal,12,134.31,EUR 1611.70,unknown,pos
+LEG-000354,17-05-2022 12:00,88346,customer88346@mail.net,5539862895090591,ES,books,partner,wire,12,204.72,GBP 2456.60,pending,crm
+LEG-000355,18-02-2023 18:00,25663,customer25663@retail.org,5252145264712463,UK,sports,partner,card,2,N/A,1662.29 GBP,ok,pos
+LEG-000356,,79352,customer79352@mail.net,4397283512959272,,electronics,web,paypal,6,11.30,67.83 GBP,pending,crm
+LEG-000357,06-11-2023 17:00,90372,customer90372@example.com,,UK,books,partner,wire,8,575.05,4600.40 EUR,manual_review,batch_import
+LEG-000358,2023/07/29 15:00:00,13123,customer13123@retail.org,5080314998250800,DE,books,web,cash,6,409.79,2458.74 EUR,ok,erp
+LEG-000359,2022-07-28,39041,customer39041@example.com,4140352635602293,FR,fashion,store,wire,2,1781.74,USD 3563.49,manual_review,batch_import
+LEG-000360,2023-02-30,34837,customer34837@example.com,5231112712852464,FR,sports,web,card,8,510.57,4084.54 EUR,manual_review,erp
+LEG-000361,23/08/2022,71467,customer71467@example.com,,PT,sports,mobile,paypal,2,1198.35,EUR 2396.70,unknown,crm
+LEG-000362,26/01/22,54025,customer54025@mail.net,4850116880925502,UK,fashion,web,card,-1,411.47,3291.77 EUR,ok,crm
+LEG-000363,31-01-2023 09:00,72446,customer72446@retail.org,4794577278532426,PT,electronics,partner,paypal,11,426.03,GBP 4686.37,manual_review,erp
+LEG-000364,17-04-2023 23:00,63188,customer63188@retail.org,5628333393957865,PT,fashion,web,cash,7,301.23,GBP 2108.60,pending,pos
+LEG-000365,04/07/22,60369,customer60369@retail.org,4492693265732759,IT,groceries,web,card,7,669.42,EUR 4685.92,unknown,crm
+LEG-000366,2022/11/11 02:00:00,36608,customer36608@retail.org,4441822261896288,UK,groceries,mobile,card,4,929.80,USD 3719.20,pending,batch_import
+LEG-000367,28-03-2023 18:00,12615,customer12615@example.com,5515122946213541,,books,partner,wire,6,488.82,2932.95 GBP,ok,batch_import
+LEG-000368,2022/09/27 14:00:00,95118,customer95118@example.com,,UK,fashion,store,paypal,5,239.57,$1197.83,pending,pos
+LEG-000369,not_available,74071,,,IT,fashion,store,card,2,705.90,1411.80 EUR,ok,erp
+LEG-000370,2022-13-27,10503,customer10503@retail.org,4737927490728012,FR,books,mobile,card,11,197.06,EUR 2167.68,pending,batch_import
+LEG-000371,2022/10/20 06:00:00,88846,customer88846@legacy.local,5421017509617015,FR,books,web,paypal,11,187.67,$2064.35,unknown,batch_import
+LEG-000372,2022/08/22 18:00:00,81554,customer81554@retail.org,5567772266025626,DE,groceries,mobile,wire,4,1248.87,,manual_review,erp
+LEG-000373,17-07-2023 08:00,75185,customer75185@retail.org,4705115794238736,FR,sports,store,cash,5,392.84,1964.20 GBP,unknown,erp
+LEG-000374,2023/03/04 07:00:00,18273,customer18273@legacy.local,5748595325939933,DE,sports,web,cash,6,15.58,€93.46,unknown,crm
+LEG-000375,2022-03-02,46203,customer46203@mail.net,5824575983399140,PT,books,store,wire,-1,593.50,EUR 3560.98,pending,pos
+LEG-000376,01/06/2022,65236,customer65236@retail.org,4474397429250105,FR,groceries,partner,card,8,49.77,398.15 USD,ok,pos
+LEG-000377,2022-13-16,15161,customer15161@legacy.local,4315551651768086,DE,books,web,wire,1,4416.88,USD 4416.88,ok,crm
+LEG-000378,27/08/2022,72743,customer72743@mail.net,5084706810390339,FR,books,store,wire,4,54.19,216.76 EUR,unknown,pos
+LEG-000379,2022/09/20 10:00:00,30953,customer30953@retail.org,5707986321061339,FR,groceries,mobile,paypal,10,417.49,£4174.94,pending,crm
+LEG-000380,2023/05/27 23:00:00,33713,customer33713@retail.org,4778943191009004,FR,groceries,mobile,card,4,1075.62,4302.49 EUR,unknown,crm
+LEG-000381,06/11/2022,48989,customer48989@example.com,4720113798440971,PT,fashion,partner,card,2,1926.68,USD 3853.37,ok,crm
+LEG-000382,01/10/2022,46905,customer46905@legacy.local,4096873045195778,UK,groceries,mobile,paypal,4,898.94,€3595.76,manual_review,pos
+LEG-000383,23-11-2023 17:00,98166,customer98166@example.com,4557782058295829,PT,fashion,web,cash,8,469.94,,ok,crm
+LEG-000384,not_available,31587,customer31587@retail.org,5395613723081721,FR,fashion,store,wire,11,336.35,,ok,pos
+LEG-000385,2023/04/09 03:00:00,99192,,5565346997990707,ES,fashion,partner,card,5,72.26,361.32 USD,manual_review,crm
+LEG-000386,2022-04-05,21380,customer21380@retail.org,5397054873961029,ES,fashion,web,wire,9,264.11,2376.98 USD,ok,pos
+LEG-000387,,74369,customer74369@mail.net,4137730626042359,PT,groceries,web,card,8,109.22,£873.72,manual_review,pos
+LEG-000388,2023-02-30,78835,customer78835@example.com,5111457683210219,PT,books,store,paypal,6,748.16,£4488.96,ok,crm
+LEG-000389,2022-13-12,27460,customer27460@example.com,5980425373377731,IT,books,web,wire,7,533.50,EUR 3734.48,manual_review,crm
+LEG-000390,19-08-2022 08:00,64199,customer64199@example.com,5035679327986239,DE,fashion,web,cash,6,699.94,EUR 4199.66,unknown,pos
+LEG-000391,12-09-2023 10:00,54758,customer54758@retail.org,4751758891444498,FR,books,mobile,paypal,9,169.00,$1520.97,unknown,pos
+LEG-000392,2023/12/06 09:00:00,34687,customer34687@mail.net,5982143395275367,IT,sports,mobile,paypal,3,1280.91,$3842.73,ok,crm
+LEG-000393,21-08-2023 08:00,74887,customer74887@legacy.local,5791766512215001,IT,home,web,cash,9,252.95,,ok,pos
+LEG-000394,2022/08/14 19:00:00,47249,customer47249@mail.net,4089532638902199,FR,electronics,web,wire,4,537.97,USD 2151.86,pending,pos
+LEG-000395,2023-01-31,50434,customer50434@example.com,5726960843768550,IT,fashion,mobile,paypal,10,217.88,GBP 2178.79,manual_review,erp
+LEG-000396,25-08-2022 12:00,45932,customer45932@example.com,4170695560767616,PT,sports,partner,wire,5,249.52,1247.58 GBP,pending,crm
+LEG-000397,2022-04-05,39960,,5724264236428131,IT,groceries,mobile,paypal,3,151.47,EUR 454.41,ok,crm
+LEG-000398,21/07/2023,33426,customer33426@legacy.local,4524808806220722,IT,books,store,cash,8,334.01,EUR 2672.10,ok,crm
+LEG-000399,25-11-2023 12:00,47644,customer47644@retail.org,5996486287203195,ES,fashion,partner,cash,8,,USD 2306.56,pending,batch_import
+LEG-000400,24-05-2022 20:00,68974,customer68974@legacy.local,4747677537260321,ES,fashion,partner,card,12,360.56,GBP 4326.66,manual_review,crm
+LEG-000401,2022/05/30 23:00:00,76416,,4850765975954508,DE,fashion,web,card,2,416.95,833.90 USD,manual_review,pos
+LEG-000402,2022-10-10,35733,,4369362689430120,DE,home,partner,wire,7,67.21,€470.48,unknown,batch_import
+LEG-000403,05/12/2022,83212,customer83212@mail.net,4306745847609441,IT,home,mobile,cash,12,228.49,£2741.89,manual_review,batch_import
+LEG-000404,not_available,20633,customer20633@example.com,5267055143776936,PT,books,mobile,paypal,10,N/A,USD 1216.26,ok,crm
+LEG-000405,2023-12-16,80827,customer80827@example.com,4245591024510910,PT,fashion,partner,card,2,1072.79,2145.57 GBP,unknown,erp
+LEG-000406,12/06/2023,44076,,5277584466345337,,electronics,web,wire,12,65.93,€791.18,unknown,pos
+LEG-000407,2023/11/16 21:00:00,67060,customer67060@legacy.local,4526351004627765,FR,groceries,partner,paypal,11,186.58,GBP 2052.35,unknown,batch_import
+LEG-000408,2022/09/03 16:00:00,53850,customer53850@legacy.local,5005595501783325,UK,sports,partner,wire,3,248.37,745.10 EUR,unknown,batch_import
+LEG-000409,01/05/2023,63390,customer63390@mail.net,4744039464083037,ES,electronics,store,cash,,1474.33,2948.65 GBP,unknown,crm
+LEG-000410,29-04-2022 07:00,80004,customer80004@mail.net,4061537012424462,PT,sports,web,paypal,5,N/A,GBP 3308.14,pending,crm
+LEG-000411,2022/07/03 03:00:00,41398,customer41398@example.com,5817941515263840,IT,electronics,web,wire,5,66.92,£334.58,unknown,crm
+LEG-000412,17-02-2023 06:00,66675,customer66675@example.com,4787655300730950,FR,fashion,web,paypal,9,58.04,522.33 EUR,ok,erp
+LEG-000413,2022/05/03 19:00:00,82299,customer82299@legacy.local,,FR,fashion,web,card,6,605.15,GBP 3630.89,ok,pos
+LEG-000414,2022-07-07,53749,,5881898484160461,FR,home,web,card,2,797.49,EUR 1594.97,manual_review,pos
+LEG-000415,11/09/2022,30815,customer30815@example.com,,PT,fashion,mobile,paypal,9,328.48,2956.32 GBP,unknown,pos
+LEG-000416,2023-10-26,26337,customer26337@retail.org,5292913203301623,ES,groceries,mobile,card,5,,€3535.99,pending,erp
+LEG-000417,2023/01/23 21:00:00,58333,customer58333@retail.org,,ES,books,store,wire,7,232.70,EUR 1628.93,manual_review,crm
+LEG-000418,07/11/2022,18558,customer18558@mail.net,5427372037638821,FR,groceries,web,paypal,6,489.08,USD 2934.49,ok,crm
+LEG-000419,24/07/2023,42020,customer42020@retail.org,4205869507321464,FR,groceries,partner,paypal,11,344.54,€3789.90,ok,pos
+LEG-000420,2023-13-18,79794,customer79794@example.com,4360376811872333,ES,books,partner,card,4,417.62,USD 1670.48,unknown,erp
+LEG-000421,not_available,42809,customer42809@legacy.local,4736511893940655,IT,electronics,web,card,9,439.62,EUR 3956.54,pending,erp
+LEG-000422,2023-04-06,48666,customer48666@example.com,,PT,home,partner,card,11,209.72,2306.97 EUR,unknown,batch_import
+LEG-000423,05-04-2023 13:00,79841,customer79841@mail.net,4036468719120381,DE,books,mobile,card,4,826.07,EUR 3304.28,ok,crm
+LEG-000424,23/09/2022,54448,,5323182971681572,,electronics,web,card,2,1313.88,2627.75 EUR,ok,crm
+LEG-000425,,22879,customer22879@example.com,5561844421829987,IT,electronics,mobile,wire,9,244.19,£2197.70,manual_review,batch_import
+LEG-000426,03/01/2022,13440,customer13440@retail.org,5158482669136248,FR,electronics,store,paypal,1,225.51,225.51 USD,ok,batch_import
+LEG-000427,2023-07-26,63763,customer63763@legacy.local,4401648188044287,PT,fashion,mobile,card,10,301.25,3012.50 GBP,manual_review,pos
+LEG-000428,2022-11-11,94565,customer94565@legacy.local,4586314417064625,FR,electronics,mobile,cash,12,279.09,3349.13 USD,pending,pos
+LEG-000429,2023/01/22 09:00:00,13049,customer13049@mail.net,,UK,sports,mobile,wire,8,418.12,3344.98 USD,unknown,pos
+LEG-000430,03-04-2022 03:00,39082,customer39082@retail.org,4809339137326530,ES,electronics,partner,paypal,2,2017.24,4034.49 GBP,ok,crm
+LEG-000431,24-08-2023 03:00,13482,customer13482@example.com,4365774491609365,FR,electronics,web,paypal,1,4986.33,4986.33 GBP,unknown,crm
+LEG-000432,2023-02-30,62035,customer62035@legacy.local,4399821374556114,UK,groceries,store,wire,6,441.96,,unknown,crm
+LEG-000433,2023-13-22,74536,customer74536@example.com,,UK,home,mobile,paypal,7,668.33,USD 4678.28,manual_review,crm
+LEG-000434,2022/05/27 19:00:00,65636,customer65636@mail.net,4134808735437882,PT,sports,web,card,11,346.95,3816.44 GBP,ok,pos
+LEG-000435,11-08-2023 05:00,18498,customer18498@mail.net,4699969964899718,IT,books,partner,wire,5,803.48,,unknown,erp
+LEG-000436,29-10-2022 04:00,24202,customer24202@retail.org,4690872617607234,UK,books,mobile,paypal,4,232.21,928.85 USD,pending,crm
+LEG-000437,11-11-2023 03:00,10402,,4695826418696561,,fashion,partner,card,7,640.97,4486.77 EUR,unknown,pos
+LEG-000438,2023/02/13 17:00:00,43021,customer43021@mail.net,4027300869661016,ES,home,store,card,5,843.46,,unknown,crm
+LEG-000439,01-07-2022 20:00,52125,customer52125@retail.org,4534407779462072,DE,books,mobile,paypal,,39.48,276.35 GBP,manual_review,batch_import
+LEG-000440,,84110,,4337312552356178,,home,web,card,10,,€3497.91,pending,pos
+LEG-000441,2022-05-05,85161,customer85161@mail.net,4295026480164403,UK,electronics,partner,cash,7,697.47,$4882.28,pending,erp
+LEG-000442,2023-08-27,93763,customer93763@legacy.local,5298579736383182,FR,sports,mobile,cash,8,,465.88 GBP,manual_review,batch_import
+LEG-000443,17-02-2023 15:00,69450,customer69450@legacy.local,,FR,fashion,web,paypal,1,2394.21,EUR 2394.21,ok,erp
+LEG-000444,2023/07/25 18:00:00,69863,customer69863@legacy.local,5802205093869484,FR,sports,web,card,1,3776.04,GBP 3776.04,manual_review,crm
+LEG-000445,05/05/2023,81299,customer81299@example.com,5461917798768299,IT,home,mobile,paypal,7,287.32,,unknown,crm
+LEG-000446,2022-02-23,91946,customer91946@mail.net,5695790012482554,IT,books,partner,wire,6,660.51,3963.06 GBP,pending,erp
+LEG-000447,2022-07-19,45291,customer45291@mail.net,5152857256292693,PT,books,store,card,4,987.18,3948.73 GBP,manual_review,pos
+LEG-000448,not_available,74177,customer74177@retail.org,,IT,sports,mobile,paypal,7,371.01,$2597.08,ok,pos
+LEG-000449,27/06/2022,52960,customer52960@retail.org,4367500942141052,IT,electronics,partner,card,4,253.87,,unknown,erp
+LEG-000450,2023/02/16 05:00:00,83112,customer83112@retail.org,5986787442275854,FR,fashion,store,paypal,6,713.83,USD 4282.98,unknown,crm
+LEG-000451,2022-05-20,66112,customer66112@legacy.local,,PT,fashion,mobile,card,1,4927.00,£4927.00,manual_review,batch_import
+LEG-000452,28-03-2023 23:00,39109,customer39109@legacy.local,4582543183281231,IT,groceries,web,paypal,11,192.57,,ok,erp
+LEG-000453,20-12-2022 00:00,36733,customer36733@retail.org,4722577545847262,ES,books,web,cash,8,448.64,€3589.14,ok,erp
+LEG-000454,14-04-2023 21:00,94596,customer94596@legacy.local,,FR,books,mobile,wire,2,1173.26,USD 2346.52,pending,pos
+LEG-000455,23-10-2023 14:00,64771,customer64771@legacy.local,5430954497912799,PT,fashion,web,wire,12,51.26,615.17 GBP,manual_review,crm
+LEG-000456,2023-13-16,52844,customer52844@example.com,5608320048797888,DE,home,store,paypal,9,77.30,USD 695.69,pending,crm
+LEG-000457,2023-13-11,60836,customer60836@mail.net,4391029295014374,UK,electronics,mobile,card,10,322.88,3228.81 EUR,manual_review,crm
+LEG-000458,2022-06-05,62142,customer62142@retail.org,4019111661220190,UK,groceries,partner,wire,3,82.28,£246.84,pending,batch_import
+LEG-000459,2023-10-29,11757,customer11757@legacy.local,5211408682509522,DE,books,mobile,paypal,8,412.92,USD 3303.38,ok,erp
+LEG-000460,2023-08-21,55251,customer55251@legacy.local,4243658585642304,UK,electronics,mobile,cash,12,53.78,$645.38,pending,batch_import
+LEG-000461,2022-03-29,91189,customer91189@retail.org,4481554203403010,DE,books,partner,paypal,12,26.02,£312.29,unknown,pos
+LEG-000462,2022-05-21,42256,,4181030683176417,,electronics,web,paypal,2,630.08,EUR 1260.15,unknown,crm
+LEG-000463,10/09/2022,15564,,4458474362130096,IT,groceries,store,cash,2,1022.95,USD 2045.89,ok,crm
+LEG-000464,27-03-2023 08:00,36262,customer36262@retail.org,4591832700046661,FR,electronics,web,card,3,1012.26,£3036.78,ok,crm
+LEG-000465,2022/03/11 22:00:00,40926,customer40926@example.com,4520499809497698,UK,electronics,mobile,cash,9,302.41,2721.67 USD,unknown,crm
+LEG-000466,2022/10/21 01:00:00,23051,customer23051@legacy.local,4562389949919701,FR,fashion,mobile,card,8,93.31,746.46 USD,pending,crm
+LEG-000467,2022/01/29 20:00:00,30756,customer30756@example.com,4359989897211708,IT,groceries,web,card,11,300.50,USD 3305.48,pending,crm
+LEG-000468,2022/08/27 18:00:00,56668,customer56668@retail.org,4004806757123691,DE,groceries,web,wire,12,217.68,GBP 2612.12,manual_review,erp
+LEG-000469,2023/05/04 21:00:00,85837,customer85837@example.com,4141961560783274,UK,home,store,cash,11,428.78,4716.63 USD,manual_review,erp
+LEG-000470,18-10-2023 09:00,89265,customer89265@retail.org,5960478421702851,PT,sports,mobile,cash,12,385.96,4631.50 EUR,pending,pos
+LEG-000471,23-03-2023 04:00,75773,customer75773@retail.org,5991609114131935,IT,home,mobile,cash,1,1143.62,GBP 1143.62,unknown,erp
+LEG-000472,2022-04-07,43359,customer43359@legacy.local,5472419165034409,ES,groceries,partner,card,9,178.83,1609.48 USD,ok,crm
+LEG-000473,2022-03-23,82240,customer82240@legacy.local,4664869893969874,DE,groceries,web,paypal,5,146.31,USD 731.57,ok,crm
+LEG-000474,05-05-2023 11:00,99066,customer99066@example.com,,IT,sports,web,cash,11,,907.00 GBP,unknown,erp
+LEG-000475,2023/01/21 12:00:00,42796,customer42796@retail.org,5056420456577580,FR,home,mobile,card,5,179.75,$898.74,manual_review,erp
+LEG-000476,2022/02/25 03:00:00,64884,customer64884@mail.net,4062212242767746,FR,fashion,web,card,5,N/A,1685.85 EUR,unknown,batch_import
+LEG-000477,26-08-2023 16:00,80366,customer80366@retail.org,,UK,home,web,wire,8,10.00,$79.99,unknown,batch_import
+LEG-000478,22/06/2022,70450,customer70450@mail.net,4854540064454752,ES,home,mobile,cash,11,252.07,£2772.77,ok,batch_import
+LEG-000479,23/10/2023,37037,customer37037@retail.org,4886217508019630,UK,electronics,partner,wire,5,N/A,EUR 1218.27,unknown,erp
+LEG-000480,12-03-2022 22:00,93148,customer93148@retail.org,4652444544608385,DE,home,partner,card,,411.43,GBP 3702.83,ok,erp
+LEG-000481,31-01-2023 19:00,77173,customer77173@legacy.local,4457927147246301,IT,fashion,store,wire,9,367.45,3307.05 GBP,manual_review,erp
+LEG-000482,2023-10-24,23527,customer23527@retail.org,4932880983221010,PT,electronics,web,cash,2,379.49,758.98 EUR,manual_review,batch_import
+LEG-000483,06/04/22,48728,customer48728@mail.net,4198074682354695,,home,web,cash,7,135.83,,unknown,pos
+LEG-000484,2023-02-30,67348,customer67348@retail.org,4106541134078516,IT,books,partner,card,6,,£4171.29,manual_review,erp
+LEG-000485,29-09-2023 12:00,80031,customer80031@example.com,5888917879150596,DE,books,partner,cash,,362.94,,ok,erp
+LEG-000486,19/06/2023,56990,,4809521755851777,ES,home,partner,paypal,11,206.86,2275.49 EUR,pending,pos
+LEG-000487,30-09-2022 05:00,62797,customer62797@mail.net,4704542185457056,,books,mobile,wire,7,671.45,EUR 4700.13,ok,crm
+LEG-000488,16/04/2023,54849,customer54849@mail.net,5282895400178822,UK,electronics,mobile,cash,1,2052.99,£2052.99,ok,batch_import
+LEG-000489,2022-04-04,83722,customer83722@legacy.local,4152610537092300,DE,groceries,web,card,1,3209.19,3209.19 GBP,ok,pos
+LEG-000490,25-05-2022 18:00,48408,customer48408@legacy.local,5529447161982734,ES,groceries,web,card,11,,1138.88 USD,manual_review,erp
+LEG-000491,04/01/2023,48898,customer48898@mail.net,4680648606739834,IT,books,store,wire,12,89.22,£1070.61,manual_review,erp
+LEG-000492,not_available,16956,customer16956@retail.org,5156239209085510,UK,electronics,web,wire,8,278.79,2230.35 EUR,manual_review,crm
+LEG-000493,01/04/2023,28654,customer28654@legacy.local,5953541201227595,,fashion,web,card,5,329.21,£1646.03,unknown,batch_import
+LEG-000494,20/05/2023,14193,customer14193@legacy.local,4595031006493403,IT,sports,store,wire,1,2193.12,,unknown,crm
+LEG-000495,01/11/2023,90403,customer90403@mail.net,4595205610067990,DE,books,web,card,4,1137.43,4549.74 USD,pending,batch_import
+LEG-000496,2023/11/10 06:00:00,26424,customer26424@mail.net,,PT,sports,store,wire,4,896.17,€3584.70,pending,crm
+LEG-000497,2022-08-13,85062,,4906053088684302,ES,fashion,partner,wire,3,1171.26,3513.77 EUR,unknown,batch_import
+LEG-000498,07/04/2023,83737,customer83737@example.com,,DE,electronics,mobile,card,9,309.40,USD 2784.64,ok,erp
+LEG-000499,,32052,customer32052@example.com,,IT,books,partner,cash,10,49.94,USD 499.38,ok,pos
+LEG-000500,15/07/2023,89150,customer89150@retail.org,5540182272002839,PT,home,mobile,wire,2,2145.55,$4291.11,pending,erp
+LEG-000501,2023-08-15,24379,customer24379@legacy.local,4203042322775213,,home,web,cash,6,,USD 334.86,ok,pos
+LEG-000502,,67667,customer67667@legacy.local,,ES,groceries,store,card,6,381.22,EUR 2287.31,ok,batch_import
+LEG-000503,2023-03-04,58089,customer58089@retail.org,5219865504944407,DE,groceries,store,wire,6,338.71,,manual_review,erp
+LEG-000504,01/05/2022,32143,customer32143@mail.net,5258542188087991,DE,home,store,card,7,275.68,USD 1929.78,unknown,erp
+LEG-000505,,46927,customer46927@legacy.local,5303115876054576,IT,fashion,store,cash,3,1578.81,£4736.44,unknown,erp
+LEG-000506,07-02-2023 12:00,58590,customer58590@example.com,5212545080959481,PT,books,mobile,paypal,5,564.75,$2823.77,pending,crm
+LEG-000507,2022-05-20,69401,customer69401@mail.net,4404893326145430,DE,fashion,mobile,card,5,870.25,,ok,batch_import
+LEG-000508,23-03-2022 11:00,31890,customer31890@example.com,5523542687447017,PT,groceries,web,cash,2,357.37,€714.73,manual_review,batch_import
+LEG-000509,not_available,99386,customer99386@example.com,4527810558000272,ES,sports,partner,wire,4,,1622.95 USD,ok,erp
+LEG-000510,18/06/2022,92253,customer92253@retail.org,5286209297352595,UK,home,mobile,wire,-1,434.02,3472.17 USD,pending,erp
+LEG-000511,2023-02-30,72086,customer72086@retail.org,5076108708269718,PT,electronics,web,cash,4,864.37,3457.49 USD,pending,erp
+LEG-000512,2023/03/22 22:00:00,74617,customer74617@retail.org,5742233222801944,FR,groceries,mobile,wire,11,302.98,,pending,pos
+LEG-000513,2023-13-06,61067,customer61067@example.com,5413075384185201,DE,groceries,web,paypal,11,110.45,£1215.00,manual_review,crm
+LEG-000514,15/09/22,72409,customer72409@example.com,5411955640919693,DE,sports,mobile,card,6,,,pending,batch_import
+LEG-000515,2023-13-24,19321,customer19321@legacy.local,,DE,fashion,mobile,card,11,283.24,3115.63 EUR,manual_review,crm
+LEG-000516,29-09-2023 15:00,85599,customer85599@mail.net,4943191654308952,,electronics,web,paypal,9,535.48,$4819.35,unknown,batch_import
+LEG-000517,24-05-2022 13:00,10902,customer10902@retail.org,5764979741636560,,fashion,mobile,paypal,1,3556.28,,manual_review,pos
+LEG-000518,13/10/2023,70870,customer70870@retail.org,4059702551282763,PT,sports,store,paypal,2,1104.85,$2209.69,pending,pos
+LEG-000519,2022/09/21 02:00:00,48293,customer48293@example.com,4934497439464088,,sports,partner,wire,5,745.58,3727.92 EUR,unknown,crm
+LEG-000520,02/04/23,11045,customer11045@example.com,4754853465579220,ES,books,partner,paypal,10,498.85,4988.54 GBP,ok,crm
+LEG-000521,2022/07/28 23:00:00,56631,customer56631@retail.org,5359570861993145,PT,sports,partner,cash,2,268.82,GBP 537.65,pending,pos
+LEG-000522,19/05/2022,63398,customer63398@mail.net,4463104379686800,UK,groceries,mobile,paypal,11,72.01,792.07 EUR,ok,batch_import
+LEG-000523,2022-11-06,71055,customer71055@legacy.local,5022894665275233,PT,home,web,wire,,1321.16,GBP 1321.16,pending,crm
+LEG-000524,11-03-2022 23:00,43244,customer43244@retail.org,,PT,groceries,store,cash,8,,USD 2044.42,ok,erp
+LEG-000525,04/04/2022,86221,customer86221@legacy.local,5076487177546199,PT,electronics,partner,paypal,1,4048.45,4048.45 USD,manual_review,erp
+LEG-000526,2023/09/06 01:00:00,18400,customer18400@retail.org,5482373379121211,ES,books,web,wire,6,150.58,903.49 GBP,ok,crm
+LEG-000527,2023/10/07 07:00:00,73534,customer73534@example.com,5529517122276433,PT,sports,store,wire,1,1460.28,1460.28 USD,unknown,batch_import
+LEG-000528,10/12/2023,35598,customer35598@mail.net,5048878995047020,IT,books,store,card,1,3701.49,€3701.49,manual_review,pos
+LEG-000529,2022/08/03 05:00:00,62069,customer62069@retail.org,,IT,groceries,store,wire,11,194.41,€2138.56,pending,crm
+LEG-000530,27/08/2022,97141,customer97141@retail.org,5206615498085133,PT,electronics,web,paypal,7,501.02,EUR 3507.15,ok,crm
+LEG-000531,2022-10-31,32661,customer32661@mail.net,,FR,home,web,card,6,651.94,£3911.64,manual_review,batch_import
+LEG-000532,16-10-2023 12:00,52898,customer52898@mail.net,,UK,sports,mobile,paypal,7,554.40,€3880.81,ok,crm
+LEG-000533,2023/08/26 19:00:00,30109,customer30109@example.com,4180036660200053,IT,books,partner,wire,7,,,pending,pos
+LEG-000534,30-12-2022 17:00,40794,customer40794@legacy.local,4076862763328389,UK,home,mobile,cash,1,2751.42,GBP 2751.42,manual_review,erp
+LEG-000535,01/01/2022,66892,customer66892@legacy.local,4188352791875067,ES,fashion,store,wire,,1381.49,2762.99 GBP,unknown,erp
+LEG-000536,2022-04-30,71222,customer71222@mail.net,5983845720266568,PT,sports,web,wire,7,433.64,3035.46 GBP,pending,pos
+LEG-000537,10/01/2022,97970,customer97970@example.com,5296694179967080,IT,groceries,partner,paypal,11,198.05,£2178.60,ok,erp
+LEG-000538,2022/09/06 09:00:00,49618,customer49618@legacy.local,4649804450928605,ES,electronics,mobile,cash,8,70.89,567.16 USD,ok,crm
+LEG-000539,2023-06-17,80076,customer80076@legacy.local,,DE,electronics,web,card,6,694.77,4168.65 GBP,manual_review,crm
+LEG-000540,2022-01-18,88176,customer88176@mail.net,4784679087018726,,groceries,mobile,cash,4,445.67,€1782.68,unknown,pos
+LEG-000541,13-11-2023 10:00,15670,customer15670@mail.net,4622155996725622,PT,electronics,store,wire,5,394.00,GBP 1970.01,unknown,batch_import
+LEG-000542,30-11-2022 11:00,49790,customer49790@mail.net,,PT,groceries,mobile,card,11,246.20,GBP 2708.21,pending,batch_import
+LEG-000543,2022/09/10 19:00:00,45481,customer45481@mail.net,,ES,electronics,web,paypal,9,298.08,$2682.68,manual_review,erp
+LEG-000544,2023/03/25 16:00:00,56743,customer56743@example.com,5159497344930537,ES,electronics,mobile,cash,5,772.60,3863.02 GBP,pending,batch_import
+LEG-000545,25/07/2023,76326,customer76326@retail.org,4048625152174653,UK,books,web,card,3,892.35,$2677.06,pending,pos
+LEG-000546,23-01-2023 05:00,21484,customer21484@example.com,4362999466450999,ES,electronics,web,paypal,8,459.68,3677.43 GBP,unknown,erp
+LEG-000547,2022/10/25 09:00:00,87915,customer87915@retail.org,5997957285759582,UK,books,web,wire,9,227.88,2050.95 GBP,ok,erp
+LEG-000548,not_available,93794,customer93794@mail.net,5514367286811230,IT,fashion,web,card,8,380.52,USD 3044.14,unknown,pos
+LEG-000549,04/11/2023,12970,customer12970@example.com,4552866933515880,DE,electronics,store,wire,-1,369.07,GBP 3690.75,pending,crm
+LEG-000550,not_available,79813,customer79813@mail.net,5090858181045024,DE,electronics,store,cash,10,63.26,EUR 632.62,pending,pos
+LEG-000551,2022-13-05,84494,customer84494@mail.net,5154731566397925,ES,sports,mobile,cash,6,205.08,1230.50 GBP,pending,batch_import
+LEG-000552,2023/10/28 12:00:00,30762,customer30762@legacy.local,4644161019753584,,sports,web,card,7,389.40,EUR 2725.79,ok,pos
+LEG-000553,2022/04/15 08:00:00,65341,customer65341@retail.org,4953096906764909,IT,sports,partner,paypal,9,75.10,675.93 USD,pending,pos
+LEG-000554,2023-04-10,27797,customer27797@retail.org,4164034398818738,UK,books,mobile,wire,2,2115.03,$4230.06,ok,erp
+LEG-000555,17-07-2022 16:00,91617,customer91617@example.com,4625420412319057,ES,sports,web,card,6,761.03,4566.16 GBP,unknown,crm
+LEG-000556,,58658,customer58658@retail.org,5122487098726496,PT,fashion,store,wire,4,,GBP 4989.16,pending,batch_import
+LEG-000557,2022-11-09,91508,customer91508@retail.org,5028672020095366,ES,home,partner,card,,65.71,GBP 262.83,ok,batch_import
+LEG-000558,2023-04-18,83804,customer83804@legacy.local,4722113869087167,,sports,store,paypal,1,4828.66,USD 4828.66,ok,batch_import
+LEG-000559,2022/05/29 07:00:00,50159,customer50159@legacy.local,4160252394120944,DE,fashion,mobile,cash,1,1228.17,1228.17 EUR,unknown,pos
+LEG-000560,2023-04-22,71646,customer71646@legacy.local,5598516021191589,ES,fashion,partner,paypal,11,186.17,2047.83 USD,manual_review,batch_import
+LEG-000561,2023/06/23 08:00:00,17705,customer17705@example.com,,DE,groceries,mobile,cash,9,504.41,€4539.73,pending,pos
+LEG-000562,,45444,customer45444@retail.org,,,books,partner,wire,-1,2247.99,2247.99 USD,ok,crm
+LEG-000563,2022-09-16,84465,customer84465@example.com,,UK,books,web,cash,2,2498.18,,ok,pos
+LEG-000564,2022-13-08,25563,customer25563@example.com,5458294203401535,FR,electronics,partner,paypal,12,371.01,4452.14 GBP,unknown,batch_import
+LEG-000565,2022-05-22,17034,customer17034@legacy.local,4822387940262085,ES,groceries,store,wire,9,53.55,USD 481.98,manual_review,pos
+LEG-000566,,55146,customer55146@example.com,4851816125590461,ES,home,mobile,card,1,N/A,4978.75 EUR,pending,erp
+LEG-000567,05-08-2023 23:00,33039,customer33039@example.com,4048507665344604,PT,fashion,mobile,paypal,3,335.51,€1006.52,pending,crm
+LEG-000568,2022/11/13 15:00:00,92040,customer92040@legacy.local,5176822512726708,DE,fashion,store,cash,12,409.61,4915.26 USD,manual_review,batch_import
+LEG-000569,30/04/2023,45332,customer45332@example.com,5006184897422354,FR,groceries,partner,cash,5,790.32,3951.58 EUR,manual_review,pos
+LEG-000570,2022/06/26 00:00:00,31446,customer31446@mail.net,4119738818273063,FR,sports,mobile,card,10,N/A,$1787.80,manual_review,pos
+LEG-000571,2022/07/06 02:00:00,22889,customer22889@mail.net,,UK,books,partner,card,1,4083.71,EUR 4083.71,ok,batch_import
+LEG-000572,2022-03-24,89218,customer89218@example.com,5131719786016259,ES,sports,web,paypal,1,4562.53,£4562.53,ok,crm
+LEG-000573,2023-02-30,54659,customer54659@legacy.local,5807279037161608,ES,fashion,mobile,wire,9,124.57,£1121.17,unknown,batch_import
+LEG-000574,2022-02-11,35947,customer35947@example.com,5808557800244323,PT,electronics,partner,card,4,607.10,2428.40 GBP,unknown,batch_import
+LEG-000575,30-11-2023 21:00,12611,customer12611@example.com,5215016426107033,UK,sports,mobile,paypal,8,243.47,1947.72 GBP,pending,erp
+LEG-000576,11-01-2022 09:00,75980,customer75980@example.com,5302151675864633,IT,home,store,card,1,334.46,€334.46,manual_review,batch_import
+LEG-000577,11/03/2023,74301,customer74301@mail.net,4281775123959781,FR,groceries,web,cash,10,253.03,€2530.29,manual_review,pos
+LEG-000578,2023-01-02,70630,customer70630@retail.org,5156478370317543,PT,sports,web,paypal,1,2345.48,$2345.48,ok,erp
+LEG-000579,2022/06/01 14:00:00,61698,customer61698@example.com,5420763271353867,PT,home,mobile,cash,7,489.69,,ok,pos
+LEG-000580,2022/06/30 01:00:00,61561,customer61561@legacy.local,5089273961597640,UK,sports,partner,cash,4,739.66,£2958.65,unknown,pos
+LEG-000581,05/09/2022,20089,customer20089@retail.org,5273202227111757,ES,electronics,partner,wire,1,2935.55,£2935.55,ok,pos
+LEG-000582,19-01-2023 05:00,85644,customer85644@example.com,4202698014264710,ES,fashion,partner,card,1,2769.53,EUR 2769.53,manual_review,crm
+LEG-000583,02-08-2022 05:00,14312,customer14312@legacy.local,5693172947638083,ES,sports,store,card,4,364.89,1459.57 GBP,unknown,crm
+LEG-000584,19-12-2023 05:00,89260,customer89260@legacy.local,4291635049602667,FR,fashion,mobile,paypal,8,N/A,1128.21 USD,unknown,crm
+LEG-000585,2023/03/05 23:00:00,81582,customer81582@retail.org,4208019290221543,FR,books,web,wire,1,2177.07,EUR 2177.07,ok,erp
+LEG-000586,2022-12-06,30180,customer30180@example.com,4545036988843933,PT,home,partner,wire,11,368.08,,pending,crm
+LEG-000587,not_available,45319,customer45319@retail.org,,ES,books,store,card,2,1882.27,USD 3764.53,pending,erp
+LEG-000588,26-08-2022 23:00,40025,customer40025@mail.net,4864612096173009,UK,books,store,paypal,6,83.98,EUR 503.87,ok,pos
+LEG-000589,05/10/2022,56481,customer56481@example.com,4430877972479254,PT,books,mobile,paypal,2,27.31,GBP 54.62,pending,crm
+LEG-000590,12/10/2023,74571,customer74571@legacy.local,4998651590257846,IT,books,store,wire,8,26.50,212.03 USD,manual_review,erp
+LEG-000591,09/05/2022,76573,customer76573@mail.net,4551962822250182,UK,fashion,mobile,paypal,8,166.79,€1334.30,pending,crm
+LEG-000592,31/03/2022,31302,customer31302@example.com,5627026604509563,DE,groceries,web,card,5,246.44,EUR 1232.19,pending,erp
+LEG-000593,,91158,customer91158@legacy.local,4060827705646160,DE,fashion,store,wire,3,297.43,,unknown,erp
+LEG-000594,2023-11-06,65529,customer65529@legacy.local,4610944164231654,FR,groceries,mobile,cash,7,65.03,$455.21,manual_review,crm
+LEG-000595,01-10-2023 01:00,42900,customer42900@example.com,5188701799932420,FR,fashion,store,paypal,3,1008.00,$3024.00,unknown,batch_import
+LEG-000596,2022-09-19,75664,customer75664@legacy.local,5853626890472386,FR,electronics,web,paypal,10,412.04,£4120.45,unknown,erp
+LEG-000597,2023-09-10,40730,customer40730@legacy.local,4460476143788443,DE,electronics,partner,paypal,10,160.98,USD 1609.83,manual_review,erp
+LEG-000598,2023-12-12,18800,customer18800@example.com,5291084507860435,,electronics,mobile,wire,5,368.38,GBP 1841.88,ok,batch_import
+LEG-000599,2023-04-28,37654,customer37654@legacy.local,4667941908788653,FR,electronics,partner,cash,-1,16.59,EUR 116.15,manual_review,batch_import
+LEG-000600,18/11/2023,93582,customer93582@legacy.local,5048618670663201,PT,groceries,web,cash,1,1616.65,1616.65 GBP,ok,erp
+LEG-000601,2022-13-27,64877,customer64877@retail.org,5942694203983135,UK,electronics,web,paypal,4,878.41,$3513.63,pending,crm
+LEG-000602,2022/09/22 19:00:00,67565,customer67565@legacy.local,5302178167806643,FR,books,web,card,6,158.88,953.31 GBP,pending,crm
+LEG-000603,03/05/2023,68820,customer68820@retail.org,4703088081726282,DE,groceries,store,paypal,2,1937.34,EUR 3874.68,manual_review,erp
+LEG-000604,2023/10/19 20:00:00,54417,,4691961276620808,ES,electronics,partner,card,3,1585.76,$4757.29,unknown,pos
+LEG-000605,20-10-2023 08:00,60002,customer60002@example.com,4424253690912375,PT,sports,partner,cash,3,1050.97,€3152.92,manual_review,crm
+LEG-000606,not_available,41756,customer41756@legacy.local,5481875403648821,UK,fashion,mobile,paypal,3,626.76,USD 1880.29,pending,erp
+LEG-000607,2023-06-26,70764,customer70764@legacy.local,5972204298622699,DE,electronics,partner,cash,10,302.36,3023.57 USD,pending,erp
+LEG-000608,24-07-2023 16:00,72581,customer72581@retail.org,5604134820849315,IT,books,web,wire,7,618.07,,ok,pos
+LEG-000609,2022-05-31,96274,customer96274@mail.net,4049134103897528,ES,books,partner,paypal,7,499.07,3493.48 EUR,pending,pos
+LEG-000610,07/07/2022,95061,customer95061@example.com,5669194896298056,ES,groceries,store,wire,9,,GBP 760.90,manual_review,pos
+LEG-000611,2022/10/25 00:00:00,95411,customer95411@retail.org,4531379561007773,ES,sports,web,wire,11,416.11,GBP 4577.18,pending,pos
+LEG-000612,28/08/2023,86523,customer86523@legacy.local,4424447489047607,IT,home,mobile,paypal,2,1495.06,€2990.11,manual_review,pos
+LEG-000613,2022/02/04 22:00:00,19344,customer19344@example.com,4289514563409185,FR,groceries,web,card,11,357.56,3933.21 USD,manual_review,pos
+LEG-000614,2023-13-30,62215,customer62215@legacy.local,4454184039822180,IT,home,web,wire,8,29.90,239.22 GBP,unknown,crm
+LEG-000615,2022-06-11,11631,customer11631@retail.org,5933356230397440,IT,fashion,partner,card,6,127.00,GBP 762.00,pending,crm
+LEG-000616,2023/07/08 23:00:00,88575,,4266115848580526,UK,books,partner,card,2,1748.98,GBP 3497.96,pending,crm
+LEG-000617,2023/05/04 08:00:00,71654,customer71654@mail.net,4823171461995394,DE,fashion,mobile,cash,8,424.03,GBP 3392.21,unknown,erp
+LEG-000618,2023-02-30,60379,,5860506306636050,IT,electronics,partner,paypal,9,41.44,GBP 372.99,ok,crm
+LEG-000619,not_available,41097,customer41097@mail.net,4759795319260098,PT,fashion,store,cash,3,1065.76,3197.28 USD,pending,crm
+LEG-000620,2022-12-04,89295,customer89295@example.com,4896558344566229,FR,fashion,partner,card,5,282.23,€1411.17,ok,batch_import
+LEG-000621,31/10/2022,65450,customer65450@retail.org,5023515850153017,UK,electronics,partner,cash,1,157.26,€157.26,ok,pos
+LEG-000622,2022/12/01 09:00:00,19837,customer19837@example.com,5531579057191898,UK,groceries,partner,wire,10,104.99,EUR 1049.90,unknown,batch_import
+LEG-000623,19/01/2023,70293,customer70293@legacy.local,5718430192209567,PT,home,partner,wire,-1,1982.96,£1982.96,unknown,pos
+LEG-000624,09/02/2023,27481,customer27481@mail.net,5392385202320914,ES,books,mobile,wire,3,538.06,USD 1614.19,unknown,batch_import
+LEG-000625,2022/01/10 21:00:00,78848,customer78848@example.com,,UK,sports,mobile,wire,10,75.10,751.01 USD,pending,erp
+LEG-000626,2023-03-01,38618,customer38618@retail.org,5707038503605952,FR,sports,web,card,-1,511.37,USD 1022.74,manual_review,pos
+LEG-000627,03-06-2023 05:00,66928,customer66928@legacy.local,4620036385646149,FR,groceries,mobile,card,6,394.81,2368.85 GBP,manual_review,pos
+LEG-000628,,20143,customer20143@mail.net,4493266432239461,PT,books,web,card,12,107.68,USD 1292.15,ok,crm
+LEG-000629,2023/08/29 16:00:00,31410,customer31410@retail.org,4567871888223788,ES,books,store,card,4,,691.67 GBP,pending,pos
+LEG-000630,2023/09/06 17:00:00,50101,,5867949638309723,ES,books,web,wire,10,234.04,,manual_review,pos
+LEG-000631,12-10-2022 10:00,68932,customer68932@mail.net,5751247640006875,DE,home,store,card,7,489.07,USD 3423.50,pending,erp
+LEG-000632,2023/08/26 19:00:00,44080,customer44080@example.com,4386860835701703,ES,sports,store,wire,9,38.69,USD 348.21,unknown,crm
+LEG-000633,not_available,39273,customer39273@example.com,5197979724528413,IT,electronics,store,paypal,10,15.68,$156.83,manual_review,pos
+LEG-000634,2023/10/18 20:00:00,11856,customer11856@example.com,4260294420315892,FR,electronics,partner,wire,8,358.42,2867.32 EUR,manual_review,batch_import
+LEG-000635,27-04-2022 21:00,70329,customer70329@mail.net,4308829586841962,PT,fashion,web,paypal,6,302.68,GBP 1816.06,manual_review,batch_import
+LEG-000636,2023-02-30,77679,customer77679@legacy.local,4151817882426559,IT,electronics,partner,wire,8,131.61,€1052.89,ok,batch_import
+LEG-000637,2022-08-22,13535,customer13535@example.com,5548708477954176,FR,books,web,card,3,1634.53,$4903.58,ok,pos
+LEG-000638,16/09/2023,86156,customer86156@retail.org,4848876380207612,DE,home,web,card,9,168.44,1515.99 EUR,ok,erp
+LEG-000639,03/11/2023,80781,customer80781@example.com,5066901079237298,IT,home,mobile,paypal,7,373.91,2617.36 USD,manual_review,crm
+LEG-000640,08/06/2023,65145,customer65145@legacy.local,5077312315550570,UK,fashion,mobile,paypal,8,307.09,2456.69 EUR,pending,crm
+LEG-000641,30/10/23,50444,customer50444@legacy.local,5036871568910977,IT,home,mobile,paypal,1,4439.38,$4439.38,unknown,batch_import
+LEG-000642,2023/03/10 23:00:00,48462,,4295737831597572,UK,groceries,partner,wire,4,32.14,GBP 128.57,ok,erp
+LEG-000643,09/11/2023,83296,customer83296@legacy.local,4651854839660734,DE,groceries,store,cash,12,153.72,£1844.60,unknown,crm
+LEG-000644,29/03/2023,89922,,4698141344760948,DE,sports,web,wire,2,N/A,€578.95,pending,erp
+LEG-000645,,29865,customer29865@retail.org,4183667719666610,FR,home,store,wire,11,193.33,EUR 2126.64,pending,erp
+LEG-000646,25-03-2023 13:00,15192,customer15192@retail.org,4177915244614409,PT,sports,web,cash,4,91.62,$366.49,pending,batch_import
+LEG-000647,,60296,customer60296@mail.net,5955922776414900,IT,home,store,paypal,3,411.81,€1235.43,unknown,pos
+LEG-000648,2023-02-30,28439,customer28439@legacy.local,4454615749325114,IT,books,partner,paypal,9,100.77,,ok,pos
+LEG-000649,,95279,customer95279@mail.net,4187314391511436,DE,electronics,web,cash,2,1090.03,2180.06 USD,manual_review,pos
+LEG-000650,2023-10-20,69525,customer69525@legacy.local,4315423060023028,FR,groceries,store,card,7,599.36,4195.55 EUR,ok,crm
+LEG-000651,not_available,62915,,5633822224005392,,fashion,mobile,card,1,2047.24,GBP 2047.24,ok,erp
+LEG-000652,22/08/2022,39311,customer39311@retail.org,4323945645234286,FR,fashion,web,wire,4,720.38,USD 2881.50,ok,pos
+LEG-000653,2022/09/06 08:00:00,93447,customer93447@legacy.local,4561526655914762,PT,books,web,cash,11,304.70,$3351.75,pending,erp
+LEG-000654,2022/10/05 12:00:00,58610,customer58610@legacy.local,5298532436792415,PT,groceries,partner,wire,8,100.06,EUR 800.47,unknown,batch_import
+LEG-000655,27-01-2022 13:00,66251,customer66251@legacy.local,5939981615381168,UK,electronics,mobile,card,10,123.55,€1235.52,pending,crm
+LEG-000656,22/07/23,90418,customer90418@retail.org,4121463947625429,UK,groceries,store,paypal,-1,265.12,€2120.94,pending,pos
+LEG-000657,2023-02-30,85059,customer85059@retail.org,5196706833539101,ES,books,web,card,11,119.55,1315.01 GBP,ok,crm
+LEG-000658,06/03/2023,45638,customer45638@mail.net,4409841016793014,ES,electronics,store,card,11,,USD 1081.14,ok,erp
+LEG-000659,2023-02-18,64687,customer64687@example.com,,DE,groceries,web,cash,2,2133.41,4266.81 EUR,manual_review,crm
+LEG-000660,23/05/2023,22960,customer22960@example.com,5024702881411287,FR,fashion,web,wire,2,2138.39,£4276.79,unknown,batch_import
+LEG-000661,2022-02-08,82628,customer82628@retail.org,5232154013153506,DE,home,partner,card,2,1972.08,$3944.15,pending,batch_import
+LEG-000662,2022-10-17,10264,customer10264@retail.org,5885669489930051,UK,sports,partner,cash,6,116.49,$698.96,unknown,erp
+LEG-000663,2022/06/09 12:00:00,93643,customer93643@retail.org,5607001441306862,UK,electronics,web,card,8,452.93,3623.43 USD,ok,pos
+LEG-000664,25/05/2022,23145,customer23145@legacy.local,4152232822282408,FR,books,mobile,paypal,-1,270.21,,unknown,crm
+LEG-000665,2022-08-22,45124,customer45124@example.com,5053572289206415,IT,books,partner,wire,,1132.30,EUR 2264.59,unknown,crm
+LEG-000666,20/09/2023,53178,customer53178@example.com,,PT,fashion,web,wire,2,608.36,EUR 1216.71,pending,batch_import
+LEG-000667,not_available,41398,customer41398@mail.net,5599408429069690,FR,books,partner,card,7,587.28,$4110.99,pending,erp
+LEG-000668,13-02-2023 10:00,68202,customer68202@example.com,5814980253084376,PT,fashion,store,paypal,2,2234.47,USD 4468.93,unknown,crm
+LEG-000669,2022-06-28,41508,customer41508@example.com,5241553691585574,IT,fashion,mobile,cash,5,744.20,€3721.01,manual_review,crm
+LEG-000670,2022/12/13 21:00:00,39048,customer39048@legacy.local,4582863040296629,DE,fashion,store,wire,10,328.75,€3287.51,manual_review,erp
+LEG-000671,2023-01-27,41554,customer41554@retail.org,,ES,electronics,web,wire,7,N/A,2953.75 GBP,manual_review,crm
+LEG-000672,2023-08-19,94689,customer94689@retail.org,,FR,home,mobile,wire,12,9.44,113.29 GBP,ok,pos
+LEG-000673,not_available,47740,customer47740@mail.net,4177666505276120,PT,groceries,store,cash,8,523.77,4190.14 EUR,ok,erp
+LEG-000674,2023-07-15,24926,customer24926@retail.org,5635322371859212,UK,sports,store,cash,-1,N/A,EUR 1957.00,unknown,erp
+LEG-000675,09/09/2022,42091,customer42091@legacy.local,,UK,groceries,partner,cash,6,378.42,2270.51 USD,pending,crm
+LEG-000676,28-12-2022 05:00,97464,customer97464@mail.net,5351272455337565,DE,fashion,store,cash,7,N/A,4354.64 EUR,unknown,pos
+LEG-000677,06-01-2022 13:00,63319,customer63319@mail.net,5120627672935097,PT,sports,mobile,card,6,521.54,3129.24 USD,unknown,crm
+LEG-000678,2023-07-18,48365,customer48365@mail.net,,DE,home,mobile,wire,8,558.18,4465.43 EUR,unknown,pos
+LEG-000679,01-04-2023 00:00,73994,customer73994@legacy.local,5301122008484264,IT,home,partner,cash,12,167.00,2004.00 GBP,manual_review,batch_import
+LEG-000680,2023/10/18 21:00:00,37111,customer37111@retail.org,4085649013249519,,groceries,web,card,6,318.18,$1909.05,ok,crm
+LEG-000681,2022-02-06,76790,customer76790@example.com,5315668513538148,DE,sports,store,card,12,240.62,€2887.50,unknown,batch_import
+LEG-000682,2023-02-30,69087,customer69087@example.com,4716115866861199,DE,books,mobile,wire,1,2746.83,EUR 2746.83,unknown,erp
+LEG-000683,23/12/2022,94361,customer94361@mail.net,,UK,sports,partner,cash,10,269.79,,pending,crm
+LEG-000684,03-07-2022 15:00,36805,customer36805@legacy.local,4502528546130873,ES,books,partner,wire,8,99.02,GBP 792.16,pending,batch_import
+LEG-000685,27-10-2022 04:00,25198,customer25198@retail.org,4071210242344730,UK,groceries,partner,cash,9,67.64,GBP 608.75,manual_review,crm
+LEG-000686,2023-02-17,66951,customer66951@retail.org,4344009522426537,UK,electronics,web,paypal,7,250.37,€1752.59,unknown,batch_import
+LEG-000687,not_available,24944,customer24944@example.com,4016260080265893,DE,books,partner,wire,11,152.38,£1676.20,manual_review,crm
+LEG-000688,04-04-2022 08:00,84770,customer84770@retail.org,4203172665282468,IT,groceries,partner,wire,10,,2017.58 EUR,pending,crm
+LEG-000689,2023-01-22,21319,customer21319@mail.net,4716303356369301,ES,books,web,wire,12,127.04,€1524.45,ok,erp
+LEG-000690,08/03/2022,40230,customer40230@example.com,4043766136628081,PT,fashion,web,paypal,5,336.59,£1682.93,unknown,batch_import
+LEG-000691,07/02/2022,38873,,5739798421891426,DE,groceries,store,card,2,186.44,372.88 USD,ok,batch_import
+LEG-000692,10-08-2022 13:00,26418,,5276292266678809,PT,fashion,web,cash,9,365.86,3292.72 EUR,ok,batch_import
+LEG-000693,19-05-2022 10:00,51679,customer51679@retail.org,5597640838580501,FR,fashion,web,cash,2,1415.09,EUR 2830.17,unknown,batch_import
+LEG-000694,2022-04-27,79845,customer79845@example.com,5009244928787570,,home,mobile,card,11,N/A,EUR 2209.80,ok,batch_import
+LEG-000695,2023/02/16 21:00:00,46075,customer46075@legacy.local,4336931806200730,FR,fashion,partner,wire,1,858.72,$858.72,unknown,crm
+LEG-000696,2022/11/09 12:00:00,22061,customer22061@retail.org,5406873544534514,DE,books,partner,paypal,5,806.95,£4034.76,pending,pos
+LEG-000697,02/11/2023,96684,customer96684@retail.org,4664853207758708,FR,groceries,partner,wire,6,N/A,4699.19 USD,manual_review,pos
+LEG-000698,2022-11-23,13116,customer13116@legacy.local,5720073429390773,DE,books,store,paypal,5,N/A,3816.98 GBP,ok,erp
+LEG-000699,26/12/2022,65274,customer65274@example.com,5028143531279433,IT,sports,mobile,card,9,76.98,EUR 692.85,unknown,crm
+LEG-000700,28-09-2022 04:00,62573,customer62573@legacy.local,5108573838554514,DE,books,web,wire,8,224.13,£1793.06,unknown,pos
+LEG-000701,2022-05-19,69474,customer69474@retail.org,4746121575626412,ES,books,web,cash,7,,£3494.20,pending,crm
+LEG-000702,2023-09-26,12644,customer12644@retail.org,4450599822673123,PT,books,web,paypal,4,987.89,3951.55 EUR,pending,crm
+LEG-000703,17/02/2022,41757,customer41757@legacy.local,,FR,home,web,wire,6,334.45,GBP 2006.69,ok,erp
+LEG-000704,20/04/22,73392,customer73392@example.com,5926517328162910,DE,books,mobile,wire,11,54.36,USD 597.92,unknown,batch_import
+LEG-000705,03-01-2023 04:00,73444,,5599153044500202,DE,books,mobile,cash,1,,€573.97,unknown,crm
+LEG-000706,2022-02-18,62398,,4467541823688101,IT,fashion,mobile,card,7,323.67,€2265.68,manual_review,crm
+LEG-000707,2023/07/03 21:00:00,29516,customer29516@legacy.local,4168163603891736,DE,books,store,cash,4,4.90,,pending,crm
+LEG-000708,2023/04/13 03:00:00,16600,customer16600@mail.net,4895123708511919,UK,sports,store,cash,1,4832.79,$4832.79,ok,erp
+LEG-000709,02-12-2023 03:00,40975,customer40975@legacy.local,4956126678305573,PT,books,partner,paypal,12,,2198.76 GBP,unknown,batch_import
+LEG-000710,22/05/2023,61246,customer61246@example.com,4176142152483196,UK,fashion,store,cash,,1476.43,4429.30 USD,manual_review,batch_import
+LEG-000711,04/01/2022,82247,customer82247@retail.org,4631592291270659,,sports,web,cash,4,698.97,2795.87 GBP,manual_review,erp
+LEG-000712,21-01-2022 02:00,72890,customer72890@retail.org,5578984974997990,PT,electronics,web,paypal,4,156.19,$624.77,ok,crm
+LEG-000713,2022/08/05 20:00:00,11233,customer11233@retail.org,4631297557261694,PT,books,web,card,8,270.77,2166.18 GBP,ok,batch_import
+LEG-000714,21-10-2023 00:00,16207,customer16207@retail.org,4163361317985490,ES,books,web,wire,4,143.39,$573.57,unknown,erp
+LEG-000715,2023/07/16 03:00:00,40725,customer40725@legacy.local,4255174192581476,ES,home,mobile,cash,10,340.20,3402.01 GBP,unknown,pos
+LEG-000716,2022-04-07,82726,,5968590964598724,ES,groceries,mobile,card,4,315.55,EUR 1262.19,manual_review,batch_import
+LEG-000717,27-04-2023 06:00,37026,customer37026@example.com,4173402422241983,ES,home,mobile,wire,10,108.29,1082.88 EUR,ok,pos
+LEG-000718,2022-06-09,82449,customer82449@legacy.local,,IT,sports,partner,paypal,5,872.74,GBP 4363.71,manual_review,crm
+LEG-000719,2022-04-06,27594,customer27594@legacy.local,4103565942992023,UK,books,partner,wire,6,250.65,€1503.91,ok,pos
+LEG-000720,,81010,customer81010@legacy.local,5242406628346334,IT,home,store,wire,4,978.32,£3913.27,unknown,crm
+LEG-000721,19/10/2022,57444,customer57444@retail.org,4855074350952889,IT,fashion,web,wire,3,1353.54,£4060.62,unknown,pos
+LEG-000722,,71646,,5428873449668667,IT,fashion,web,cash,1,2027.26,,manual_review,crm
+LEG-000723,2022/01/27 06:00:00,67712,customer67712@retail.org,5756650518860167,FR,groceries,mobile,wire,-1,2270.69,4541.38 USD,manual_review,pos
+LEG-000724,24-10-2023 10:00,46469,customer46469@legacy.local,5024286178925714,PT,groceries,mobile,paypal,1,1624.40,$1624.40,unknown,crm
+LEG-000725,10-08-2023 07:00,42685,customer42685@example.com,,IT,electronics,store,paypal,5,517.78,£2588.92,manual_review,batch_import
+LEG-000726,2022/07/18 23:00:00,52932,customer52932@mail.net,4946896331812335,DE,groceries,web,cash,1,2077.69,$2077.69,manual_review,batch_import
+LEG-000727,2022/09/08 12:00:00,64195,customer64195@example.com,5747594434852953,DE,electronics,mobile,cash,7,635.93,$4451.51,pending,crm
+LEG-000728,2023/09/04 14:00:00,71242,,5330990009406565,PT,sports,store,paypal,5,355.34,$1776.68,unknown,erp
+LEG-000729,2023-02-26,36251,customer36251@example.com,4911034956119989,DE,electronics,web,card,3,1441.76,€4325.27,unknown,batch_import
+LEG-000730,06-04-2022 16:00,50162,customer50162@retail.org,5796668290525659,ES,books,web,paypal,7,336.37,2354.57 GBP,pending,erp
+LEG-000731,28-11-2023 07:00,12273,customer12273@legacy.local,4405131866047473,IT,sports,partner,paypal,8,197.64,USD 1581.15,pending,pos
+LEG-000732,20/11/2023,12187,customer12187@retail.org,5186647741313518,ES,books,store,wire,12,387.54,4650.47 USD,ok,pos
+LEG-000733,16-10-2023 05:00,79104,customer79104@mail.net,4984128655816759,IT,electronics,mobile,paypal,6,646.70,3880.22 EUR,ok,crm
+LEG-000734,,18523,customer18523@legacy.local,4195973091218527,FR,electronics,store,cash,7,585.22,$4096.53,unknown,erp
+LEG-000735,02-03-2022 09:00,52038,customer52038@retail.org,4096598455766345,FR,books,mobile,card,4,280.29,GBP 1121.17,ok,batch_import
+LEG-000736,24-01-2022 13:00,91018,customer91018@retail.org,4008224216826822,UK,sports,partner,wire,2,2293.61,£4587.22,pending,crm
+LEG-000737,not_available,75086,customer75086@legacy.local,5722870322007485,UK,home,partner,card,12,238.90,2866.81 USD,ok,pos
+LEG-000738,09-10-2023 16:00,94216,customer94216@example.com,,ES,groceries,store,cash,3,40.07,,manual_review,pos
+LEG-000739,19-05-2023 16:00,27634,customer27634@retail.org,4136062290113860,DE,sports,partner,card,9,122.97,EUR 1106.69,unknown,crm
+LEG-000740,2022/09/09 17:00:00,78295,,4479053472839516,UK,books,store,wire,6,489.40,,unknown,batch_import
+LEG-000741,25/01/2023,64246,customer64246@mail.net,4282801832353068,DE,sports,partner,cash,6,695.73,,manual_review,pos
+LEG-000742,15-10-2022 18:00,72866,customer72866@mail.net,4531755592897487,ES,electronics,store,cash,12,405.66,€4867.96,ok,crm
+LEG-000743,2022/10/02 19:00:00,65627,customer65627@example.com,5419678963009358,ES,fashion,mobile,card,4,322.39,1289.57 GBP,pending,erp
+LEG-000744,09/08/2022,78724,customer78724@retail.org,,FR,fashion,mobile,paypal,9,156.38,$1407.42,ok,pos
+LEG-000745,2023-02-30,12067,customer12067@retail.org,5272053649911928,FR,groceries,mobile,paypal,10,172.85,€1728.53,unknown,erp
+LEG-000746,24/11/22,98287,customer98287@retail.org,5395678446078907,ES,books,web,card,6,414.69,2488.15 EUR,unknown,pos
+LEG-000747,13/04/2022,31654,customer31654@legacy.local,5974776565907055,IT,groceries,mobile,paypal,11,154.42,£1698.57,ok,pos
+LEG-000748,2022-01-03,32901,customer32901@retail.org,4415359771001154,PT,books,store,wire,12,396.17,4753.99 GBP,manual_review,erp
+LEG-000749,not_available,71380,customer71380@mail.net,5416855739523285,FR,groceries,store,cash,6,801.64,4809.81 USD,ok,batch_import
+LEG-000750,06/10/23,79586,customer79586@retail.org,4470407146971479,UK,sports,web,paypal,5,773.64,EUR 3868.20,manual_review,pos
+LEG-000751,2022-07-15,14860,,5900170679490786,PT,sports,store,card,1,617.69,€617.69,pending,batch_import
+LEG-000752,2023/05/14 07:00:00,56260,,,,fashion,store,wire,7,713.01,£4991.08,pending,pos
+LEG-000753,2023-12-13,84419,customer84419@legacy.local,4073565826082526,UK,books,store,card,2,1036.58,2073.16 GBP,ok,crm
+LEG-000754,19/03/2022,35706,customer35706@mail.net,5119789259465744,FR,home,store,paypal,3,1328.28,3984.84 EUR,unknown,crm
+LEG-000755,05/12/2023,34586,customer34586@example.com,4768418471462201,IT,home,store,paypal,-1,N/A,EUR 2558.49,pending,batch_import
+LEG-000756,2022-10-26,73135,customer73135@example.com,5618376295076716,ES,electronics,store,cash,7,627.55,4392.86 EUR,pending,crm
+LEG-000757,2023/11/02 10:00:00,31212,customer31212@retail.org,4991605390649097,PT,sports,web,cash,5,387.74,€1938.68,ok,erp
+LEG-000758,2023/04/19 08:00:00,85966,,4625260221690887,FR,home,mobile,wire,-1,1959.34,€1959.34,pending,crm
+LEG-000759,2022/03/28 15:00:00,41367,customer41367@retail.org,5102140128331955,UK,fashion,web,wire,6,737.92,£4427.52,manual_review,crm
+LEG-000760,2023/05/28 14:00:00,35198,customer35198@example.com,5051648389533768,IT,fashion,partner,cash,7,24.02,,unknown,erp
+LEG-000761,11/04/2023,95990,customer95990@example.com,5303324967574510,FR,electronics,store,cash,10,421.47,€4214.74,manual_review,crm
+LEG-000762,2023/09/01 18:00:00,31259,customer31259@mail.net,5111079764754565,IT,fashion,mobile,wire,8,302.60,$2420.83,ok,erp
+LEG-000763,2023-06-26,43793,customer43793@retail.org,4613826870977779,ES,home,partner,wire,7,683.34,4783.41 GBP,manual_review,crm
+LEG-000764,07-05-2022 04:00,67383,customer67383@legacy.local,4682432333023993,,fashion,web,cash,6,632.94,GBP 3797.65,manual_review,pos
+LEG-000765,2022-11-27,67363,customer67363@legacy.local,,IT,books,web,paypal,7,384.39,2690.74 USD,ok,pos
+LEG-000766,08-12-2022 00:00,49673,customer49673@retail.org,4203922131701958,DE,books,mobile,cash,6,808.88,4853.26 EUR,manual_review,erp
+LEG-000767,05/08/2023,42977,customer42977@example.com,5441603328880700,,books,partner,paypal,5,801.64,EUR 4008.19,ok,crm
+LEG-000768,10-03-2022 12:00,49001,customer49001@legacy.local,4046627501526974,ES,groceries,partner,card,-1,367.21,1836.04 USD,pending,erp
+LEG-000769,01-09-2022 22:00,76543,customer76543@example.com,4457923267148581,,sports,web,card,3,1587.32,USD 4761.97,pending,pos
+LEG-000770,17/07/2023,25618,customer25618@legacy.local,4970493795829158,UK,sports,web,card,3,1414.23,GBP 4242.69,unknown,erp
+LEG-000771,2022/11/06 22:00:00,71164,customer71164@legacy.local,5396262591883124,DE,home,partner,cash,8,209.32,1674.56 USD,unknown,erp
+LEG-000772,16-06-2023 15:00,49885,customer49885@mail.net,5643802990348042,IT,electronics,web,card,8,,€3115.07,manual_review,erp
+LEG-000773,not_available,31992,customer31992@legacy.local,4693091401527311,PT,fashion,store,card,12,169.21,USD 2030.56,ok,crm
+LEG-000774,2022/12/04 19:00:00,90003,customer90003@retail.org,4298359667715390,PT,home,store,cash,4,N/A,,pending,erp
+LEG-000775,26-02-2022 13:00,14972,,5427873554042316,IT,groceries,web,cash,11,319.76,USD 3517.34,pending,pos
+LEG-000776,24/11/2022,62460,customer62460@mail.net,5835733813307345,UK,home,mobile,cash,5,587.89,€2939.47,unknown,crm
+LEG-000777,2022/06/11 01:00:00,35018,customer35018@example.com,,IT,sports,web,paypal,8,446.79,£3574.32,manual_review,pos
+LEG-000778,2022-03-31,30482,customer30482@retail.org,4913505349419715,FR,electronics,partner,cash,6,309.97,GBP 1859.82,unknown,batch_import
+LEG-000779,2022/05/18 02:00:00,66437,customer66437@retail.org,4007615042059868,UK,books,partner,cash,7,86.57,£606.02,ok,crm
+LEG-000780,2023-13-04,24326,customer24326@legacy.local,5888818930461638,DE,fashion,store,card,5,45.09,USD 225.44,unknown,crm
+LEG-000781,2022-06-14,62462,customer62462@example.com,4720814723735640,PT,groceries,web,wire,9,421.66,3794.93 USD,unknown,crm
+LEG-000782,2023/02/26 14:00:00,47231,customer47231@retail.org,4668867518571164,ES,books,store,cash,4,759.95,3039.79 EUR,manual_review,erp
+LEG-000783,21/12/2022,14243,customer14243@legacy.local,5730316787192615,DE,electronics,web,wire,-1,75.32,$677.84,unknown,pos
+LEG-000784,04/06/2023,54839,customer54839@retail.org,5388724616303438,UK,electronics,web,paypal,1,1482.46,USD 1482.46,ok,batch_import
+LEG-000785,2023/08/03 20:00:00,23940,customer23940@retail.org,4897351896225275,,home,mobile,card,10,219.12,,manual_review,batch_import
+LEG-000786,2023-11-07,23380,customer23380@mail.net,4805166608123927,FR,fashion,web,cash,2,463.17,$926.34,unknown,pos
+LEG-000787,12-12-2023 17:00,28972,customer28972@legacy.local,4737145031180266,ES,electronics,mobile,cash,,160.91,USD 804.55,ok,crm
+LEG-000788,23/01/2023,90692,customer90692@mail.net,,IT,sports,web,paypal,6,105.06,630.35 EUR,ok,batch_import
+LEG-000789,2023/05/30 11:00:00,50595,customer50595@example.com,5714878310314564,PT,home,partner,paypal,1,1562.54,$1562.54,unknown,crm
+LEG-000790,05-10-2023 18:00,68947,customer68947@example.com,4391369412641060,DE,fashion,store,wire,10,133.13,,manual_review,batch_import
+LEG-000791,2023/09/10 12:00:00,14745,customer14745@retail.org,4536064004748679,IT,groceries,store,paypal,9,45.63,GBP 410.66,ok,crm
+LEG-000792,01/04/2023,71411,customer71411@retail.org,5933078111719600,ES,electronics,store,paypal,2,12.31,24.62 USD,manual_review,batch_import
+LEG-000793,2023/11/11 18:00:00,97239,customer97239@mail.net,4917033530049992,DE,home,partner,card,5,662.32,GBP 3311.59,ok,batch_import
+LEG-000794,08/06/2022,49772,customer49772@legacy.local,5865392768714134,ES,fashion,partner,cash,12,318.16,3817.93 USD,ok,batch_import
+LEG-000795,2022-13-05,70621,customer70621@retail.org,4546463989701455,PT,home,store,wire,2,1519.80,€3039.59,manual_review,erp
+LEG-000796,2023-09-29,94993,,4101561619738449,ES,electronics,mobile,card,1,278.53,GBP 278.53,unknown,batch_import
+LEG-000797,29/07/2023,99181,,5481773655619221,IT,home,web,cash,12,286.21,£3434.56,ok,batch_import
+LEG-000798,2022/01/30 04:00:00,92231,customer92231@example.com,5936835991676403,IT,groceries,mobile,wire,4,1218.46,4873.86 GBP,manual_review,batch_import
+LEG-000799,2022/09/24 19:00:00,88971,customer88971@legacy.local,,PT,fashion,store,card,10,120.58,$1205.80,ok,pos
+LEG-000800,27/02/2022,98449,customer98449@retail.org,4259120463721626,ES,home,store,paypal,12,275.11,€3301.33,manual_review,batch_import
+LEG-000801,2023/05/16 18:00:00,84874,customer84874@example.com,4474111736703862,DE,fashion,partner,card,-1,N/A,GBP 981.85,pending,erp
+LEG-000802,02/02/2022,15631,customer15631@legacy.local,4873210788312736,FR,home,mobile,card,4,,GBP 1810.66,unknown,erp
+LEG-000803,14-06-2022 15:00,98266,customer98266@legacy.local,5129555100510819,IT,groceries,mobile,wire,-1,31.95,,pending,batch_import
+LEG-000804,07/06/2022,26908,customer26908@example.com,,DE,home,web,cash,-1,1206.93,1206.93 GBP,manual_review,pos
+LEG-000805,16-09-2022 02:00,10188,customer10188@example.com,5970084458015176,IT,groceries,mobile,card,5,254.98,€1274.92,ok,batch_import
+LEG-000806,19/07/2022,64486,customer64486@mail.net,4228058837743540,UK,fashion,mobile,paypal,12,41.51,GBP 498.08,ok,crm
+LEG-000807,22/03/2023,52549,,4748903045880971,DE,sports,mobile,wire,11,145.46,$1600.11,unknown,pos
+LEG-000808,01-08-2023 13:00,52727,customer52727@retail.org,4137983045762745,UK,fashion,web,paypal,6,613.93,EUR 3683.58,unknown,erp
+LEG-000809,,36400,customer36400@legacy.local,5128989930746113,IT,groceries,partner,wire,9,210.85,USD 1897.68,pending,erp
+LEG-000810,28-12-2022 04:00,80910,customer80910@example.com,5397630900737949,IT,groceries,store,paypal,11,400.93,£4410.23,unknown,crm
+LEG-000811,2023/03/13 04:00:00,62820,customer62820@mail.net,5759160435983985,UK,books,web,cash,3,969.91,£2909.74,unknown,batch_import
+LEG-000812,2023-02-30,98071,customer98071@mail.net,4407307177613500,IT,books,mobile,wire,7,355.27,GBP 2486.91,pending,erp
+LEG-000813,08/12/2022,54573,customer54573@legacy.local,4653273551497249,PT,home,mobile,paypal,9,72.65,$653.83,ok,erp
+LEG-000814,2022-13-02,55177,customer55177@retail.org,,UK,groceries,web,cash,1,3475.83,USD 3475.83,pending,erp
+LEG-000815,2022/01/28 11:00:00,41045,customer41045@retail.org,,DE,books,store,wire,11,298.44,USD 3282.80,ok,pos
+LEG-000816,08/09/2022,13831,customer13831@retail.org,4222097550617906,,groceries,web,paypal,12,216.68,EUR 2600.15,unknown,pos
+LEG-000817,2022-04-28,88529,customer88529@legacy.local,4919296921053071,,electronics,mobile,wire,3,793.58,USD 2380.74,manual_review,crm
+LEG-000818,03/07/2023,52487,customer52487@example.com,4280126980446658,PT,sports,partner,cash,,273.06,2457.52 GBP,manual_review,pos
+LEG-000819,01-07-2022 11:00,43694,customer43694@retail.org,5788407094657770,ES,books,partner,wire,6,764.08,4584.50 GBP,pending,erp
+LEG-000820,2022-09-21,19332,customer19332@mail.net,5186056688031664,IT,groceries,web,wire,7,505.53,€3538.68,pending,pos
+LEG-000821,2022-01-19,99872,customer99872@mail.net,5017086715207710,FR,home,mobile,cash,7,193.42,£1353.93,manual_review,erp
+LEG-000822,,20910,,5017850205025497,UK,groceries,mobile,card,6,558.35,€3350.11,unknown,batch_import
+LEG-000823,18-10-2023 07:00,95714,customer95714@mail.net,5442526942041641,UK,sports,web,paypal,6,553.29,3319.74 EUR,pending,batch_import
+LEG-000824,2023-09-15,61835,customer61835@retail.org,4855717490584968,FR,books,web,card,11,337.19,USD 3709.09,unknown,crm
+LEG-000825,25/09/2023,44803,customer44803@legacy.local,4527911110851846,IT,groceries,store,wire,10,165.69,$1656.85,ok,erp
+LEG-000826,2023-06-29,36025,customer36025@legacy.local,5425972055482987,IT,groceries,mobile,card,12,N/A,$3255.92,unknown,batch_import
+LEG-000827,2022/04/17 15:00:00,32872,customer32872@retail.org,4146172758045292,DE,books,partner,cash,8,365.18,$2921.45,manual_review,pos
+LEG-000828,20/05/2022,10559,customer10559@retail.org,,FR,books,store,paypal,10,58.22,£582.16,manual_review,crm
+LEG-000829,20/05/22,57204,customer57204@example.com,5065948053160227,FR,electronics,mobile,cash,7,292.99,£2050.90,ok,batch_import
+LEG-000830,2023-03-05,49092,customer49092@legacy.local,4807828780661545,IT,fashion,partner,wire,6,380.93,USD 2285.56,pending,erp
+LEG-000831,2023-07-08,32459,customer32459@mail.net,,ES,groceries,mobile,cash,9,508.31,EUR 4574.78,ok,erp
+LEG-000832,10-05-2022 14:00,78544,customer78544@retail.org,5272876032087783,DE,groceries,web,cash,5,437.04,2185.21 EUR,unknown,pos
+LEG-000833,2022-05-13,65742,customer65742@example.com,4585973027322857,ES,home,store,card,11,79.23,$871.55,manual_review,erp
+LEG-000834,2022-04-17,70051,customer70051@mail.net,5467386569044846,PT,groceries,mobile,card,-1,649.59,£3247.95,manual_review,batch_import
+LEG-000835,2023/11/25 19:00:00,65474,customer65474@mail.net,5407608953012033,ES,home,partner,card,4,1114.10,£4456.38,manual_review,crm
+LEG-000836,18/01/2022,19921,customer19921@legacy.local,4567027728715659,IT,groceries,store,paypal,11,17.80,$195.76,unknown,crm
+LEG-000837,2023-02-01,95005,customer95005@retail.org,5418395252520788,ES,sports,web,card,11,109.43,€1203.75,manual_review,pos
+LEG-000838,12-11-2023 04:00,17869,customer17869@mail.net,4882403532124402,DE,groceries,web,paypal,1,4020.14,EUR 4020.14,unknown,erp
+LEG-000839,28-01-2022 09:00,86414,customer86414@mail.net,4254601891134348,DE,home,partner,wire,12,236.92,$2843.07,pending,pos
+LEG-000840,27/09/2023,25269,customer25269@example.com,4149480298908881,UK,sports,mobile,wire,3,252.64,757.93 GBP,ok,erp
+LEG-000841,14/12/23,52065,customer52065@legacy.local,5704171038919187,FR,electronics,web,wire,9,218.42,EUR 1965.81,unknown,pos
+LEG-000842,02-05-2023 12:00,74630,customer74630@retail.org,4572316316037811,UK,electronics,store,cash,9,43.08,387.68 EUR,manual_review,erp
+LEG-000843,01-09-2023 19:00,70510,customer70510@retail.org,4233700715800971,ES,home,mobile,wire,6,19.74,€118.44,unknown,batch_import
+LEG-000844,17/07/2022,81003,customer81003@legacy.local,4972285825854551,ES,fashion,web,wire,9,385.44,EUR 3468.98,manual_review,batch_import
+LEG-000845,10/02/2023,81801,customer81801@legacy.local,4043647584664867,FR,home,partner,card,4,N/A,€3553.62,pending,batch_import
+LEG-000846,not_available,44098,customer44098@mail.net,5728143611686114,ES,fashion,web,card,5,358.99,£1794.96,unknown,pos
+LEG-000847,12-02-2023 16:00,55958,customer55958@mail.net,,PT,electronics,web,cash,3,1516.43,USD 4549.29,manual_review,batch_import
+LEG-000848,01/04/2023,22974,customer22974@retail.org,4850957093409916,,electronics,web,wire,12,271.66,USD 3259.91,pending,pos
+LEG-000849,2023-02-30,83658,customer83658@legacy.local,5951429544966954,ES,groceries,partner,paypal,12,113.64,USD 1363.69,ok,crm
+LEG-000850,2022/07/29 08:00:00,18760,customer18760@mail.net,,ES,electronics,mobile,paypal,8,405.44,3243.56 USD,pending,crm
+LEG-000851,2022/04/03 22:00:00,84223,customer84223@legacy.local,4552833728756798,,home,partner,paypal,5,302.43,GBP 1512.17,unknown,erp
+LEG-000852,2022/02/08 21:00:00,18486,customer18486@example.com,4791161146446119,PT,books,partner,paypal,8,522.47,$4179.78,pending,pos
+LEG-000853,10-05-2023 09:00,75148,,5881253251218082,DE,books,web,cash,11,454.54,€4999.94,unknown,erp
+LEG-000854,16-04-2023 02:00,84854,customer84854@legacy.local,4037090703780886,UK,books,mobile,wire,6,539.12,,pending,pos
+LEG-000855,19-05-2023 23:00,98131,customer98131@retail.org,4965074456572676,FR,books,mobile,card,7,496.82,$3477.75,ok,crm
+LEG-000856,10-07-2022 13:00,27350,,4645257330907406,ES,sports,mobile,wire,1,3775.21,USD 3775.21,unknown,erp
+LEG-000857,02-01-2023 06:00,87798,customer87798@legacy.local,5633422856283723,PT,books,mobile,card,1,4917.30,4917.30 GBP,ok,crm
+LEG-000858,2022-02-04,28687,customer28687@mail.net,4318838456125780,PT,books,store,card,5,655.33,GBP 3276.63,manual_review,pos
+LEG-000859,28/05/2022,50260,customer50260@retail.org,4640532739688593,PT,books,mobile,card,12,126.31,1515.75 GBP,pending,erp
+LEG-000860,07-06-2023 11:00,41198,customer41198@mail.net,4025066686067347,ES,books,partner,wire,10,82.91,829.08 GBP,ok,erp
+LEG-000861,not_available,29219,customer29219@retail.org,5439639949594038,FR,sports,partner,paypal,7,611.90,$4283.30,ok,batch_import
+LEG-000862,24-04-2023 06:00,21932,customer21932@legacy.local,4567322348749391,,electronics,web,card,3,27.81,83.42 GBP,ok,batch_import
+LEG-000863,04/04/2023,30218,customer30218@retail.org,,FR,fashion,mobile,paypal,5,413.94,$2069.68,pending,erp
+LEG-000864,2022-11-30,17465,customer17465@mail.net,5183784771988837,FR,books,partner,paypal,12,310.19,$3722.28,ok,erp
+LEG-000865,04/02/2023,84796,customer84796@mail.net,5354869521215603,,books,web,wire,11,293.31,£3226.40,ok,pos
+LEG-000866,2022-10-10,72513,customer72513@example.com,,FR,books,mobile,wire,8,251.85,2014.79 GBP,manual_review,crm
+LEG-000867,27-01-2022 05:00,51129,customer51129@legacy.local,4101245718158061,IT,books,web,wire,1,1581.69,£1581.69,unknown,crm
+LEG-000868,26-02-2023 17:00,87740,,,IT,home,web,wire,10,111.69,,unknown,crm
+LEG-000869,2022/03/16 15:00:00,37944,customer37944@retail.org,5480661126203069,FR,fashion,store,cash,11,217.51,EUR 2392.61,ok,crm
+LEG-000870,23/10/2023,27270,,5598792062314596,UK,books,web,card,12,359.84,£4318.08,ok,pos
+LEG-000871,2022-13-11,21672,customer21672@retail.org,4804460819714083,IT,sports,store,card,1,,330.19 GBP,unknown,crm
+LEG-000872,2023/03/19 19:00:00,69864,customer69864@example.com,4941429049577625,UK,books,store,cash,7,187.87,€1315.07,pending,crm
+LEG-000873,not_available,47446,customer47446@retail.org,5902629761166286,PT,books,mobile,paypal,9,275.49,2479.37 GBP,manual_review,batch_import
+LEG-000874,18/05/2023,58441,customer58441@example.com,5231252423525600,UK,books,store,cash,-1,236.94,EUR 1895.50,unknown,erp
+LEG-000875,not_available,39840,customer39840@mail.net,4599342322109129,FR,home,web,paypal,2,827.82,EUR 1655.64,manual_review,erp
+LEG-000876,22/04/2023,35799,,4116823137998181,ES,books,partner,wire,11,309.65,$3406.17,manual_review,erp
+LEG-000877,2022/12/22 04:00:00,72058,customer72058@legacy.local,5254422535117882,,home,store,paypal,5,452.21,£2261.03,pending,crm
+LEG-000878,,71972,customer71972@retail.org,5120753136859315,UK,home,web,card,7,311.22,€2178.57,pending,crm
+LEG-000879,31-12-2022 04:00,60815,customer60815@mail.net,5443319971153334,DE,fashion,partner,card,5,82.54,412.69 GBP,unknown,erp
+LEG-000880,10-07-2023 22:00,75055,customer75055@example.com,4786021599279437,PT,fashion,store,card,12,152.06,EUR 1824.66,pending,pos
+LEG-000881,not_available,67536,customer67536@legacy.local,,DE,groceries,mobile,wire,8,9.23,EUR 73.83,pending,crm
+LEG-000882,2022/06/18 15:00:00,75987,customer75987@retail.org,,FR,home,web,wire,9,231.07,$2079.61,unknown,crm
+LEG-000883,2022/12/26 03:00:00,50538,customer50538@legacy.local,5378170483648116,IT,sports,store,paypal,7,701.05,USD 4907.33,ok,erp
+LEG-000884,01-07-2022 15:00,61626,customer61626@retail.org,5935861341749195,,books,store,wire,8,210.70,1685.59 EUR,ok,batch_import
+LEG-000885,2022/03/25 07:00:00,13613,customer13613@mail.net,,UK,fashion,web,cash,2,85.31,170.62 USD,ok,pos
+LEG-000886,2022-12-17,96333,customer96333@retail.org,5736720961023726,UK,sports,partner,cash,2,1507.96,$3015.92,ok,pos
+LEG-000887,not_available,91010,customer91010@mail.net,4773260968568888,,books,store,cash,8,122.67,$981.37,unknown,erp
+LEG-000888,22/02/2022,63834,customer63834@retail.org,5659645876694947,FR,groceries,mobile,paypal,-1,171.58,1372.66 USD,pending,pos
+LEG-000889,2023/10/25 00:00:00,68023,customer68023@retail.org,4945037548078053,PT,sports,partner,wire,10,247.83,€2478.30,unknown,crm
+LEG-000890,2022/08/03 01:00:00,13824,customer13824@example.com,5324051026583879,PT,fashion,partner,paypal,8,297.03,2376.22 USD,ok,erp
+LEG-000891,2023-08-08,27890,customer27890@mail.net,,FR,sports,partner,cash,4,1129.41,GBP 4517.63,ok,batch_import
+LEG-000892,16-01-2023 08:00,52130,customer52130@legacy.local,,UK,electronics,mobile,wire,11,203.52,2238.70 EUR,ok,erp
+LEG-000893,2023-06-18,57699,customer57699@legacy.local,4768705807910651,DE,fashion,web,cash,10,299.31,£2993.12,unknown,erp
+LEG-000894,2023/04/19 06:00:00,77835,customer77835@mail.net,4449272809031788,UK,sports,mobile,card,6,701.32,4207.92 USD,unknown,pos
+LEG-000895,2022-11-20,82197,customer82197@legacy.local,4756052699015230,IT,groceries,partner,cash,10,,GBP 2812.03,pending,pos
+LEG-000896,2022-01-31,44699,customer44699@mail.net,4273201295318500,PT,books,mobile,card,4,1211.36,USD 4845.42,ok,pos
+LEG-000897,21-12-2022 09:00,14264,customer14264@legacy.local,5779739824553815,IT,home,mobile,wire,1,2835.24,EUR 2835.24,unknown,erp
+LEG-000898,2023/06/23 21:00:00,71215,customer71215@mail.net,4081969544876150,FR,sports,web,paypal,9,381.04,€3429.38,manual_review,pos
+LEG-000899,2023/09/02 11:00:00,13507,customer13507@legacy.local,5881082277547777,IT,sports,store,card,7,317.27,2220.88 EUR,pending,batch_import
+LEG-000900,2022/10/19 10:00:00,12231,customer12231@mail.net,5741662395671255,FR,home,partner,cash,12,205.82,EUR 2469.83,pending,erp
+LEG-000901,17/10/2022,62075,customer62075@mail.net,4054558345595562,DE,groceries,mobile,wire,2,902.72,£1805.43,manual_review,crm
+LEG-000902,2023-02-30,56677,customer56677@example.com,4715578521979336,ES,books,mobile,card,5,N/A,3794.34 GBP,unknown,crm
+LEG-000903,2022-13-21,58733,customer58733@mail.net,,ES,home,partner,wire,9,439.04,3951.33 EUR,pending,pos
+LEG-000904,2023/04/09 13:00:00,78122,customer78122@legacy.local,4481242664742644,FR,books,mobile,wire,7,71.60,$501.20,unknown,crm
+LEG-000905,2022/10/07 19:00:00,68147,customer68147@retail.org,4446939953155664,PT,electronics,mobile,cash,5,824.96,4124.82 EUR,manual_review,pos
+LEG-000906,07/03/2022,61180,customer61180@legacy.local,4324687220373378,ES,groceries,web,wire,9,232.71,2094.41 USD,unknown,batch_import
+LEG-000907,2023/08/22 12:00:00,44799,customer44799@retail.org,5786800551267644,FR,fashion,mobile,wire,6,656.20,€3937.18,unknown,erp
+LEG-000908,04-06-2022 02:00,33274,customer33274@retail.org,4520351919850565,PT,books,store,card,5,43.27,EUR 216.34,manual_review,batch_import
+LEG-000909,2023/08/29 22:00:00,34401,customer34401@legacy.local,4060891700522918,DE,groceries,store,cash,11,388.34,$4271.77,ok,erp
+LEG-000910,09/08/2022,22541,customer22541@example.com,4775130610922168,FR,home,partner,card,5,957.52,,pending,crm
+LEG-000911,28-02-2023 13:00,42625,customer42625@example.com,4616558062475552,PT,groceries,mobile,cash,-1,1333.42,4000.25 EUR,unknown,crm
+LEG-000912,24-03-2023 17:00,56693,customer56693@example.com,4121816793235393,,sports,store,paypal,11,410.69,€4517.59,unknown,batch_import
+LEG-000913,2022-04-21,86242,customer86242@legacy.local,5468551902041154,ES,electronics,web,wire,3,N/A,USD 1487.52,manual_review,erp
+LEG-000914,2023-12-18,73175,customer73175@example.com,5164377021704701,FR,books,mobile,wire,6,590.80,3544.80 GBP,manual_review,crm
+LEG-000915,22-04-2022 14:00,80657,,4739301055916983,UK,books,mobile,cash,9,208.19,£1873.69,unknown,crm
+LEG-000916,02/06/2022,92507,customer92507@mail.net,,UK,fashion,web,wire,6,247.27,1483.60 GBP,ok,crm
+LEG-000917,2023-09-13,12617,customer12617@example.com,4817003276280587,DE,electronics,web,paypal,1,3698.82,GBP 3698.82,ok,crm
+LEG-000918,15-02-2023 09:00,95988,customer95988@retail.org,5956919220513563,UK,groceries,partner,paypal,10,386.57,GBP 3865.68,ok,batch_import
+LEG-000919,22/06/2023,44823,customer44823@mail.net,4177487477935995,FR,home,store,cash,12,366.42,EUR 4397.01,ok,crm
+LEG-000920,2023-02-30,59802,customer59802@retail.org,4969933530313878,FR,books,mobile,cash,7,637.26,4460.83 USD,pending,crm
+LEG-000921,07/05/23,81940,customer81940@legacy.local,4451739222931778,ES,books,store,cash,5,956.15,,unknown,batch_import
+LEG-000922,2022-03-22,73244,customer73244@legacy.local,4453538115750927,IT,electronics,mobile,cash,10,390.60,$3905.97,pending,pos
+LEG-000923,2022/01/05 16:00:00,63338,customer63338@example.com,5394410104279749,FR,home,web,card,8,335.19,2681.53 EUR,manual_review,crm
+LEG-000924,2023/04/05 10:00:00,92268,customer92268@example.com,5703475601642624,FR,sports,partner,wire,,488.87,€2933.19,unknown,batch_import
+LEG-000925,2022-10-19,28885,customer28885@retail.org,5346609547006039,ES,books,store,card,-1,331.97,3319.74 EUR,ok,erp
+LEG-000926,,48150,customer48150@example.com,5641854133366502,IT,electronics,store,cash,8,395.92,3167.37 GBP,ok,pos
+LEG-000927,01/07/2022,84163,customer84163@legacy.local,4142999481414013,FR,fashion,mobile,card,6,50.40,USD 302.42,pending,crm
+LEG-000928,2023/06/03 20:00:00,15630,customer15630@retail.org,5659481827291367,FR,electronics,partner,paypal,10,76.50,£764.97,pending,erp
+LEG-000929,15/07/2022,13334,customer13334@legacy.local,5823428402246267,UK,home,web,wire,2,2231.34,4462.69 USD,manual_review,batch_import
+LEG-000930,18/05/2022,72139,customer72139@retail.org,,PT,sports,web,card,5,385.48,£1927.40,pending,pos
+LEG-000931,2023-03-19,28031,customer28031@retail.org,4927639852381828,DE,groceries,mobile,cash,3,575.53,1726.60 EUR,ok,pos
+LEG-000932,,56174,customer56174@mail.net,4169921353470507,,fashion,store,card,8,564.93,4519.42 USD,manual_review,erp
+LEG-000933,2022-05-09,76134,customer76134@mail.net,5194845422595513,PT,groceries,store,card,7,297.67,2083.66 USD,unknown,crm
+LEG-000934,25/05/2023,23041,customer23041@retail.org,5905041737223426,DE,fashion,web,wire,7,19.20,134.42 EUR,ok,erp
+LEG-000935,2023/08/07 07:00:00,78986,customer78986@retail.org,5211275963731149,PT,electronics,web,cash,-1,371.00,$4080.96,unknown,crm
+LEG-000936,2022/09/07 22:00:00,79802,customer79802@example.com,4218241408170284,ES,books,partner,cash,1,482.15,€482.15,manual_review,crm
+LEG-000937,15/11/2022,12700,customer12700@legacy.local,4106510046010413,FR,groceries,partner,paypal,11,127.65,EUR 1404.12,pending,pos
+LEG-000938,2023-05-16,70850,customer70850@retail.org,,IT,fashion,mobile,card,2,328.37,EUR 656.73,unknown,pos
+LEG-000939,23/10/2023,76821,customer76821@mail.net,,IT,home,partner,wire,2,2021.70,USD 4043.40,pending,batch_import
+LEG-000940,22-08-2022 16:00,42985,,4715378420555535,ES,books,partner,cash,7,22.90,160.33 GBP,pending,erp
+LEG-000941,2022/05/24 21:00:00,14100,customer14100@example.com,5711246175780410,FR,fashion,partner,card,8,462.83,$3702.63,pending,pos
+LEG-000942,2023-07-31,75216,customer75216@example.com,4877033257044307,FR,groceries,partner,cash,5,60.23,,pending,crm
+LEG-000943,29/03/2023,77295,customer77295@mail.net,4470481130186432,FR,groceries,partner,paypal,8,614.14,4913.15 EUR,ok,batch_import
+LEG-000944,05/10/2022,41723,customer41723@mail.net,5405362512311541,ES,electronics,mobile,card,8,564.76,4518.12 EUR,pending,crm
+LEG-000945,13-11-2022 08:00,26855,customer26855@retail.org,4538425611615999,UK,groceries,web,paypal,11,80.62,€886.80,pending,batch_import
+LEG-000946,2022/04/20 08:00:00,91902,customer91902@example.com,,ES,fashion,store,card,9,205.21,1846.88 GBP,manual_review,erp
+LEG-000947,05-07-2022 08:00,48625,customer48625@retail.org,5449649304640060,IT,home,partner,paypal,6,760.13,£4560.78,unknown,erp
+LEG-000948,2022-10-25,83724,customer83724@example.com,4407254539601609,IT,home,mobile,paypal,11,160.13,EUR 1761.42,unknown,crm
+LEG-000949,11/08/2022,26302,customer26302@mail.net,5427895236179496,FR,sports,store,paypal,1,3429.76,3429.76 EUR,pending,crm
+LEG-000950,28/05/2022,99267,customer99267@legacy.local,5023936276176404,FR,fashion,store,paypal,11,330.98,USD 3640.76,ok,crm
+LEG-000951,2022/06/15 01:00:00,27204,customer27204@mail.net,4827677423935433,DE,home,partner,wire,-1,266.18,£2661.83,ok,crm
+LEG-000952,2022/03/11 08:00:00,74188,customer74188@retail.org,5537155731052089,ES,home,web,paypal,3,735.97,EUR 2207.91,ok,erp
+LEG-000953,15/11/2022,46065,customer46065@retail.org,5908268009072208,DE,home,web,paypal,12,392.25,4707.00 GBP,manual_review,crm
+LEG-000954,2023/06/13 23:00:00,52972,customer52972@example.com,5903230888060941,ES,groceries,store,card,10,405.44,4054.40 EUR,manual_review,batch_import
+LEG-000955,2023-07-09,73516,customer73516@mail.net,4450497236694627,DE,electronics,web,paypal,11,147.83,USD 1626.09,unknown,pos
+LEG-000956,2022/04/19 15:00:00,43980,customer43980@legacy.local,4941667407886985,DE,electronics,web,card,3,1511.26,USD 4533.79,manual_review,pos
+LEG-000957,2023/04/06 17:00:00,91895,customer91895@legacy.local,4124931645982437,FR,sports,web,cash,10,118.46,1184.57 USD,manual_review,pos
+LEG-000958,23/05/2022,66637,customer66637@legacy.local,4571256721230085,IT,sports,web,paypal,-1,450.02,€4500.18,manual_review,crm
+LEG-000959,2023-05-18,10110,,5136532985684997,DE,electronics,partner,card,6,,USD 4377.93,unknown,erp
+LEG-000960,29-08-2023 02:00,16669,customer16669@mail.net,5368716387621577,ES,sports,store,cash,12,326.73,3920.75 USD,manual_review,pos
+LEG-000961,05-10-2023 02:00,76309,customer76309@legacy.local,,UK,home,mobile,card,4,452.73,£1810.93,manual_review,batch_import
+LEG-000962,30-09-2022 03:00,57628,customer57628@retail.org,5568939116457677,DE,fashion,partner,cash,-1,377.37,,unknown,erp
+LEG-000963,2023/08/24 13:00:00,54829,,5049988782988727,UK,home,web,cash,3,1416.70,$4250.09,pending,batch_import
+LEG-000964,2023-02-30,78968,customer78968@legacy.local,5390321430318393,ES,electronics,web,paypal,11,196.53,$2161.81,unknown,batch_import
+LEG-000965,2023/02/07 03:00:00,47951,customer47951@legacy.local,5457835179838713,DE,books,partner,wire,10,178.06,1780.62 GBP,unknown,batch_import
+LEG-000966,2022-12-01,95632,customer95632@example.com,4624694762936842,FR,fashion,partner,wire,3,890.58,GBP 2671.75,ok,crm
+LEG-000967,2022/03/01 21:00:00,74808,customer74808@legacy.local,4872121519045624,UK,groceries,mobile,wire,10,406.69,4066.89 USD,pending,erp
+LEG-000968,15/05/22,78409,customer78409@example.com,4307559841420248,,sports,store,card,4,195.63,EUR 782.52,pending,crm
+LEG-000969,2022-01-26,84056,customer84056@mail.net,4109077182353277,PT,sports,store,paypal,8,380.31,€3042.47,pending,pos
+LEG-000970,2022-07-04,23990,customer23990@mail.net,4939294270215013,PT,books,web,cash,2,722.03,1444.06 GBP,unknown,erp
+LEG-000971,2023-08-02,72017,customer72017@legacy.local,4912759395571421,ES,groceries,mobile,wire,12,79.06,948.77 USD,unknown,crm
+LEG-000972,2022/08/09 12:00:00,42955,customer42955@legacy.local,5914220072276835,,groceries,partner,paypal,-1,190.40,GBP 952.00,unknown,erp
+LEG-000973,10/03/2023,15686,customer15686@mail.net,5775465861728470,FR,groceries,mobile,wire,11,408.91,4498.06 USD,manual_review,pos
+LEG-000974,not_available,53802,customer53802@retail.org,,UK,home,mobile,cash,7,212.42,1486.95 GBP,unknown,pos
+LEG-000975,2022/11/30 02:00:00,83918,customer83918@mail.net,,IT,electronics,web,wire,3,267.66,GBP 802.98,ok,erp
+LEG-000976,2022/07/14 19:00:00,50815,customer50815@example.com,5962840769539087,PT,groceries,store,cash,11,405.73,,manual_review,erp
+LEG-000977,2023-12-06,61397,customer61397@mail.net,5825085592562972,IT,home,mobile,wire,5,377.91,1889.54 EUR,unknown,batch_import
+LEG-000978,26-02-2022 23:00,89395,customer89395@legacy.local,4446661051496180,IT,books,partner,cash,8,444.93,€3559.46,unknown,crm
+LEG-000979,04-01-2023 02:00,95198,customer95198@mail.net,4344088331838016,PT,fashion,web,wire,10,338.08,€3380.80,pending,crm
+LEG-000980,2022/03/20 12:00:00,30676,,4391523133631409,ES,electronics,mobile,wire,1,803.92,USD 803.92,ok,erp
+LEG-000981,2023-05-13,42097,customer42097@example.com,,ES,groceries,partner,paypal,8,61.62,USD 492.93,manual_review,crm
+LEG-000982,2022-02-24,34428,customer34428@legacy.local,4232160059324183,UK,home,partner,cash,5,906.21,EUR 4531.04,pending,crm
+LEG-000983,26-06-2023 23:00,55393,customer55393@retail.org,,PT,sports,mobile,cash,3,1209.70,3629.11 EUR,unknown,crm
+LEG-000984,17/10/22,54303,customer54303@example.com,5105075508485284,DE,home,partner,paypal,1,1047.54,1047.54 EUR,pending,crm
+LEG-000985,2022/12/14 16:00:00,96491,customer96491@example.com,,ES,home,web,wire,1,1474.11,1474.11 EUR,ok,crm
+LEG-000986,2022-02-12,57694,customer57694@retail.org,5711706485796886,UK,home,store,card,5,30.44,€152.20,ok,erp
+LEG-000987,2022/04/13 08:00:00,25790,customer25790@retail.org,5776195249601709,ES,sports,store,card,2,1444.93,USD 2889.86,pending,erp
+LEG-000988,24/08/2022,42975,customer42975@retail.org,4532095928489873,IT,fashion,mobile,wire,6,586.89,3521.32 GBP,ok,erp
+LEG-000989,2023/02/15 21:00:00,90269,customer90269@retail.org,5427398356523918,DE,fashion,mobile,wire,9,135.24,€1217.18,ok,batch_import
+LEG-000990,2022-09-09,23678,customer23678@mail.net,4156345263628862,PT,electronics,store,paypal,4,514.50,2058.00 GBP,unknown,erp
+LEG-000991,2023/04/24 10:00:00,29306,customer29306@mail.net,5742188424638151,ES,fashion,store,cash,2,212.42,$424.84,pending,batch_import
+LEG-000992,29-09-2023 19:00,36777,customer36777@mail.net,4530075145183479,UK,electronics,store,cash,11,147.22,USD 1619.43,ok,crm
+LEG-000993,02-09-2022 23:00,42898,customer42898@legacy.local,4146066961069637,IT,home,web,cash,5,405.10,EUR 2025.49,manual_review,crm
+LEG-000994,2022/04/15 03:00:00,20947,customer20947@example.com,4160040272898683,ES,electronics,partner,card,1,1753.23,£1753.23,ok,batch_import
+LEG-000995,09/04/2023,90987,customer90987@example.com,,FR,home,store,paypal,11,N/A,USD 3024.53,manual_review,erp
+LEG-000996,26/04/2023,51207,customer51207@retail.org,4741059394815043,PT,fashion,web,wire,10,249.71,2497.07 GBP,manual_review,batch_import
+LEG-000997,24-11-2023 14:00,64938,customer64938@example.com,5121018426226441,PT,sports,store,card,5,212.27,£1061.34,manual_review,pos
+LEG-000998,2023/04/10 23:00:00,46230,customer46230@example.com,5557374852512258,DE,books,web,card,8,400.79,€3206.34,pending,pos
+LEG-000999,2022/08/03 19:00:00,66112,customer66112@example.com,4854070084159124,IT,fashion,store,wire,3,547.38,EUR 1642.14,manual_review,batch_import
+LEG-001000,16/11/2022,90612,customer90612@example.com,5206334611897873,IT,fashion,store,wire,2,712.59,1425.18 EUR,ok,batch_import
+LEG-001001,27/07/2022,60409,customer60409@example.com,5441843660209313,IT,groceries,mobile,card,4,61.53,246.11 USD,manual_review,batch_import
+LEG-001002,2022/12/17 14:00:00,69627,customer69627@mail.net,4348195435110269,FR,home,web,wire,7,172.09,GBP 1204.64,pending,pos
+LEG-001003,2022-11-19,50806,,5406260674151448,PT,fashion,store,wire,9,541.02,4869.15 EUR,manual_review,erp
+LEG-001004,2023-05-05,17035,customer17035@legacy.local,5893771258284889,IT,groceries,store,paypal,6,364.45,2186.73 GBP,ok,pos
+LEG-001005,19/03/2023,96089,customer96089@legacy.local,4041524286785547,ES,fashion,partner,paypal,5,999.77,£4998.87,ok,erp
+LEG-001006,2022-05-12,94106,customer94106@mail.net,5707346031613407,PT,groceries,web,cash,1,4765.51,$4765.51,unknown,pos
+LEG-001007,2023/07/30 12:00:00,97377,customer97377@example.com,4668815571556616,IT,electronics,mobile,cash,3,1456.83,USD 4370.50,unknown,pos
+LEG-001008,13-08-2022 06:00,25278,customer25278@legacy.local,5518256961921269,UK,books,partner,cash,2,2159.39,4318.78 GBP,manual_review,erp
+LEG-001009,22/05/23,39421,customer39421@retail.org,4259164230127469,ES,fashion,mobile,card,3,98.99,GBP 296.98,manual_review,crm
+LEG-001010,05/01/2022,55337,,4567357756942984,ES,electronics,web,wire,7,162.14,,pending,pos
+LEG-001011,2023/01/26 06:00:00,68260,customer68260@legacy.local,4561188203806958,DE,groceries,web,paypal,12,127.21,1526.51 GBP,ok,crm
+LEG-001012,31-01-2022 06:00,20302,customer20302@retail.org,5947281326598450,UK,electronics,mobile,paypal,10,,EUR 2335.83,unknown,erp
+LEG-001013,18-12-2022 04:00,36328,customer36328@mail.net,4950305687807126,FR,books,store,card,5,156.15,780.73 GBP,pending,erp
+LEG-001014,25-08-2023 14:00,19677,customer19677@mail.net,4616576528226195,UK,groceries,web,wire,5,328.68,$1643.39,pending,pos
+LEG-001015,09/02/2023,72948,customer72948@retail.org,5009159567832395,IT,fashion,web,card,7,595.59,EUR 4169.11,manual_review,batch_import
+LEG-001016,28-06-2023 15:00,97995,,4033881120996676,DE,electronics,mobile,cash,1,1152.55,£1152.55,unknown,batch_import
+LEG-001017,2022/01/03 11:00:00,23191,customer23191@retail.org,4967705467393164,ES,groceries,store,paypal,12,241.55,2898.63 GBP,pending,crm
+LEG-001018,2022-03-01,75878,customer75878@legacy.local,4662547800958040,FR,sports,partner,card,2,1073.32,GBP 2146.63,manual_review,erp
+LEG-001019,26-08-2022 20:00,43768,customer43768@mail.net,5939089413198596,IT,electronics,mobile,card,12,163.79,£1965.48,pending,pos
+LEG-001020,2022-12-28,86405,customer86405@mail.net,5125979990323887,DE,fashion,web,cash,4,820.70,£3282.80,ok,erp
+LEG-001021,19-09-2023 15:00,12188,customer12188@mail.net,4081836329397026,PT,electronics,partner,card,10,324.01,EUR 3240.09,pending,erp
+LEG-001022,16-12-2022 14:00,71591,customer71591@retail.org,4889203028757405,PT,electronics,mobile,cash,,2549.23,2549.23 GBP,pending,pos
+LEG-001023,22-04-2023 02:00,32933,customer32933@mail.net,5745145375257448,FR,fashion,web,card,6,315.52,EUR 1893.14,ok,pos
+LEG-001024,19-12-2022 02:00,42722,customer42722@mail.net,5050680983831934,UK,fashion,store,cash,9,437.53,$3937.80,manual_review,erp
+LEG-001025,2022/11/04 19:00:00,80841,customer80841@legacy.local,5705155782638803,FR,groceries,mobile,cash,4,723.13,£2892.53,pending,batch_import
+LEG-001026,2022-07-04,42890,customer42890@legacy.local,5478726819319229,ES,groceries,mobile,wire,12,200.80,€2409.60,pending,pos
+LEG-001027,2022-10-09,22424,customer22424@legacy.local,4140035630328267,UK,books,web,paypal,6,759.60,£4557.62,manual_review,crm
+LEG-001028,2022/05/23 02:00:00,86574,customer86574@example.com,,PT,books,partner,wire,11,324.58,£3570.39,pending,batch_import
+LEG-001029,2023-02-30,41992,customer41992@legacy.local,4803364908474911,PT,groceries,mobile,card,9,9.68,GBP 87.15,manual_review,batch_import
+LEG-001030,2023/06/21 08:00:00,33451,,4857962295110848,ES,fashion,web,card,3,1641.25,4923.74 EUR,ok,crm
+LEG-001031,02-10-2023 03:00,53974,customer53974@legacy.local,,PT,sports,mobile,wire,11,90.93,$1000.26,ok,batch_import
+LEG-001032,24/09/2023,12006,customer12006@legacy.local,4506671485333171,IT,sports,store,card,-1,1145.55,£3436.65,pending,erp
+LEG-001033,15/03/2022,76538,customer76538@example.com,5217680126962505,DE,groceries,mobile,paypal,9,532.36,€4791.25,pending,crm
+LEG-001034,22-06-2022 15:00,32120,customer32120@legacy.local,4838440376543999,UK,sports,web,wire,12,,USD 1830.05,unknown,batch_import
+LEG-001035,2022-11-23,87435,customer87435@mail.net,,FR,fashion,mobile,card,9,360.67,3246.00 USD,ok,crm
+LEG-001036,06-12-2023 08:00,61705,customer61705@mail.net,5374496660723660,DE,home,web,card,9,293.53,2641.73 GBP,pending,pos
+LEG-001037,03/10/23,79924,customer79924@legacy.local,4602695775266848,PT,electronics,partner,wire,10,339.35,$3393.51,ok,erp
+LEG-001038,24/08/2022,45079,customer45079@mail.net,,IT,fashion,store,cash,-1,87.54,787.88 USD,manual_review,batch_import
+LEG-001039,not_available,90734,customer90734@mail.net,5597739610340573,DE,groceries,web,card,7,29.15,204.06 USD,manual_review,pos
+LEG-001040,15-06-2022 03:00,38125,customer38125@retail.org,5991658723634110,FR,books,partner,cash,12,13.61,€163.33,pending,crm
+LEG-001041,2023/05/18 17:00:00,86919,customer86919@legacy.local,4960841585537304,DE,books,store,paypal,3,1400.38,EUR 4201.13,manual_review,pos
+LEG-001042,not_available,22514,customer22514@example.com,5602310640797296,PT,books,store,paypal,5,271.71,1358.56 GBP,manual_review,erp
+LEG-001043,08-12-2023 06:00,94158,customer94158@mail.net,5587837105392590,UK,fashion,web,paypal,8,574.86,£4598.90,pending,crm
+LEG-001044,2022-13-17,30683,customer30683@retail.org,5752707127971763,,sports,mobile,cash,1,1754.22,EUR 1754.22,ok,batch_import
+LEG-001045,2023/03/25 01:00:00,62119,customer62119@mail.net,4639158464725604,DE,books,mobile,card,-1,227.26,EUR 681.79,unknown,pos
+LEG-001046,21-09-2022 00:00,61494,customer61494@legacy.local,4206676654053242,UK,fashion,store,wire,4,1137.97,GBP 4551.88,manual_review,crm
+LEG-001047,02/02/2022,41425,customer41425@example.com,5886455526151070,FR,fashion,web,paypal,9,542.23,,manual_review,batch_import
+LEG-001048,18-12-2022 21:00,22138,customer22138@legacy.local,5869263560062551,DE,books,partner,paypal,4,159.47,$637.90,unknown,erp
+LEG-001049,2022-09-15,69551,customer69551@example.com,5621346164615265,PT,groceries,store,cash,5,802.81,EUR 4014.06,ok,pos
+LEG-001050,2023-09-23,86396,customer86396@mail.net,5812681793008058,IT,electronics,store,card,2,1802.05,3604.10 EUR,ok,pos
+LEG-001051,14/12/2022,24720,customer24720@mail.net,5990213116694602,ES,sports,partner,cash,1,3475.92,EUR 3475.92,unknown,erp
+LEG-001052,2023/09/29 16:00:00,69904,customer69904@mail.net,4609203314656571,DE,books,web,wire,,818.43,GBP 4092.14,unknown,erp
+LEG-001053,12-02-2023 08:00,61916,customer61916@legacy.local,,PT,books,store,paypal,2,728.53,1457.06 USD,ok,pos
+LEG-001054,2023/06/15 07:00:00,42165,customer42165@legacy.local,5885988192069656,PT,books,partner,wire,1,1564.90,€1564.90,pending,crm
+LEG-001055,2023/06/30 06:00:00,40237,customer40237@mail.net,5802280177106294,ES,fashion,store,paypal,2,N/A,GBP 4529.35,unknown,erp
+LEG-001056,19-12-2023 03:00,38437,customer38437@retail.org,4667477201104083,PT,books,mobile,cash,,233.87,935.46 GBP,manual_review,pos
+LEG-001057,05/08/2022,47028,customer47028@legacy.local,5777277457502188,PT,sports,store,cash,6,119.44,USD 716.62,manual_review,batch_import
+LEG-001058,15/11/2023,49024,customer49024@mail.net,5770693928532025,ES,groceries,partner,paypal,1,885.85,885.85 GBP,ok,batch_import
+LEG-001059,2022/11/30 19:00:00,20279,customer20279@legacy.local,4185723501947377,PT,home,partner,paypal,10,436.62,4366.18 GBP,manual_review,crm
+LEG-001060,2022-01-21,92793,customer92793@example.com,4428669062515759,FR,electronics,partner,cash,3,257.58,GBP 772.74,ok,crm
+LEG-001061,07/07/2022,56273,customer56273@retail.org,5966529483051719,UK,home,mobile,paypal,8,322.08,$2576.65,manual_review,pos
+LEG-001062,2022/05/14 12:00:00,75235,customer75235@retail.org,4104979140771280,DE,groceries,web,cash,5,444.83,$2224.17,manual_review,pos
+LEG-001063,24-10-2022 07:00,21809,customer21809@legacy.local,4325369525587673,ES,books,web,card,3,766.67,2300.02 GBP,unknown,batch_import
+LEG-001064,2022/07/07 21:00:00,64420,customer64420@legacy.local,4196275644390951,FR,fashion,mobile,card,2,1873.54,USD 3747.08,ok,pos
+LEG-001065,2023-10-26,17403,customer17403@example.com,5373965272959867,UK,sports,store,card,8,278.68,2229.44 GBP,manual_review,crm
+LEG-001066,10/01/2022,33996,customer33996@legacy.local,4326893746021368,FR,fashion,partner,card,8,608.74,EUR 4869.90,unknown,crm
+LEG-001067,2023/03/23 21:00:00,64221,customer64221@mail.net,4235528587063022,UK,home,mobile,paypal,8,470.71,$3765.68,ok,pos
+LEG-001068,2023/05/12 05:00:00,88463,customer88463@retail.org,,IT,fashion,store,paypal,5,649.27,3246.35 USD,ok,pos
+LEG-001069,28-11-2023 13:00,83664,customer83664@mail.net,5193788663646533,DE,groceries,partner,wire,9,502.54,4522.88 EUR,manual_review,erp
+LEG-001070,12-08-2022 15:00,19734,customer19734@legacy.local,5052194050472609,UK,home,web,paypal,3,575.97,$1727.92,manual_review,crm
+LEG-001071,2023/07/25 02:00:00,51560,customer51560@retail.org,4665397885874895,FR,home,web,paypal,10,290.51,£2905.10,ok,batch_import
+LEG-001072,04/05/2023,33735,customer33735@retail.org,4238487756191898,FR,groceries,mobile,wire,5,339.61,EUR 1698.04,ok,pos
+LEG-001073,2022/08/24 12:00:00,55964,,4934424627123933,ES,fashion,store,wire,8,462.31,€3698.50,manual_review,pos
+LEG-001074,2023-02-10,97889,customer97889@retail.org,5875788273763097,IT,books,mobile,cash,10,271.08,2710.80 GBP,manual_review,pos
+LEG-001075,12-10-2022 11:00,17241,customer17241@legacy.local,4901079322652782,DE,sports,store,card,5,686.43,€3432.16,unknown,erp
+LEG-001076,,67973,customer67973@retail.org,5075538053659726,IT,electronics,partner,card,11,75.19,€827.13,manual_review,erp
+LEG-001077,2022-09-06,23992,customer23992@legacy.local,5379821492413717,DE,books,web,paypal,9,,1591.27 GBP,pending,batch_import
+LEG-001078,2022/07/23 17:00:00,26203,,5775595735410577,PT,electronics,store,card,3,706.60,2119.81 GBP,ok,crm
+LEG-001079,2022/08/05 10:00:00,52642,customer52642@mail.net,,,groceries,web,cash,3,881.78,€2645.35,manual_review,batch_import
+LEG-001080,2023-11-11,12181,customer12181@example.com,5584089227069906,FR,sports,partner,paypal,8,440.58,GBP 3524.62,pending,batch_import
+LEG-001081,2022-11-08,48388,,4351424496639000,PT,groceries,web,paypal,3,812.92,2438.76 GBP,manual_review,batch_import
+LEG-001082,2023-02-30,23695,customer23695@example.com,5317098166881303,IT,books,web,wire,11,137.40,€1511.45,unknown,batch_import
+LEG-001083,24/12/2022,67565,customer67565@retail.org,5622957947450809,IT,electronics,partner,wire,3,387.34,USD 1162.01,manual_review,crm
+LEG-001084,2023/04/04 02:00:00,20811,customer20811@example.com,,UK,electronics,mobile,cash,5,265.79,£1328.95,pending,crm
+LEG-001085,2023/02/06 10:00:00,35209,customer35209@legacy.local,5074146440261353,FR,fashion,web,wire,10,222.40,GBP 2224.00,pending,pos
+LEG-001086,13/08/2023,57197,customer57197@mail.net,,DE,sports,web,wire,1,1726.66,1726.66 GBP,pending,erp
+LEG-001087,09-05-2022 14:00,42434,customer42434@retail.org,5881946877492944,PT,home,partner,cash,7,174.71,1222.99 EUR,manual_review,batch_import
+LEG-001088,05-12-2023 10:00,89106,customer89106@retail.org,,PT,books,mobile,wire,1,4819.86,4819.86 GBP,ok,crm
+LEG-001089,2022-13-13,80851,customer80851@example.com,4889531154397815,FR,sports,web,card,3,1363.31,EUR 4089.93,pending,batch_import
+LEG-001090,2023/10/31 05:00:00,14964,customer14964@retail.org,4251826135062108,ES,fashion,partner,card,7,679.02,4753.12 GBP,manual_review,pos
+LEG-001091,2022-02-20,79595,customer79595@retail.org,4140737308714390,ES,home,web,card,-1,330.22,£1981.32,ok,batch_import
+LEG-001092,20-10-2022 16:00,95455,,4738152293229725,ES,groceries,mobile,paypal,8,584.88,USD 4679.06,manual_review,pos
+LEG-001093,2023/10/07 18:00:00,81575,customer81575@retail.org,,UK,fashion,web,card,8,33.16,EUR 265.30,pending,pos
+LEG-001094,2022/08/31 03:00:00,10309,customer10309@retail.org,5010146019335206,PT,fashion,web,wire,4,354.34,$1417.35,manual_review,erp
+LEG-001095,2022-13-09,48382,customer48382@retail.org,,,sports,partner,cash,9,29.68,$267.16,pending,pos
+LEG-001096,2022-09-28,66649,customer66649@legacy.local,5710665602492357,FR,sports,web,paypal,3,398.99,1196.96 EUR,manual_review,batch_import
+LEG-001097,2022-11-20,55596,customer55596@retail.org,4171511142412484,FR,fashion,mobile,card,2,410.13,820.26 USD,manual_review,pos
+LEG-001098,2023/09/04 10:00:00,10071,customer10071@example.com,,UK,home,mobile,card,7,487.65,GBP 3413.55,ok,erp
+LEG-001099,,59896,customer59896@example.com,5426078241164342,UK,electronics,web,paypal,7,255.93,$1791.49,pending,pos
+LEG-001100,2023/10/22 13:00:00,26636,customer26636@legacy.local,4684603895159234,DE,home,web,cash,1,1147.98,EUR 1147.98,ok,batch_import
+LEG-001101,2022-11-28,51218,customer51218@example.com,4713463107890786,UK,fashion,partner,card,1,52.70,GBP 52.70,unknown,crm
+LEG-001102,2022/11/10 15:00:00,46478,customer46478@legacy.local,,ES,home,partner,card,8,399.43,£3195.44,manual_review,pos
+LEG-001103,2022/12/02 23:00:00,56985,customer56985@example.com,5928184726680639,PT,fashion,web,card,1,849.91,849.91 EUR,manual_review,erp
+LEG-001104,03/11/2023,90139,customer90139@example.com,4179592822331256,PT,groceries,mobile,paypal,9,14.95,134.52 EUR,manual_review,crm
+LEG-001105,24/05/2023,34835,customer34835@legacy.local,5374214209420793,FR,groceries,partner,card,3,466.65,1399.95 EUR,unknown,erp
+LEG-001106,03-01-2022 18:00,53254,customer53254@retail.org,4642737957238161,PT,sports,web,card,11,103.18,EUR 1134.99,ok,crm
+LEG-001107,2023/02/19 18:00:00,98656,customer98656@example.com,4223208738570943,ES,electronics,store,cash,5,45.31,GBP 226.53,ok,batch_import
+LEG-001108,,34353,customer34353@legacy.local,5193178449883803,FR,fashion,mobile,card,11,64.28,$707.09,unknown,batch_import
+LEG-001109,15/05/23,51046,customer51046@mail.net,4348118082938502,IT,fashion,mobile,paypal,8,193.30,€1546.39,manual_review,pos
+LEG-001110,02-04-2023 00:00,40783,,5331191611955309,PT,home,store,card,1,1085.74,EUR 1085.74,pending,batch_import
+LEG-001111,2023-08-18,13602,customer13602@mail.net,5820721624742468,DE,sports,store,card,9,230.42,2073.77 EUR,ok,pos
+LEG-001112,13/05/2022,67823,customer67823@example.com,5890355081996844,FR,fashion,web,cash,2,1561.62,€3123.24,ok,pos
+LEG-001113,2022/11/30 13:00:00,58484,customer58484@example.com,4016759930013414,FR,books,web,cash,11,,€4616.59,manual_review,pos
+LEG-001114,08-02-2022 00:00,16425,customer16425@mail.net,5976834875256048,PT,fashion,partner,wire,5,14.54,72.69 EUR,ok,batch_import
+LEG-001115,24-06-2022 21:00,21688,customer21688@mail.net,5081595904315071,FR,fashion,store,cash,2,2469.38,GBP 4938.76,ok,crm
+LEG-001116,2023-08-21,30487,customer30487@legacy.local,5168444696458924,ES,books,mobile,wire,2,1752.22,EUR 3504.44,manual_review,erp
+LEG-001117,02-09-2023 22:00,99220,customer99220@mail.net,4448940094658463,IT,groceries,store,cash,8,174.85,$1398.83,manual_review,batch_import
+LEG-001118,09/04/23,84995,customer84995@mail.net,5191871628974767,UK,electronics,web,card,4,588.19,€2352.76,pending,pos
+LEG-001119,2023-08-17,37603,customer37603@mail.net,5591056396704477,ES,sports,partner,cash,7,81.51,570.55 USD,ok,crm
+LEG-001120,2023/10/18 19:00:00,43560,customer43560@retail.org,4563744845557663,FR,home,web,paypal,,3090.42,USD 3090.42,manual_review,erp
+LEG-001121,2023/12/14 04:00:00,27136,,5266036698027644,UK,books,store,wire,12,,$2642.22,ok,batch_import
+LEG-001122,23-05-2022 08:00,71215,customer71215@mail.net,,IT,fashion,partner,card,5,681.08,,ok,crm
+LEG-001123,19-01-2022 04:00,50353,customer50353@mail.net,,UK,sports,partner,paypal,10,412.50,4125.01 EUR,manual_review,crm
+LEG-001124,01/11/23,87348,customer87348@legacy.local,4596669423943837,UK,sports,mobile,paypal,2,N/A,1747.65 USD,unknown,crm
+LEG-001125,20-05-2022 21:00,33502,customer33502@legacy.local,5250553267992448,DE,books,partner,cash,8,546.45,4371.63 GBP,unknown,crm
+LEG-001126,15-05-2023 15:00,67173,,4762969652415731,ES,sports,web,paypal,9,246.11,2215.00 USD,ok,erp
+LEG-001127,13/04/2023,42683,customer42683@retail.org,4496355019353110,UK,sports,store,cash,4,983.66,€3934.63,ok,crm
+LEG-001128,2023-02-30,97042,customer97042@mail.net,,FR,fashion,mobile,card,5,693.36,GBP 3466.81,unknown,crm
+LEG-001129,04-10-2022 22:00,37356,customer37356@example.com,,FR,electronics,web,paypal,6,437.24,GBP 2623.47,manual_review,batch_import
+LEG-001130,2023-05-12,45917,customer45917@mail.net,5625750422464069,UK,books,partner,card,8,498.06,USD 3984.47,pending,batch_import
+LEG-001131,,25179,customer25179@example.com,,FR,sports,mobile,paypal,9,167.12,USD 1504.05,ok,pos
+LEG-001132,09/06/2023,26234,customer26234@retail.org,,,fashion,web,paypal,11,103.68,USD 1140.52,manual_review,batch_import
+LEG-001133,2023-04-16,16209,customer16209@retail.org,4751800778428455,ES,fashion,partner,cash,2,783.94,USD 1567.88,pending,erp
+LEG-001134,30/07/2022,86833,customer86833@example.com,5259783367408912,ES,books,store,paypal,5,864.27,4321.35 USD,ok,crm
+LEG-001135,2022-03-04,54858,customer54858@example.com,4257016206370355,IT,electronics,partner,cash,3,1259.31,USD 3777.93,manual_review,pos
+LEG-001136,16-05-2022 11:00,35278,customer35278@retail.org,4092254508069409,DE,groceries,partner,card,1,1931.87,€1931.87,ok,crm
+LEG-001137,27/10/2022,67280,customer67280@legacy.local,4460356089706493,IT,sports,store,cash,9,N/A,£1950.60,pending,crm
+LEG-001138,25-01-2022 05:00,74038,customer74038@mail.net,4005019857547388,IT,fashion,store,card,10,327.60,GBP 3275.99,manual_review,erp
+LEG-001139,not_available,11723,customer11723@example.com,5247117887505139,ES,groceries,store,card,3,618.47,EUR 1855.40,pending,crm
+LEG-001140,2022/02/12 08:00:00,10424,customer10424@example.com,4327692689947387,,home,store,wire,11,224.15,$2465.60,manual_review,erp
+LEG-001141,2022/07/28 15:00:00,20610,customer20610@example.com,,FR,sports,store,paypal,2,373.91,747.82 EUR,unknown,crm
+LEG-001142,01-07-2023 14:00,40501,customer40501@retail.org,,PT,books,mobile,cash,,,3949.92 USD,manual_review,batch_import
+LEG-001143,06/06/22,15256,customer15256@retail.org,5636805373808823,ES,electronics,web,wire,11,N/A,£4059.84,ok,batch_import
+LEG-001144,28/02/2023,76454,customer76454@example.com,5006688127904252,FR,books,web,cash,11,300.26,USD 3302.84,unknown,crm
+LEG-001145,,69813,customer69813@example.com,5809854487890483,DE,sports,partner,cash,8,620.88,,ok,erp
+LEG-001146,,13873,customer13873@retail.org,5308780378253712,IT,electronics,store,card,7,302.10,2114.67 USD,ok,erp
+LEG-001147,03-05-2022 15:00,20200,customer20200@legacy.local,5433178273059766,IT,electronics,partner,paypal,3,474.04,€1422.11,manual_review,batch_import
+LEG-001148,2023/12/16 15:00:00,28207,customer28207@retail.org,,DE,groceries,partner,cash,10,,,unknown,pos
+LEG-001149,25/07/2023,67447,customer67447@legacy.local,4898622546862966,ES,fashion,store,cash,4,896.94,GBP 3587.76,manual_review,crm
+LEG-001150,2023-05-08,85972,,,ES,sports,store,paypal,3,269.62,GBP 808.85,ok,batch_import
+LEG-001151,18/05/2023,62446,customer62446@example.com,5225898730732166,DE,electronics,web,cash,12,54.65,GBP 655.81,ok,batch_import
+LEG-001152,02-01-2023 01:00,43138,customer43138@mail.net,5643494652650534,DE,sports,web,card,3,,9.64 GBP,unknown,erp
+LEG-001153,18-12-2022 11:00,82015,customer82015@mail.net,4041552823016430,PT,home,partner,cash,8,336.22,2689.74 USD,pending,pos
+LEG-001154,2023-12-11,66175,customer66175@mail.net,5724649728341906,UK,electronics,web,cash,8,592.97,EUR 4743.76,pending,crm
+LEG-001155,10-03-2023 11:00,25873,customer25873@example.com,4489105579991584,UK,fashion,store,card,3,215.91,€647.74,unknown,crm
+LEG-001156,01/03/2023,13516,customer13516@mail.net,5357845907312821,ES,sports,mobile,card,1,2572.99,$2572.99,pending,batch_import
+LEG-001157,2023-03-31,73909,customer73909@retail.org,5327624326572079,FR,electronics,partner,wire,1,295.91,$295.91,pending,erp
+LEG-001158,2023/06/16 09:00:00,35580,customer35580@example.com,4857928262901651,UK,home,partner,paypal,2,973.53,GBP 1947.07,unknown,pos
+LEG-001159,02/04/2023,36840,customer36840@example.com,4475619617650210,ES,books,partner,paypal,11,32.55,358.03 USD,manual_review,crm
+LEG-001160,2022-08-21,93427,customer93427@retail.org,4537693287927462,IT,fashion,store,wire,6,105.09,$630.56,pending,batch_import
+LEG-001161,not_available,68257,customer68257@mail.net,5199645962438409,UK,fashion,partner,card,10,162.92,€1629.23,unknown,crm
+LEG-001162,2022-13-09,98330,customer98330@example.com,4867207591445661,DE,groceries,partner,card,9,N/A,EUR 553.49,unknown,crm
+LEG-001163,2022/12/17 14:00:00,34296,customer34296@retail.org,5573297741050685,UK,home,web,paypal,6,327.35,£1964.10,manual_review,crm
+LEG-001164,2022-08-14,59179,customer59179@mail.net,5289078162930961,ES,electronics,partner,cash,6,792.35,€4754.11,ok,pos
+LEG-001165,18-10-2023 21:00,25679,customer25679@legacy.local,5670996087496122,IT,books,partner,paypal,10,230.33,2303.31 GBP,pending,pos
+LEG-001166,06/02/2023,91490,customer91490@retail.org,4300971547595013,PT,home,web,card,9,224.37,GBP 2019.32,unknown,crm
+LEG-001167,2022-11-12,33922,customer33922@legacy.local,,UK,electronics,store,card,7,676.79,4737.51 EUR,ok,crm
+LEG-001168,2022-11-09,16312,customer16312@mail.net,4519394278911926,IT,electronics,partner,card,12,126.90,£1522.80,unknown,crm
+LEG-001169,2023/04/23 21:00:00,60952,customer60952@legacy.local,5708058582404977,IT,sports,partner,wire,8,,,ok,pos
+LEG-001170,27/08/2023,64214,customer64214@legacy.local,,ES,fashion,mobile,wire,6,77.73,€466.36,manual_review,batch_import
+LEG-001171,2023/03/09 16:00:00,50100,customer50100@mail.net,5482138011557694,UK,electronics,mobile,paypal,-1,1417.47,EUR 4252.42,manual_review,pos
+LEG-001172,2023/04/19 10:00:00,89926,customer89926@legacy.local,4243421395796562,DE,home,store,card,,1238.69,£2477.38,ok,pos
+LEG-001173,09/07/2023,48352,customer48352@mail.net,5293706258736080,IT,groceries,mobile,cash,11,19.38,£213.13,manual_review,pos
+LEG-001174,14/10/2023,58508,customer58508@mail.net,5775688637137998,,groceries,store,wire,3,331.28,GBP 993.84,pending,erp
+LEG-001175,2022/12/05 14:00:00,96371,customer96371@legacy.local,5644512562220834,FR,home,partner,card,7,620.72,€4345.07,ok,batch_import
+LEG-001176,2023-02-30,36531,customer36531@legacy.local,4921629860427857,ES,home,partner,wire,5,N/A,3028.04 GBP,manual_review,erp
+LEG-001177,17/03/2022,86188,customer86188@example.com,5081107149236036,IT,books,store,paypal,5,383.94,USD 1919.68,pending,erp
+LEG-001178,06/08/2022,74795,customer74795@example.com,4804384309797568,FR,books,web,card,7,709.70,£4967.93,pending,crm
+LEG-001179,31-01-2023 11:00,39936,customer39936@mail.net,4023121781704232,FR,books,web,card,3,176.15,,pending,crm
+LEG-001180,,55097,,5310017925136223,ES,groceries,partner,card,8,81.97,GBP 655.79,unknown,crm
+LEG-001181,26-03-2022 22:00,46339,customer46339@example.com,5272045098063533,,fashion,mobile,cash,7,277.70,1943.89 EUR,unknown,batch_import
+LEG-001182,2023/11/13 02:00:00,14652,customer14652@example.com,4096730924074135,UK,sports,mobile,wire,6,732.17,4393.04 USD,unknown,batch_import
+LEG-001183,,23261,customer23261@mail.net,4675014683146500,FR,sports,store,paypal,9,326.92,GBP 2942.28,ok,crm
+LEG-001184,2022-04-18,22441,customer22441@retail.org,,DE,groceries,mobile,paypal,-1,313.27,£1879.63,manual_review,erp
+LEG-001185,13/05/2023,43697,customer43697@retail.org,5347641442719745,FR,sports,store,card,9,469.71,4227.36 EUR,ok,batch_import
+LEG-001186,2023-02-30,71665,customer71665@legacy.local,4610909824508146,,home,partner,card,6,163.84,EUR 983.02,pending,erp
+LEG-001187,12-07-2022 08:00,36496,customer36496@retail.org,,IT,home,web,cash,2,1652.70,3305.41 GBP,ok,crm
+LEG-001188,2023/03/10 20:00:00,81195,customer81195@retail.org,4064646764785625,IT,sports,web,card,10,N/A,822.35 USD,pending,pos
+LEG-001189,11/06/23,86037,customer86037@mail.net,4438255203286591,ES,books,web,paypal,-1,965.62,GBP 2896.86,unknown,erp
+LEG-001190,2023-11-18,38745,customer38745@legacy.local,5016776921910507,IT,books,store,cash,12,370.70,4448.35 USD,unknown,crm
+LEG-001191,07-06-2023 14:00,25251,customer25251@legacy.local,5315567695979296,DE,groceries,partner,wire,4,1112.17,EUR 4448.69,pending,crm
+LEG-001192,2023/12/01 03:00:00,52790,customer52790@example.com,5307683298768160,UK,books,web,cash,6,341.38,USD 2048.31,manual_review,erp
+LEG-001193,2022-02-16,38183,customer38183@mail.net,,PT,books,partner,wire,9,257.24,$2315.17,unknown,batch_import
+LEG-001194,10/02/2023,35427,customer35427@retail.org,5008894383014857,ES,fashion,web,card,2,162.87,325.73 USD,ok,erp
+LEG-001195,2023/03/19 02:00:00,34193,,5363149318137229,IT,electronics,store,paypal,,926.98,2780.95 GBP,pending,pos
+LEG-001196,19-09-2022 18:00,62670,customer62670@legacy.local,5813372278181553,PT,books,mobile,card,7,204.96,$1434.71,ok,erp
+LEG-001197,18-02-2023 00:00,72070,customer72070@mail.net,4726488105039167,PT,groceries,mobile,cash,8,474.67,3797.33 GBP,pending,crm
+LEG-001198,2023/06/14 03:00:00,34095,customer34095@legacy.local,4698232072486115,UK,home,mobile,card,11,357.89,,unknown,batch_import
+LEG-001199,2022-06-04,46300,customer46300@mail.net,4208362487485623,IT,books,partner,card,2,1760.12,€3520.25,manual_review,crm
+LEG-001200,05/12/2023,34672,customer34672@retail.org,4657416984366337,FR,electronics,store,paypal,11,278.00,3058.05 USD,unknown,erp
+LEG-001201,17/03/2022,54459,customer54459@retail.org,4396042445025670,DE,home,store,card,7,361.14,,pending,batch_import
+LEG-001202,2022-08-17,31213,customer31213@mail.net,5126980865510861,IT,electronics,partner,wire,1,2947.55,2947.55 EUR,unknown,crm
+LEG-001203,2023-02-30,58122,customer58122@mail.net,5574863281070560,FR,fashion,mobile,paypal,3,980.77,2942.32 EUR,manual_review,batch_import
+LEG-001204,18-12-2022 06:00,98348,customer98348@retail.org,4445697918143369,FR,sports,store,cash,11,391.65,EUR 4308.15,manual_review,crm
+LEG-001205,14-11-2022 19:00,78798,customer78798@retail.org,4818758804140363,IT,sports,web,wire,11,248.64,£2735.02,ok,erp
+LEG-001206,2023/09/08 20:00:00,89603,customer89603@legacy.local,4213455799900725,IT,home,web,cash,1,1045.40,1045.40 USD,pending,batch_import
+LEG-001207,19-10-2022 03:00,58534,customer58534@retail.org,5795932249673719,FR,fashion,web,wire,1,550.25,USD 550.25,pending,pos
+LEG-001208,2023-04-03,79248,customer79248@legacy.local,5748868996908786,ES,sports,web,wire,10,,£695.54,ok,pos
+LEG-001209,2023/04/09 04:00:00,46547,customer46547@mail.net,5861095472874075,IT,electronics,store,cash,1,935.36,935.36 GBP,ok,erp
+LEG-001210,2023/11/24 00:00:00,88424,customer88424@retail.org,4750139939256797,FR,fashion,mobile,card,2,1524.26,$3048.51,pending,batch_import
+LEG-001211,27-08-2022 07:00,79143,customer79143@legacy.local,4303262498640946,FR,fashion,web,paypal,7,294.11,2058.76 EUR,unknown,pos
+LEG-001212,2023-13-08,70958,customer70958@legacy.local,4482800920536504,DE,books,partner,card,1,1904.55,EUR 1904.55,ok,pos
+LEG-001213,2022/11/17 20:00:00,45701,customer45701@legacy.local,,FR,sports,partner,cash,2,2231.12,GBP 4462.25,unknown,crm
+LEG-001214,11-11-2022 02:00,11820,customer11820@legacy.local,5523465546120384,DE,home,partner,paypal,9,119.22,1072.96 GBP,pending,crm
+LEG-001215,2023/10/18 08:00:00,53770,customer53770@retail.org,5078138475134074,IT,sports,web,paypal,6,818.41,EUR 4910.49,unknown,pos
+LEG-001216,2023-02-30,56048,customer56048@example.com,5973725303158464,IT,sports,mobile,card,1,395.01,EUR 395.01,pending,crm
+LEG-001217,not_available,16269,customer16269@legacy.local,4343292620555562,FR,sports,partner,paypal,9,N/A,GBP 4779.41,pending,pos
+LEG-001218,01-06-2023 16:00,99396,customer99396@retail.org,4809572839783018,DE,groceries,store,cash,9,195.42,,manual_review,pos
+LEG-001219,22/01/2023,97728,customer97728@legacy.local,5587509802075204,IT,fashion,store,wire,12,133.36,$1600.31,manual_review,batch_import
+LEG-001220,03/10/2022,29535,customer29535@example.com,4890112036729169,FR,fashion,web,cash,5,298.57,USD 1492.87,manual_review,erp
+LEG-001221,26/01/2022,65089,customer65089@example.com,4618321529007416,UK,home,web,cash,,153.04,GBP 1836.51,ok,batch_import
+LEG-001222,2022-09-16,49413,,,DE,books,web,paypal,12,159.42,1913.01 GBP,ok,crm
+LEG-001223,2023/11/26 13:00:00,61210,customer61210@retail.org,5903367594791099,IT,home,partner,paypal,11,123.71,USD 1360.76,ok,pos
+LEG-001224,28/09/2022,44676,customer44676@example.com,4002675547539641,PT,sports,web,card,1,4385.50,GBP 4385.50,unknown,erp
+LEG-001225,2023-12-03,32974,customer32974@mail.net,4886112580443065,DE,home,web,card,4,1227.33,USD 4909.32,ok,batch_import
+LEG-001226,29-03-2022 10:00,40537,customer40537@retail.org,5110706868646414,PT,books,store,cash,3,1521.58,GBP 4564.73,unknown,erp
+LEG-001227,18-10-2023 22:00,59785,customer59785@legacy.local,5166032370140950,UK,sports,web,cash,10,269.42,EUR 2694.15,unknown,batch_import
+LEG-001228,2022/04/04 11:00:00,87464,customer87464@legacy.local,,IT,sports,web,wire,12,174.64,GBP 2095.73,unknown,batch_import
+LEG-001229,07/10/2023,78459,customer78459@mail.net,5167621874309647,IT,home,partner,wire,10,249.64,2496.38 EUR,pending,pos
+LEG-001230,24/07/2023,83420,customer83420@retail.org,5331258128766340,ES,groceries,store,paypal,1,3549.24,USD 3549.24,unknown,batch_import
+LEG-001231,27-02-2023 18:00,53394,,4352845470500574,UK,electronics,partner,cash,2,2350.35,GBP 4700.70,pending,crm
+LEG-001232,21/07/2022,74933,customer74933@legacy.local,5248816035341765,ES,electronics,web,card,4,670.30,GBP 2681.20,ok,erp
+LEG-001233,2023-06-17,95494,customer95494@example.com,5127715685390917,DE,sports,web,card,6,,GBP 1180.31,pending,crm
+LEG-001234,2022-11-30,22699,customer22699@legacy.local,4764526587280238,FR,fashion,web,card,-1,432.44,,ok,crm
+LEG-001235,13-04-2023 17:00,10060,customer10060@retail.org,4030710816922397,UK,electronics,store,paypal,-1,416.06,1664.24 GBP,ok,batch_import
+LEG-001236,2023/09/27 21:00:00,26631,customer26631@legacy.local,5358349263898749,IT,books,mobile,wire,3,758.15,£2274.44,pending,erp
+LEG-001237,,94887,customer94887@example.com,5530296149909416,FR,home,web,wire,10,258.06,2580.62 GBP,ok,pos
+LEG-001238,30-07-2023 19:00,80963,customer80963@legacy.local,5848749400926288,FR,electronics,partner,wire,2,204.49,GBP 408.98,unknown,batch_import
+LEG-001239,05-11-2023 21:00,75239,customer75239@mail.net,,PT,home,store,wire,4,357.43,£1429.70,ok,crm
+LEG-001240,07/02/2023,25216,customer25216@mail.net,5095772487747630,IT,fashion,mobile,card,1,2862.90,,manual_review,erp
+LEG-001241,02/06/2023,92254,customer92254@example.com,4305975733682876,DE,sports,store,wire,2,1926.38,3852.76 USD,unknown,crm
+LEG-001242,04-05-2023 16:00,60399,customer60399@mail.net,5130002554645334,IT,books,store,paypal,9,,€1340.53,unknown,crm
+LEG-001243,2022/02/11 13:00:00,37788,customer37788@example.com,4961387595594229,ES,home,mobile,paypal,8,478.37,$3826.93,ok,crm
+LEG-001244,2022/10/29 06:00:00,59470,customer59470@example.com,5927143694749347,IT,home,partner,card,8,276.28,2210.23 GBP,manual_review,batch_import
+LEG-001245,07-07-2023 09:00,51469,customer51469@mail.net,4790053126055740,UK,books,store,paypal,1,2619.91,$2619.91,unknown,crm
+LEG-001246,15/06/2023,21857,customer21857@example.com,4594123459232580,PT,sports,partner,card,8,142.45,€1139.61,unknown,erp
+LEG-001247,2023-13-26,47092,customer47092@legacy.local,5402810607634433,,groceries,partner,wire,-1,331.85,$2986.66,pending,batch_import
+LEG-001248,01/04/2022,29758,customer29758@mail.net,4723685044852602,PT,groceries,partner,wire,12,39.81,$477.72,pending,crm
+LEG-001249,18/01/2022,25194,customer25194@retail.org,4340870568335556,FR,electronics,mobile,paypal,10,496.71,$4967.10,ok,crm
+LEG-001250,,74006,customer74006@legacy.local,5094044750175056,DE,sports,web,cash,4,889.66,3558.64 GBP,pending,erp
+LEG-001251,2022-03-04,15522,customer15522@example.com,5971363591142028,PT,home,mobile,cash,1,1264.03,1264.03 EUR,pending,pos
+LEG-001252,2022-06-09,29089,customer29089@legacy.local,,IT,books,web,wire,10,130.99,£1309.93,ok,batch_import
+LEG-001253,16-06-2023 08:00,46788,customer46788@retail.org,5795361408307090,PT,home,partner,wire,12,372.66,4471.88 USD,pending,batch_import
+LEG-001254,30-05-2022 09:00,35926,customer35926@retail.org,4824382146292222,PT,groceries,web,wire,10,214.95,EUR 2149.46,unknown,crm
+LEG-001255,2022-10-26,13592,customer13592@mail.net,4452292456708939,UK,electronics,store,cash,12,321.52,GBP 3858.20,manual_review,pos
+LEG-001256,28-08-2022 06:00,54827,customer54827@mail.net,4905309458759508,PT,fashion,mobile,wire,12,230.53,,manual_review,crm
+LEG-001257,07-11-2022 16:00,19180,customer19180@retail.org,5291483565086922,,home,store,wire,10,279.00,£2789.98,ok,crm
+LEG-001258,2022-07-02,58228,customer58228@legacy.local,5768094059647033,FR,sports,store,wire,7,254.09,1778.66 USD,pending,erp
+LEG-001259,02/03/2022,48657,,4431091568309531,PT,sports,mobile,cash,5,988.56,USD 4942.78,manual_review,batch_import
+LEG-001260,28/02/2023,48072,customer48072@example.com,4781010124480569,PT,groceries,partner,paypal,9,156.96,1412.64 EUR,ok,crm
+LEG-001261,not_available,18091,customer18091@legacy.local,5993064041210704,PT,sports,store,card,12,N/A,2199.41 GBP,unknown,crm
+LEG-001262,2023/10/26 03:00:00,66446,customer66446@legacy.local,4560951427702153,ES,sports,web,card,6,371.19,€2227.14,ok,pos
+LEG-001263,07-02-2023 03:00,35271,,5725531073712207,,groceries,store,paypal,1,1319.91,1319.91 USD,manual_review,crm
+LEG-001264,2022-13-29,87723,customer87723@legacy.local,4400998129719228,FR,sports,store,wire,4,161.50,€646.00,ok,erp
+LEG-001265,20-03-2023 20:00,32768,customer32768@retail.org,4105129272430677,IT,fashion,partner,cash,9,,EUR 2398.62,unknown,crm
+LEG-001266,2023-12-13,92975,customer92975@mail.net,4082366162017295,UK,groceries,partner,card,12,N/A,$1795.76,ok,crm
+LEG-001267,02/10/2023,45503,customer45503@retail.org,5360863339950666,DE,groceries,store,paypal,,3.31,,ok,crm
+LEG-001268,2022-02-19,92016,customer92016@mail.net,5644199412436160,UK,groceries,web,cash,6,518.56,3111.38 GBP,unknown,erp
+LEG-001269,2022-04-06,89942,customer89942@example.com,5755004375315752,IT,groceries,mobile,cash,3,25.56,,manual_review,batch_import
+LEG-001270,2023/01/12 06:00:00,57194,customer57194@example.com,4474392708120780,,fashion,web,card,8,551.63,EUR 4413.03,pending,erp
+LEG-001271,2023/09/22 00:00:00,63086,customer63086@retail.org,5166190764449043,FR,groceries,partner,card,11,N/A,€53.10,manual_review,erp
+LEG-001272,23/06/2022,45201,customer45201@mail.net,5559218956886499,PT,fashion,store,paypal,1,3903.71,EUR 3903.71,pending,pos
+LEG-001273,18/08/2022,93754,customer93754@retail.org,5090857537947631,PT,home,web,card,5,304.42,1522.12 EUR,unknown,erp
+LEG-001274,13-06-2022 03:00,96308,customer96308@retail.org,4896010665897824,FR,sports,mobile,wire,2,N/A,GBP 396.72,unknown,pos
+LEG-001275,13/02/2023,40482,customer40482@mail.net,5908144986029653,IT,home,web,paypal,9,489.66,,ok,crm
+LEG-001276,19/03/22,75036,customer75036@legacy.local,5512982945418337,ES,fashion,store,wire,1,,USD 2584.35,ok,erp
+LEG-001277,30-03-2023 16:00,17807,customer17807@mail.net,4535760367336142,DE,sports,web,cash,1,3253.57,3253.57 USD,ok,pos
+LEG-001278,2023/10/31 07:00:00,30481,customer30481@example.com,4757730614601741,,groceries,web,card,5,960.78,4803.89 USD,pending,pos
+LEG-001279,17-06-2023 07:00,65918,customer65918@retail.org,5402347145137402,PT,sports,partner,paypal,8,518.22,£4145.78,manual_review,erp
+LEG-001280,15/01/2022,54702,customer54702@retail.org,5536422094705447,FR,groceries,mobile,card,5,674.54,3372.68 GBP,pending,batch_import
+LEG-001281,2022/05/31 16:00:00,77035,customer77035@legacy.local,5302997385442402,FR,books,web,paypal,12,225.26,2703.17 USD,ok,batch_import
+LEG-001282,15-05-2023 05:00,43415,customer43415@example.com,5873781561621736,ES,books,partner,wire,3,,GBP 4690.79,ok,batch_import
+LEG-001283,22-11-2023 21:00,25766,customer25766@retail.org,5218224792247686,UK,fashion,partner,card,5,424.77,2123.87 GBP,pending,pos
+LEG-001284,2022-06-04,32614,customer32614@legacy.local,4373454247115582,ES,books,store,card,6,160.91,EUR 965.45,manual_review,batch_import
+LEG-001285,03-08-2022 03:00,97486,customer97486@mail.net,4364255035332101,FR,fashion,store,card,2,1515.29,3030.58 GBP,manual_review,batch_import
+LEG-001286,2023/06/30 21:00:00,72926,customer72926@legacy.local,4435456367988368,DE,sports,store,paypal,7,2.04,,manual_review,erp
+LEG-001287,2022-13-23,68781,customer68781@mail.net,5299211924743506,DE,home,web,wire,10,380.80,EUR 3807.98,pending,erp
+LEG-001288,2022-02-11,35161,customer35161@mail.net,5761680680304005,UK,fashion,web,card,10,293.97,€2939.68,pending,erp
+LEG-001289,2022-04-15,74697,customer74697@mail.net,5992917919690913,ES,fashion,store,wire,-1,437.88,$1313.64,pending,batch_import
+LEG-001290,2023-13-07,13577,customer13577@mail.net,,IT,electronics,store,wire,2,2224.91,EUR 4449.82,unknown,batch_import
+LEG-001291,2023-07-14,98756,customer98756@mail.net,5046485551693240,UK,groceries,store,card,9,549.26,4943.32 EUR,ok,crm
+LEG-001292,2023-02-14,85911,customer85911@mail.net,5868043942900889,FR,books,store,cash,7,53.23,372.60 GBP,ok,erp
+LEG-001293,07-06-2022 01:00,71799,customer71799@mail.net,4074878134095140,UK,electronics,mobile,cash,2,517.36,,unknown,pos
+LEG-001294,2022-09-14,27716,customer27716@mail.net,4553962556144129,ES,electronics,mobile,wire,11,310.15,$3411.68,ok,crm
+LEG-001295,2023-02-30,77516,customer77516@mail.net,4612166948100112,PT,electronics,web,cash,3,1615.92,4847.76 USD,manual_review,batch_import
+LEG-001296,2023/02/02 16:00:00,81873,customer81873@legacy.local,5228074905389059,IT,groceries,store,wire,4,909.07,GBP 3636.26,unknown,batch_import
+LEG-001297,2022/10/21 03:00:00,75788,customer75788@example.com,5798155518495529,PT,home,mobile,card,8,306.86,2454.85 USD,manual_review,erp
+LEG-001298,25-09-2023 02:00,31247,customer31247@legacy.local,4342045781314562,PT,electronics,mobile,paypal,3,39.12,EUR 117.36,ok,pos
+LEG-001299,2023-04-22,34237,customer34237@mail.net,4277026049769799,IT,groceries,mobile,paypal,4,105.71,GBP 422.83,ok,erp
+LEG-001300,30-09-2023 12:00,66945,customer66945@retail.org,,PT,fashion,web,paypal,10,393.24,3932.37 USD,pending,erp
+LEG-001301,08-11-2022 07:00,37555,customer37555@example.com,5974469707119895,ES,fashion,partner,wire,-1,1910.48,€3820.97,unknown,batch_import
+LEG-001302,2022/11/06 10:00:00,27069,customer27069@retail.org,4714787508057117,UK,electronics,web,wire,3,351.71,GBP 1055.12,unknown,pos
+LEG-001303,23-02-2022 09:00,36855,customer36855@retail.org,4618277347749678,FR,fashion,mobile,wire,7,290.43,2033.04 GBP,ok,pos
+LEG-001304,2022/12/10 08:00:00,47342,customer47342@mail.net,5079077045530017,FR,fashion,mobile,paypal,4,152.24,608.94 EUR,unknown,batch_import
+LEG-001305,2023-10-24,16850,customer16850@retail.org,5652642437428220,ES,electronics,partner,paypal,6,306.13,$1836.81,pending,crm
+LEG-001306,2023-02-30,24005,customer24005@retail.org,5250093219569320,ES,sports,web,cash,9,402.48,3622.28 GBP,unknown,pos
+LEG-001307,2022-13-28,38497,customer38497@example.com,,DE,books,partner,cash,10,198.76,£1987.62,manual_review,pos
+LEG-001308,2022-13-02,98964,customer98964@mail.net,4772228749958936,FR,groceries,partner,card,5,796.78,3983.90 GBP,manual_review,erp
+LEG-001309,not_available,77624,customer77624@legacy.local,4383522377504480,PT,sports,store,cash,2,145.74,291.48 USD,pending,batch_import
+LEG-001310,13/05/2022,58028,,4461690476102965,ES,electronics,store,wire,5,325.56,€1627.79,manual_review,crm
+LEG-001311,2022/09/01 14:00:00,64205,customer64205@retail.org,5604851199065632,UK,books,web,card,3,1297.90,$3893.69,pending,batch_import
+LEG-001312,,20115,customer20115@legacy.local,4841875761765722,FR,books,mobile,cash,5,406.02,2030.08 GBP,unknown,crm
+LEG-001313,,35494,customer35494@legacy.local,,PT,sports,web,wire,4,590.54,EUR 2362.16,pending,crm
+LEG-001314,2022/04/25 06:00:00,21402,customer21402@retail.org,5939226894954276,PT,groceries,mobile,cash,11,120.73,£1328.00,ok,batch_import
+LEG-001315,20-12-2022 19:00,21203,customer21203@example.com,4980988040933627,FR,sports,mobile,wire,10,391.10,EUR 3910.99,pending,batch_import
+LEG-001316,2022-09-01,23357,customer23357@retail.org,4297451165160862,FR,sports,web,wire,6,667.22,,unknown,batch_import
+LEG-001317,2022-13-09,85361,customer85361@example.com,4072391918465506,DE,groceries,store,card,12,169.46,2033.49 GBP,unknown,pos
+LEG-001318,24-01-2023 13:00,86082,customer86082@example.com,4364499514370434,FR,fashion,mobile,cash,10,38.08,380.76 USD,unknown,erp
+LEG-001319,24-10-2023 03:00,34370,customer34370@legacy.local,4903473175102958,IT,books,mobile,wire,3,1133.41,3400.24 USD,unknown,crm
+LEG-001320,2023-02-30,65900,customer65900@example.com,,DE,home,mobile,card,11,332.79,3660.66 GBP,unknown,pos
+LEG-001321,,32770,customer32770@retail.org,4981625499314536,PT,books,partner,card,5,929.32,£4646.60,ok,batch_import
+LEG-001322,09/04/23,51774,customer51774@retail.org,4747069531217894,UK,books,partner,wire,4,341.79,€1367.16,ok,batch_import
+LEG-001323,23-10-2023 12:00,90722,customer90722@mail.net,5474019255317550,ES,sports,mobile,paypal,2,1890.39,$3780.78,manual_review,pos
+LEG-001324,2022/10/29 02:00:00,87195,customer87195@example.com,5360385528823132,DE,home,store,wire,10,316.31,3163.12 GBP,ok,batch_import
+LEG-001325,06/02/2023,42405,customer42405@legacy.local,5376366287117165,UK,sports,store,wire,9,284.85,2563.67 EUR,unknown,erp
+LEG-001326,14/09/2023,40863,customer40863@mail.net,5179394314914215,UK,electronics,partner,cash,-1,N/A,€3910.07,manual_review,pos
+LEG-001327,10-12-2023 15:00,58503,customer58503@example.com,5766307799751090,UK,electronics,store,card,11,72.60,€798.63,ok,pos
+LEG-001328,2022-06-06,18197,customer18197@legacy.local,4390029501147472,ES,sports,store,wire,9,277.51,£2497.63,manual_review,pos
+LEG-001329,2023-02-30,51065,customer51065@legacy.local,4884651903483082,,fashion,web,cash,9,209.65,£1886.83,ok,erp
+LEG-001330,02/05/2022,41861,customer41861@legacy.local,4071821821606392,ES,fashion,partner,card,5,874.55,EUR 4372.76,pending,erp
+LEG-001331,07/05/2023,62313,customer62313@mail.net,5356441193547286,IT,home,store,card,11,453.29,4986.14 GBP,pending,crm
+LEG-001332,2022-11-25,55220,customer55220@legacy.local,5728693953910673,IT,fashion,store,wire,5,623.42,,pending,pos
+LEG-001333,2022/08/30 17:00:00,90705,customer90705@mail.net,,ES,groceries,partner,card,3,958.76,2876.27 EUR,manual_review,batch_import
+LEG-001334,05/10/2023,27556,,4204103728102972,DE,sports,web,wire,5,N/A,,manual_review,erp
+LEG-001335,24/04/2023,33682,customer33682@example.com,5462133459582956,DE,books,mobile,paypal,2,,£796.01,ok,pos
+LEG-001336,08/04/2023,67539,customer67539@mail.net,,DE,electronics,partner,cash,4,535.21,$2140.83,ok,crm
+LEG-001337,2023/02/27 16:00:00,51027,customer51027@legacy.local,5979508046606382,ES,electronics,partner,wire,6,513.86,GBP 3083.14,pending,erp
+LEG-001338,2023/08/18 21:00:00,39388,customer39388@retail.org,4763514874971512,FR,books,mobile,paypal,3,935.86,2807.58 EUR,unknown,crm
+LEG-001339,26/10/2023,55636,customer55636@legacy.local,5512090181749731,FR,fashion,mobile,wire,11,,GBP 4611.63,ok,pos
+LEG-001340,13-10-2023 03:00,52234,,,IT,electronics,mobile,cash,-1,432.54,USD 3027.80,unknown,pos
+LEG-001341,13-09-2023 01:00,25654,customer25654@mail.net,5079606169413512,FR,books,mobile,cash,2,838.15,$1676.30,pending,batch_import
+LEG-001342,2022-05-20,63638,customer63638@mail.net,5906082761002351,ES,sports,store,cash,3,972.41,$2917.22,unknown,erp
+LEG-001343,2023/05/04 11:00:00,96566,customer96566@example.com,5870188111337952,ES,home,store,card,4,529.62,GBP 2118.49,pending,batch_import
+LEG-001344,2023-06-07,64559,customer64559@example.com,4208220448435197,IT,sports,store,cash,-1,100.31,1203.75 USD,unknown,crm
+LEG-001345,2022-06-18,92837,,4831377434030579,UK,electronics,partner,wire,5,187.19,£935.96,pending,erp
+LEG-001346,2023/12/07 15:00:00,53866,customer53866@mail.net,4167006208212407,UK,sports,store,wire,10,428.41,4284.06 EUR,pending,pos
+LEG-001347,2023/09/13 12:00:00,23745,customer23745@example.com,4848994549497254,PT,electronics,store,cash,5,240.58,€1202.91,unknown,batch_import
+LEG-001348,2022/11/30 03:00:00,10248,customer10248@mail.net,5748145252888646,ES,books,mobile,card,7,672.41,$4706.89,pending,crm
+LEG-001349,2023/09/16 19:00:00,39335,customer39335@mail.net,4777271542241250,IT,sports,web,wire,12,323.79,€3885.42,pending,crm
+LEG-001350,2023-05-04,88538,customer88538@retail.org,4998877335210858,UK,sports,mobile,cash,4,604.42,€2417.67,unknown,crm
+LEG-001351,2023-12-07,55438,customer55438@example.com,5281783420643395,FR,sports,partner,card,10,382.73,,ok,erp
+LEG-001352,26-01-2022 19:00,35686,customer35686@legacy.local,4324308724478390,ES,electronics,mobile,paypal,1,4140.64,4140.64 GBP,ok,crm
+LEG-001353,2022/07/03 15:00:00,84567,customer84567@mail.net,5207699152831197,IT,fashion,partner,paypal,11,449.67,EUR 4946.36,ok,pos
+LEG-001354,02/03/2022,28864,customer28864@legacy.local,4575100036685743,DE,home,store,cash,7,333.79,2336.52 EUR,unknown,pos
+LEG-001355,2022-04-20,39736,customer39736@legacy.local,4725112980310262,ES,fashion,partner,paypal,3,1435.21,GBP 4305.64,pending,pos
+LEG-001356,20/11/2023,61552,customer61552@example.com,4455903653542372,FR,fashion,partner,wire,12,140.55,$1686.65,unknown,batch_import
+LEG-001357,20/06/2022,56617,customer56617@example.com,,UK,books,partner,wire,6,829.20,€4975.22,pending,pos
+LEG-001358,2022/11/22 08:00:00,93778,customer93778@example.com,4437908680883585,IT,home,partner,paypal,11,332.41,3656.55 USD,manual_review,batch_import
+LEG-001359,2023/08/18 20:00:00,48331,customer48331@legacy.local,4756849785078672,PT,books,web,paypal,11,419.12,4610.27 USD,unknown,pos
+LEG-001360,2022-06-12,88964,customer88964@legacy.local,4371002959635187,ES,home,web,wire,11,410.50,,unknown,pos
+LEG-001361,2022/06/11 22:00:00,24201,customer24201@example.com,4675806932894011,PT,home,partner,card,8,388.85,$3110.78,ok,batch_import
+LEG-001362,19/04/2022,72363,customer72363@retail.org,4746010069774009,ES,home,mobile,paypal,11,98.60,USD 1084.65,ok,batch_import
+LEG-001363,2022-02-11,54398,,4221268390510118,UK,home,store,card,-1,491.66,3933.28 USD,manual_review,crm
+LEG-001364,25/03/2022,46911,customer46911@legacy.local,5196429586167211,,home,store,paypal,2,1535.65,£3071.31,ok,erp
+LEG-001365,15/06/2023,30536,customer30536@mail.net,5805759502424263,FR,electronics,partner,paypal,2,2252.87,EUR 4505.74,pending,crm
+LEG-001366,14-05-2022 00:00,37047,customer37047@retail.org,5448228780739004,,books,partner,cash,11,280.00,$3079.98,ok,erp
+LEG-001367,2023-13-17,66906,customer66906@mail.net,5164954584465771,UK,sports,mobile,paypal,5,945.53,GBP 4727.63,manual_review,erp
+LEG-001368,2023/03/13 10:00:00,32744,customer32744@legacy.local,5946454030021436,IT,home,mobile,wire,7,575.73,USD 4030.09,unknown,batch_import
+LEG-001369,2023/09/06 23:00:00,27367,customer27367@retail.org,5920398013376191,UK,electronics,web,paypal,9,430.23,3872.09 EUR,ok,batch_import
+LEG-001370,not_available,56354,customer56354@retail.org,5509163975057921,FR,groceries,web,card,5,244.11,USD 1220.53,ok,erp
+LEG-001371,11-02-2023 18:00,11853,customer11853@retail.org,4826326763114310,PT,books,partner,card,-1,564.72,€3388.29,pending,erp
+LEG-001372,16/10/2022,43721,customer43721@example.com,5289540584743894,FR,books,partner,wire,2,1827.02,3654.03 GBP,pending,erp
+LEG-001373,2023-10-29,55196,customer55196@example.com,5117785453905798,PT,fashion,mobile,wire,1,3461.21,3461.21 EUR,ok,crm
+LEG-001374,26/12/2022,26757,customer26757@mail.net,4773125245870131,ES,sports,web,cash,12,272.79,GBP 3273.50,unknown,erp
+LEG-001375,14-08-2022 17:00,66195,customer66195@example.com,4359358910548256,DE,fashion,store,wire,5,579.56,EUR 2897.82,ok,erp
+LEG-001376,03-05-2023 17:00,79931,customer79931@retail.org,5367209750669912,IT,groceries,partner,paypal,12,275.65,3307.76 EUR,pending,erp
+LEG-001377,2023-07-09,21423,customer21423@legacy.local,4180603632351852,UK,sports,partner,card,11,145.69,USD 1602.61,manual_review,crm
+LEG-001378,2023-02-30,47896,customer47896@mail.net,5774146518316332,PT,home,partner,wire,5,681.93,3409.67 USD,manual_review,batch_import
+LEG-001379,24-01-2022 14:00,17648,customer17648@retail.org,5950852610689655,UK,fashion,store,cash,6,156.38,GBP 938.26,unknown,crm
+LEG-001380,2022/10/18 16:00:00,35623,,4182087163881939,PT,books,web,wire,9,N/A,2846.18 GBP,pending,crm
+LEG-001381,2023-01-06,78777,customer78777@example.com,5752262491528932,DE,sports,web,cash,8,596.97,4775.72 EUR,manual_review,pos
+LEG-001382,16/05/2023,52749,customer52749@mail.net,,PT,sports,store,wire,12,57.70,GBP 692.43,unknown,crm
+LEG-001383,13-01-2022 22:00,34619,customer34619@retail.org,5465448218739821,FR,books,partner,cash,7,,,ok,pos
+LEG-001384,2023/07/13 22:00:00,97207,customer97207@retail.org,5387447713412538,UK,electronics,web,cash,1,1899.33,1899.33 EUR,manual_review,batch_import
+LEG-001385,08/03/2023,30578,customer30578@legacy.local,5777441084397118,UK,electronics,mobile,paypal,1,4746.48,4746.48 USD,pending,batch_import
+LEG-001386,2022-05-19,73652,customer73652@retail.org,5651847887978884,IT,groceries,partner,paypal,12,82.88,994.50 EUR,ok,batch_import
+LEG-001387,19/09/2023,48496,customer48496@legacy.local,5108327866868998,,home,partner,paypal,11,189.69,EUR 2086.60,unknown,crm
+LEG-001388,18/01/2023,15155,customer15155@legacy.local,5957603961084929,FR,home,partner,cash,7,524.71,£3673.00,manual_review,erp
+LEG-001389,2022/11/25 12:00:00,35711,customer35711@legacy.local,4538348995312008,IT,sports,web,card,11,152.70,GBP 1679.68,manual_review,pos
+LEG-001390,21/03/2022,74346,,,ES,fashion,store,wire,4,903.89,€3615.56,ok,batch_import
+LEG-001391,2023/12/05 01:00:00,20509,customer20509@retail.org,5519662714570658,DE,fashion,mobile,wire,5,225.69,1128.44 USD,manual_review,crm
+LEG-001392,03-11-2023 19:00,84807,customer84807@retail.org,5070022796244527,FR,electronics,web,wire,12,403.10,£4837.22,unknown,batch_import
+LEG-001393,31-03-2022 21:00,83929,customer83929@mail.net,5493203922686870,PT,sports,partner,paypal,-1,154.10,$1541.05,unknown,erp
+LEG-001394,02/06/2023,64860,customer64860@legacy.local,5504122664350945,UK,fashion,mobile,card,1,1442.91,£1442.91,pending,erp
+LEG-001395,2023-07-23,67461,customer67461@retail.org,4024588641793996,IT,groceries,mobile,wire,4,536.30,€2145.21,pending,batch_import
+LEG-001396,04-04-2023 06:00,29615,customer29615@example.com,5522350799378735,IT,electronics,partner,paypal,2,865.38,EUR 1730.76,unknown,erp
+LEG-001397,09/07/2023,90845,customer90845@retail.org,,ES,electronics,store,cash,1,3624.87,GBP 3624.87,pending,crm
+LEG-001398,2022-06-11,46782,customer46782@example.com,4248773651884919,DE,electronics,mobile,wire,7,,€219.30,pending,pos
+LEG-001399,2022/05/31 12:00:00,88566,,4843858009998669,UK,groceries,store,card,8,344.49,$2755.91,manual_review,erp
+LEG-001400,2022/11/26 07:00:00,59113,customer59113@retail.org,4779977222264615,PT,electronics,mobile,cash,,273.94,$1369.72,manual_review,batch_import
+LEG-001401,2023-12-10,83793,customer83793@mail.net,5901681207500069,IT,sports,store,paypal,9,135.55,GBP 1219.97,pending,pos
+LEG-001402,,67164,customer67164@mail.net,,DE,books,web,cash,-1,424.23,1696.90 GBP,unknown,crm
+LEG-001403,29-10-2023 02:00,37350,,4173069938214528,IT,books,partner,wire,2,1029.48,,pending,pos
+LEG-001404,28/01/2023,75858,customer75858@example.com,4604858965498184,ES,home,partner,paypal,6,299.84,£1799.07,ok,pos
+LEG-001405,2023-02-13,79401,customer79401@example.com,5094461501235066,DE,electronics,store,card,6,393.71,2362.27 GBP,unknown,batch_import
+LEG-001406,2023-08-10,85299,customer85299@mail.net,4729903521960910,DE,sports,partner,card,8,133.47,1067.74 USD,pending,erp
+LEG-001407,24/03/2023,92882,customer92882@legacy.local,4813309831452378,ES,fashion,mobile,wire,3,968.84,USD 2906.53,unknown,batch_import
+LEG-001408,2022/02/04 23:00:00,82412,,5895381575015438,UK,sports,partner,card,9,,1966.47 USD,unknown,crm
+LEG-001409,2022-12-22,78107,customer78107@mail.net,5199541710065626,IT,sports,store,paypal,2,2178.63,£4357.26,manual_review,batch_import
+LEG-001410,2022/06/22 21:00:00,56162,customer56162@legacy.local,4622664849186146,IT,fashion,mobile,paypal,1,3093.33,USD 3093.33,ok,pos
+LEG-001411,18-03-2023 03:00,98808,customer98808@example.com,,UK,fashion,mobile,wire,6,815.39,£4892.36,pending,crm
+LEG-001412,2023-02-30,51168,customer51168@mail.net,4739729617565779,ES,books,mobile,paypal,11,316.60,3482.61 EUR,unknown,pos
+LEG-001413,13-01-2023 04:00,96838,customer96838@legacy.local,5016170649144533,FR,electronics,web,paypal,2,317.29,USD 634.57,manual_review,pos
+LEG-001414,2023-03-12,72132,customer72132@legacy.local,5810907195714514,ES,groceries,store,paypal,8,142.92,$1143.36,ok,batch_import
+LEG-001415,2022-02-20,20208,customer20208@retail.org,5827230990704644,,electronics,partner,card,9,469.48,4225.29 EUR,ok,crm
+LEG-001416,20/05/2023,37656,customer37656@legacy.local,5223736950432605,FR,sports,mobile,paypal,3,89.51,£268.53,pending,crm
+LEG-001417,2023/04/25 06:00:00,55085,customer55085@example.com,5996426060098972,ES,electronics,store,wire,10,430.68,USD 4306.77,ok,erp
+LEG-001418,16/12/2023,16472,,5289223843579938,FR,sports,store,wire,3,1622.48,$4867.44,unknown,erp
+LEG-001419,2022/11/19 03:00:00,70086,customer70086@retail.org,4676657031012213,UK,fashion,store,wire,6,296.68,$1780.06,unknown,erp
+LEG-001420,10/04/2023,98591,customer98591@retail.org,4825254309353521,DE,sports,partner,cash,6,,3878.68 USD,pending,pos
+LEG-001421,2022-04-18,72367,customer72367@example.com,4221239551216983,PT,sports,web,paypal,7,556.96,3898.69 USD,pending,batch_import
+LEG-001422,2022-13-27,24914,customer24914@mail.net,5787788011591326,PT,home,partner,wire,6,246.40,USD 1478.39,pending,erp
+LEG-001423,05-02-2022 10:00,83745,customer83745@legacy.local,4545527876260235,ES,books,mobile,card,-1,1764.98,3529.97 GBP,ok,pos
+LEG-001424,06/02/2023,67229,customer67229@example.com,,FR,sports,partner,wire,-1,247.97,EUR 2479.74,pending,batch_import
+LEG-001425,2023/03/21 16:00:00,87743,customer87743@mail.net,4621065149473965,FR,electronics,web,paypal,7,432.09,,pending,crm
+LEG-001426,2022/02/12 17:00:00,70417,customer70417@retail.org,4584342314945212,IT,fashion,mobile,card,7,236.58,1656.03 EUR,unknown,crm
+LEG-001427,2022/05/08 09:00:00,91110,customer91110@example.com,4850134742963641,PT,sports,partner,wire,6,487.64,2925.82 EUR,pending,pos
+LEG-001428,2022-13-10,62145,customer62145@retail.org,5253968527682091,IT,home,store,cash,-1,N/A,70.49 EUR,ok,batch_import
+LEG-001429,2023/09/14 13:00:00,71347,customer71347@example.com,5911753317025337,ES,electronics,store,wire,1,2936.66,USD 2936.66,unknown,erp
+LEG-001430,2022-08-24,14650,customer14650@legacy.local,4569647413311519,PT,books,store,wire,6,570.80,€3424.83,pending,crm
+LEG-001431,2023-10-31,13847,,5536671364635145,IT,home,mobile,wire,11,453.10,$4984.06,pending,batch_import
+LEG-001432,30/12/2022,43509,customer43509@legacy.local,4970640641231540,FR,books,mobile,card,7,426.07,,manual_review,erp
+LEG-001433,2022-13-28,34847,customer34847@mail.net,5364272126454367,UK,fashion,partner,cash,10,N/A,GBP 3255.45,manual_review,batch_import
+LEG-001434,14/08/2022,21664,customer21664@example.com,,UK,fashion,web,cash,-1,864.03,£3456.14,pending,batch_import
+LEG-001435,15-04-2023 18:00,34107,customer34107@example.com,,IT,electronics,partner,card,9,467.13,4204.19 EUR,manual_review,crm
+LEG-001436,2022/05/23 07:00:00,71440,customer71440@mail.net,4292072230335823,IT,sports,web,card,11,96.98,1066.80 GBP,manual_review,batch_import
+LEG-001437,26-03-2023 17:00,96691,customer96691@retail.org,4360842296651444,DE,sports,mobile,card,3,763.79,EUR 2291.37,unknown,pos
+LEG-001438,,26169,,4084339141981179,,sports,web,cash,12,245.01,,unknown,pos
+LEG-001439,2022-06-20,67805,customer67805@legacy.local,5416169362408851,UK,home,mobile,wire,10,48.86,488.61 EUR,unknown,batch_import
+LEG-001440,2022/06/12 05:00:00,14936,customer14936@mail.net,5258385163578116,FR,fashion,store,cash,7,174.04,GBP 1218.28,ok,crm
+LEG-001441,2023-06-18,95050,customer95050@example.com,4101460235359682,ES,sports,web,card,6,84.92,USD 509.50,manual_review,batch_import
+LEG-001442,2023/07/29 18:00:00,28724,customer28724@retail.org,5181938347705104,ES,books,web,wire,7,323.95,2267.68 EUR,ok,pos
+LEG-001443,2022/11/05 23:00:00,92453,customer92453@mail.net,5894259634900197,UK,home,mobile,paypal,2,2215.18,EUR 4430.37,ok,erp
+LEG-001444,2022-13-14,68103,customer68103@retail.org,5846482098728481,IT,fashion,mobile,wire,7,554.49,,unknown,batch_import
+LEG-001445,26-03-2022 07:00,75334,customer75334@legacy.local,,DE,fashion,partner,cash,3,1260.47,€3781.40,pending,pos
+LEG-001446,2023/05/08 01:00:00,95880,customer95880@retail.org,4656564165666715,ES,electronics,mobile,card,5,,GBP 259.75,unknown,erp
+LEG-001447,2023/02/24 05:00:00,74295,customer74295@legacy.local,5150335984808618,UK,books,mobile,card,3,1052.53,3157.58 EUR,manual_review,pos
+LEG-001448,08/03/2022,26236,customer26236@example.com,5003765849014056,ES,sports,partner,cash,1,3456.25,,unknown,crm
+LEG-001449,2023-02-05,88887,customer88887@example.com,4864883626961636,UK,electronics,partner,cash,5,564.06,2820.32 GBP,unknown,erp
+LEG-001450,2023-07-08,56860,customer56860@mail.net,4452770508755056,FR,books,web,cash,12,356.15,GBP 4273.77,ok,erp
+LEG-001451,2022-03-05,85628,customer85628@mail.net,4134984382814046,DE,groceries,mobile,paypal,8,126.06,1008.50 EUR,pending,batch_import
+LEG-001452,2022/09/05 09:00:00,75739,customer75739@mail.net,,DE,electronics,web,paypal,1,N/A,,unknown,crm
+LEG-001453,23/11/2022,56018,,4280579550004441,DE,electronics,store,cash,3,674.27,USD 2022.82,ok,erp
+LEG-001454,2022/08/06 18:00:00,84480,customer84480@legacy.local,4376072032489323,DE,fashion,partner,cash,9,99.83,898.47 USD,unknown,erp
+LEG-001455,2023-03-05,48474,customer48474@retail.org,5465857856451924,IT,fashion,mobile,paypal,3,843.07,€2529.22,pending,pos
+LEG-001456,not_available,72985,customer72985@retail.org,5476397103188727,IT,electronics,partner,cash,4,N/A,USD 2653.82,ok,pos
+LEG-001457,2023-02-18,52520,customer52520@retail.org,5518651531214138,IT,fashion,web,cash,5,471.19,€2355.97,manual_review,batch_import
+LEG-001458,25-12-2022 18:00,23432,,5522641246552957,PT,electronics,partner,wire,12,206.10,€2473.25,ok,crm
+LEG-001459,2022-10-12,16578,customer16578@mail.net,5557734328239132,UK,books,mobile,cash,2,152.01,USD 304.02,unknown,crm
+LEG-001460,31-07-2022 04:00,77626,customer77626@mail.net,5627137024469845,IT,books,web,cash,8,508.23,4065.86 GBP,pending,crm
+LEG-001461,06-12-2022 16:00,65795,customer65795@legacy.local,5463128420927493,ES,electronics,web,wire,12,121.55,EUR 1458.62,pending,pos
+LEG-001462,2022/04/21 22:00:00,46554,customer46554@legacy.local,,PT,fashion,store,wire,5,33.02,$165.08,manual_review,pos
+LEG-001463,2022/05/24 06:00:00,18108,customer18108@mail.net,5730585821964599,PT,home,web,wire,4,N/A,€4086.12,pending,erp
+LEG-001464,11-05-2022 10:00,81231,customer81231@retail.org,5792445475971131,UK,books,partner,wire,2,,$601.84,unknown,batch_import
+LEG-001465,2022-10-21,46668,customer46668@example.com,4358587263275027,IT,sports,mobile,card,9,536.91,GBP 4832.17,ok,batch_import
+LEG-001466,2022/02/12 12:00:00,93558,customer93558@example.com,4964335623950211,IT,groceries,web,card,8,192.66,EUR 1541.28,unknown,erp
+LEG-001467,2023-01-03,81013,customer81013@example.com,5171014782475991,DE,electronics,partner,cash,10,293.43,2934.25 GBP,unknown,batch_import
+LEG-001468,not_available,33961,customer33961@example.com,5506327052416945,FR,fashion,partner,cash,4,581.73,£2326.90,manual_review,crm
+LEG-001469,2023-02-30,49978,customer49978@mail.net,5710738232258337,PT,home,mobile,wire,1,,$46.75,manual_review,batch_import
+LEG-001470,2022-03-22,65252,,5911862479393348,ES,home,partner,cash,7,713.35,4993.46 EUR,unknown,pos
+LEG-001471,2023-05-26,12472,customer12472@legacy.local,4823708444685013,ES,sports,store,card,6,419.89,£2519.36,unknown,pos
+LEG-001472,2023-02-30,68824,customer68824@mail.net,4549712793108262,DE,fashion,web,cash,8,156.47,£1251.77,ok,pos
+LEG-001473,24/07/2023,23150,customer23150@example.com,5586435830975336,FR,home,partner,card,12,35.77,429.29 GBP,manual_review,batch_import
+LEG-001474,27/01/2023,96452,,4558300358087563,FR,groceries,web,paypal,10,137.79,GBP 1377.93,ok,erp
+LEG-001475,03-06-2023 06:00,69344,customer69344@legacy.local,4816717711034020,DE,fashion,web,cash,8,N/A,4229.09 USD,ok,pos
+LEG-001476,03/04/2022,18148,customer18148@example.com,4401139215819277,FR,groceries,partner,cash,1,146.21,146.21 EUR,unknown,batch_import
+LEG-001477,13/07/2023,58929,customer58929@retail.org,5470914871929083,IT,groceries,partner,paypal,11,410.88,4519.67 GBP,manual_review,crm
+LEG-001478,30/01/2023,99588,customer99588@retail.org,4866574865977597,DE,groceries,web,card,2,1543.38,3086.77 GBP,pending,erp
+LEG-001479,2023/08/03 07:00:00,72253,customer72253@example.com,4678865707385460,FR,fashion,mobile,wire,4,294.71,£1178.84,pending,crm
+LEG-001480,04-11-2023 11:00,98629,customer98629@retail.org,4088837079919062,UK,sports,store,wire,-1,471.24,€4712.44,unknown,batch_import
+LEG-001481,2023-02-30,47390,customer47390@legacy.local,5963436509416267,ES,fashion,mobile,cash,7,386.92,EUR 2708.46,unknown,batch_import
+LEG-001482,2023-13-08,98724,customer98724@example.com,,IT,fashion,web,paypal,2,2164.77,4329.54 USD,ok,batch_import
+LEG-001483,2022/04/01 08:00:00,73238,customer73238@mail.net,,PT,home,partner,paypal,5,899.23,€4496.14,unknown,erp
+LEG-001484,not_available,51559,customer51559@legacy.local,5066967781341452,FR,fashion,store,card,1,4236.80,4236.80 USD,ok,pos
+LEG-001485,10/02/2022,19947,customer19947@mail.net,5513271004991264,PT,sports,partner,card,5,833.64,4168.18 GBP,ok,pos
+LEG-001486,04/08/2023,60225,customer60225@legacy.local,5259328657119249,PT,groceries,mobile,card,4,1073.71,EUR 4294.83,pending,erp
+LEG-001487,,74732,,4172923359133531,PT,home,partner,wire,8,356.84,GBP 2854.75,unknown,crm
+LEG-001488,16/03/2023,68498,customer68498@example.com,4446821636297038,UK,groceries,partner,wire,2,1663.65,EUR 3327.31,unknown,erp
+LEG-001489,not_available,82903,customer82903@mail.net,5287847590447417,PT,electronics,web,paypal,7,518.08,,unknown,erp
+LEG-001490,02/10/2022,85894,customer85894@mail.net,4995508977547281,UK,fashion,partner,wire,3,412.46,EUR 1237.38,pending,crm
+LEG-001491,23-09-2022 19:00,68798,customer68798@legacy.local,5926152830568208,IT,groceries,partner,card,2,1110.25,EUR 2220.50,pending,pos
+LEG-001492,2022/10/08 04:00:00,94769,customer94769@mail.net,4302792990251002,IT,home,store,cash,10,351.85,GBP 3518.49,unknown,pos
+LEG-001493,03-11-2022 01:00,14449,customer14449@retail.org,4378171506852460,IT,sports,mobile,card,3,388.00,USD 1164.00,pending,batch_import
+LEG-001494,2023/10/01 22:00:00,12822,customer12822@mail.net,4715903648737259,UK,electronics,mobile,paypal,10,481.88,USD 4818.79,unknown,erp
+LEG-001495,2023-11-08,99798,customer99798@mail.net,4959957194770071,ES,groceries,web,wire,9,382.24,3440.12 EUR,pending,crm
+LEG-001496,09-10-2023 02:00,36475,customer36475@retail.org,4438706115421188,FR,books,web,wire,6,222.03,GBP 1332.20,manual_review,erp
+LEG-001497,2023-02-30,65449,,4198011063822443,FR,books,store,card,2,765.41,1530.83 GBP,manual_review,pos
+LEG-001498,2022-10-19,68999,customer68999@legacy.local,5893049408091006,DE,electronics,mobile,wire,6,498.76,€2992.58,pending,batch_import
+LEG-001499,2022-12-22,41149,customer41149@retail.org,4067109179651059,ES,sports,mobile,cash,8,442.44,3539.54 GBP,pending,erp
+LEG-001500,07/12/2022,66966,customer66966@mail.net,4268881078632019,UK,electronics,partner,card,12,160.76,EUR 1929.15,unknown,pos
