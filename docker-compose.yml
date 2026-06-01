@@ -1,0 +1,103 @@
+version: "3.9"
+
+services:
+  minio:
+    image: minio/minio:RELEASE.2024-05-10T01-41-38Z
+    container_name: minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio-data:/data
+    networks:
+      - data-mesh-local
+
+  localstack:
+    image: localstack/localstack:3.4
+    container_name: localstack
+    environment:
+      SERVICES: glue,iam,sts,s3
+      DEBUG: 1
+      AWS_DEFAULT_REGION: eu-west-1
+      EDGE_PORT: 4566
+    ports:
+      - "4566:4566"
+    volumes:
+      - localstack-data:/var/lib/localstack
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - data-mesh-local
+
+  spark-master:
+    image: bitnami/spark:3.5
+    container_name: spark-master
+    environment:
+      SPARK_MODE: master
+      SPARK_MASTER_HOST: spark-master
+      SPARK_MASTER_PORT: 7077
+      SPARK_RPC_AUTHENTICATION_ENABLED: "no"
+      SPARK_RPC_ENCRYPTION_ENABLED: "no"
+      SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED: "no"
+      SPARK_SSL_ENABLED: "no"
+    ports:
+      - "7077:7077"
+      - "8080:8080"
+    volumes:
+      - ./:/opt/project
+    depends_on:
+      minio:
+        condition: service_started
+      localstack:
+        condition: service_started
+    networks:
+      - data-mesh-local
+
+  spark-worker:
+    image: bitnami/spark:3.5
+    container_name: spark-worker
+    environment:
+      SPARK_MODE: worker
+      SPARK_MASTER_URL: spark://spark-master:7077
+      SPARK_WORKER_MEMORY: 2G
+      SPARK_WORKER_CORES: 2
+      SPARK_RPC_AUTHENTICATION_ENABLED: "no"
+      SPARK_RPC_ENCRYPTION_ENABLED: "no"
+      SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED: "no"
+      SPARK_SSL_ENABLED: "no"
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./:/opt/project
+    depends_on:
+      spark-master:
+        condition: service_started
+    networks:
+      - data-mesh-local
+
+  trino:
+    image: trinodb/trino:447
+    container_name: trino
+    ports:
+      - "8088:8080"
+    volumes:
+      - ./:/opt/project
+    depends_on:
+      minio:
+        condition: service_started
+      localstack:
+        condition: service_started
+    networks:
+      - data-mesh-local
+
+networks:
+  data-mesh-local:
+    name: data-mesh-local
+    driver: bridge
+
+volumes:
+  minio-data:
+  localstack-data:
